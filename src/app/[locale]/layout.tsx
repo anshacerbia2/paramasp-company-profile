@@ -36,8 +36,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       },
     },
     icons: {
-      icon: "/images/logo-paramasp.png",
-      shortcut: "/images/logo-paramasp.png",
+      icon: "/images/paramasp-icon.png",
+      shortcut: "/images/paramasp-icon.png",
     },
   };
 }

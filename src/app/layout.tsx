@@ -7,8 +7,8 @@ type Rootlayout = {
 
 export const metadata: Metadata = {
   icons: {
-    icon: "/images/logo-paramasp.png",
-    shortcut: "/images/logo-paramasp.png",
+    icon: "/images/paramasp-icon.png",
+    shortcut: "/images/paramasp-icon.png",
   },
 };
 
