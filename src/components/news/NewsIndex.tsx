@@ -18,22 +18,45 @@ export type NewsIndexCard = {
 };
 
 export type NewsIndexProps = {
+  tag?: string;
   title: string;
+  excerpt: string;
   cards: NewsIndexCard[];
 };
 
-const NewsIndex = ({ title, cards }: NewsIndexProps) => {
+const NewsIndex = ({ tag, title, excerpt, cards }: NewsIndexProps) => {
   return (
     <section className="section__news-index">
       <div className="container">
+        {tag && (
+          <motion.div
+            className="section__tag"
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: true }}
+            variants={ITEM_VARIANT_Y({ initDelay: 0.2 })}
+          >
+            {tag}
+          </motion.div>
+        )}
+
         <motion.h2
           initial="hidden"
           whileInView="show"
           viewport={{ once: true }}
-          variants={ITEM_VARIANT_Y({ initDelay: 0.2 })}
+          variants={ITEM_VARIANT_Y({ initDelay: tag ? 0.4 : 0.2 })}
         >
           {title}
         </motion.h2>
+
+        <motion.p
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once: true }}
+          variants={ITEM_VARIANT_Y({ initDelay: tag ? 0.6 : 0.4 })}
+        >
+          {excerpt}
+        </motion.p>
 
         <div className="card-wrapper">
           {cards.map((card, index) => {
@@ -46,7 +69,7 @@ const NewsIndex = ({ title, cards }: NewsIndexProps) => {
                 viewport={{ once: true }}
                 variants={ITEM_VARIANT_Y({
                   index,
-                  initDelay: 0.4,
+                  initDelay: tag ? 0.8 : 0.6,
                   delay: 0.2,
                   y: 50,
                 })}

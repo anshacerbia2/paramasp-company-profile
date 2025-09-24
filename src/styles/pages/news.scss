@@ -3,9 +3,9 @@
 .news {
   background-color: $primary-bg-color;
   color: $secondary-text-color;
-  font-size: 0.925rem;
 
   article {
+    font-size: 0.925rem;
     padding-block: 100px;
 
     h2 {
@@ -34,6 +34,15 @@
 
       ul {
         list-style: disc;
+      }
+    }
+
+    a {
+      color: $accent-color-darken;
+      transition: color 0.2s ease-in-out;
+
+      &:hover {
+        color: $accent-color;
       }
     }
 
@@ -122,6 +131,10 @@
 .section__news-index {
   background-color: $primary-bg-color;
   color: $secondary-text-color;
+
+  .section__tag {
+    text-align: center;
+  }
 
   h2 {
     text-align: center;

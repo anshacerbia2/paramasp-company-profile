@@ -63,6 +63,7 @@ export default async function Page({ params }: NewsPageProps) {
 
   const newsIndexProps: NewsIndexProps = {
     title: news("title"),
+    excerpt: news("excerpt"),
     cards: NEWS_NAVIGATION_KEYS.map((key) => ({
       title: news(`${key}.title`),
       excerpt: news(`${key}.excerpt`),

@@ -5,7 +5,10 @@ import slide3 from "@/assets/images/home-carousel-slide-3.jpg";
 import { Metadata } from "next";
 import { useTranslations } from "next-intl";
 import type { PageProps } from "@/types";
-import { SERVICES_NAVIGATION_KEYS } from "@/constants/navigation";
+import {
+  NEWS_NAVIGATION_KEYS,
+  SERVICES_NAVIGATION_KEYS,
+} from "@/constants/navigation";
 import { SERVICES } from "@/constants/service";
 import { generatePageMetadata } from "@/lib/seo";
 import HomeCarousel from "@/components/HomeCarousel";
@@ -13,6 +16,7 @@ import AboutUs, { AboutUsProps } from "@/components/AboutUs";
 import Services, { ServicesProps } from "@/components/Services";
 import ClientTrust, { ClientTrustProps } from "@/components/ClientTrust";
 import TestimonialCarousel from "@/components/TestimonialCarousel";
+import NewsIndex, { NewsIndexProps } from "@/components/news/NewsIndex";
 
 export async function generateMetadata({
   params,
@@ -34,6 +38,7 @@ export default function HomePage() {
   const about = useTranslations("about-us");
   const services = useTranslations("services");
   const ctp = useTranslations("client-trust-priority");
+  const news = useTranslations("news");
   const readMore = global("button.read-more");
 
   const slides = Array(3)
@@ -85,6 +90,24 @@ export default function HomePage() {
     })),
   };
 
+  const newsIndexProps: NewsIndexProps = {
+    tag: news("tag"),
+    title: news("title"),
+    excerpt: news("excerpt"),
+    cards: NEWS_NAVIGATION_KEYS.map((key) => ({
+      title: news(`${key}.title`),
+      excerpt: news(`${key}.excerpt`),
+      image: {
+        src: news(`${key}.image.src`),
+        alt: news(`${key}.image.alt`),
+      },
+      link: {
+        label: global("button.read-more"),
+        href: `/news/${key}`,
+      },
+    })),
+  };
+
   return (
     <main id="home">
       {/* SEO required - screen reader only */}
@@ -94,6 +117,7 @@ export default function HomePage() {
       <Services {...servicesProps} />
       <ClientTrust {...clientTrustProps} />
       <TestimonialCarousel />
+      <NewsIndex {...newsIndexProps} />
     </main>
   );
 }
