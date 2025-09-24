@@ -1,0 +1,554 @@
+{
+  "meta": {
+    "title": "Parama Satya Pertiwi | Jasa Pengurusan TKA Legal Profesional, Tercepat, dan Terpercaya",
+    "description": "Paramasp (PT. Parama Satya Pertiwi) melayani pengurusan izin kerja & tinggal TKA di Indonesia dengan cepat, aman, profesional, dan sesuai regulasi.",
+    "keywords": "Paramasp, pengurusan tenaga kerja asing (TKA), izin kerja TKA Indonesia, pengurusan KITAS tenaga kerja asing (TKA), izin tinggal TKA, legalisasi tenaga kerja asing (TKA), jasa pengurusan TKA profesional, prosedur izin kerja tenaga asing, konsultan tenaga kerja asing (TKA) Indonesia, layanan legal tenaga kerja asing (TKA)"
+  },
+  "global": {
+    "button": {
+      "read-more": "Selengkapnya..."
+    },
+    "words": {
+      "published": "Dipublikasikan",
+      "prev": "Berita Sebelumnya",
+      "next": "Berita Berikutnya",
+      "aria-label-wa": "Chat dengan kami di WhatsApp",
+      "aria-label-open-sidebar": "Open Sidebar",
+      "aria-label-close-sidebar": "Close Sidebar"
+    }
+  },
+  "header": {
+    "navigation": {
+      "home": {
+        "label": "Beranda"
+      },
+      "about": {
+        "label": "Tentang Kami"
+      },
+      "services": {
+        "label": "Layanan",
+        "list": {
+          "indonesian-visa-processing": "Pengurusan Visa Indonesia",
+          "stay-and-work-permit": "Pengurusan KITAS & Izin Tenaga Kerja Asing (TKA)",
+          "passport-processing": "Pengurusan Paspor & E\u2011Passport WNI",
+          "foreign-visa-processing": "Pengurusan Visa Luar Negeri",
+          "company-legalization": "Pengurusan Legalitas Perusahaan"
+        }
+      },
+      "news": {
+        "label": "Berita",
+        "list": {
+          "immigration-law": "Undang-Undang Keimigrasian",
+          "kitas-vs-kitap": "KITAS & KITAP",
+          "visa-c17-extension": "Perpanjangan Visa C17"
+        }
+      },
+      "contact": {
+        "label": "Kontak"
+      }
+    }
+  },
+  "home": {
+    "meta": {
+      "title": "Parama Satya Pertiwi | Jasa Pengurusan TKA Legal Profesional, Tercepat, dan Terpercaya",
+      "description": "Paramasp (PT. Parama Satya Pertiwi) melayani pengurusan izin kerja & tinggal TKA di Indonesia dengan cepat, aman, profesional, dan sesuai regulasi.",
+      "keywords": "Paramasp, pengurusan tenaga kerja asing (TKA), izin kerja TKA Indonesia, pengurusan KITAS tenaga kerja asing (TKA), izin tinggal TKA, legalisasi tenaga kerja asing (TKA), jasa pengurusan TKA profesional, prosedur izin kerja tenaga asing, konsultan tenaga kerja asing (TKA) Indonesia, layanan legal tenaga kerja asing (TKA)"
+    },
+    "title": "Layanan Profesional Pengurusan Tenaga Kerja Asing (TKA) di Indonesia",
+    "hero": {
+      "carousel": {
+        "slide-1": {
+          "title": "Solusi Praktis Perizinan TKA di Indonesia — Aman, Cepat, dan Profesional",
+          "content": "Kami membantu perusahaan Anda mengurus seluruh kebutuhan izin kerja dan tinggal Tenaga Kerja Asing dengan proses yang transparan dan hasil yang terjamin",
+          "button": "Selengkapnya..."
+        },
+        "slide-2": {
+          "title": "Dari Dokumen Hingga Legalitas, Semua Perizinan TKA Beres Tanpa Ribet",
+          "content": "Tidak perlu repot mengurus detail administrasi, tim kami siap menangani setiap tahap perizinan agar Anda dapat fokus pada pengembangan bisnis",
+          "button": "Selengkapnya..."
+        },
+        "slide-3": {
+          "title": "Percayakan Urusan Perizinan TKA Pada Ahlinya, Tingkatkan Efisiensi Bisnis Anda",
+          "content": "Dengan pengalaman dan keahlian kami, pengurusan perizinan TKA menjadi lebih cepat, akurat, dan sesuai regulasi terbaru",
+          "button": "Selengkapnya..."
+        }
+      }
+    }
+  },
+  "about-us": {
+    "meta": {
+      "title": "Tentang Kami | Parama Satya Pertiwi — Jasa Pengurusan Izin TKA (RPTKA & IMTA) Profesional & Terpercaya",
+      "description": "Parama Satya Pertiwi adalah perusahaan terpercaya dalam jasa pengurusan perizinan tenaga kerja asing (RPTKA & IMTA). Layanan cepat, legal, rahasia terjamin, dengan komitmen profesional demi kepuasan klien.",
+      "keywords": "Tentang Parama Satya Pertiwi, jasa pengurusan TKA, pengurusan izin tenaga kerja asing, RPTKA, IMTA, pengurusan KITAS, jasa legalisasi tenaga kerja asing, konsultan izin TKA, layanan imigrasi perusahaan, izin kerja asing Indonesia"
+    },
+    "seo-title": "Mengenal Parama Satya Pertiwi — Ahli Pengurusan Izin Tinggal & Kerja TKA",
+    "tag": "Tentang Kami",
+    "title": "PT. Parama Satya Pertiwi",
+    "excerpt": "PT. Parama Satya Pertiwi adalah perusahaan yang bergerak dalam bidang pengurusan dokumen legal Tenaga Kerja Asing (TKA) yang terkait dengan Izin Tinggal (Stay Permit) dan Izin Kerja (Work Permit) maupun perizinan lainnya yang terkait dengan TKA.",
+    "vision-mission": {
+      "tag": "Motivasi Kami",
+      "title": "Visi dan Misi untuk Layanan Pengurusan Izin TKA yang Terpercaya dan Mudah",
+      "excerpt": "Kami hadir untuk membantu perusahaan dan individu menavigasi kompleksitas pengurusan izin tenaga kerja asing. Visi kami adalah menjadi mitra terpercaya dalam pengelolaan permohonan RPTKA dan IMTA secara efisien, legal, dan rahasia, membuat proses menjadi lancar dan dapat diandalkan bagi setiap klien.",
+      "vision": {
+        "title": "Visi",
+        "content": "Menjadi perusahaan yang terpercaya dalam usaha penyelenggaraan jasa pengurusan perizinan orang asing."
+      },
+      "mission": {
+        "title": "Misi",
+        "content": "Membantu pelanggan dalam pengurusan untuk mendapatkan RPTKA dan IMTA dengan mengacu kepada hukum dan peraturan yang berlaku."
+      }
+    },
+    "commitment": {
+      "tag": "Komitmen Kami",
+      "title": "Memberikan Layanan Profesional, Andal, dan Berfokus pada Klien",
+      "list": {
+        "item-1": "Siap melayani klien setiap waktu dan tercepat dalam pelayanan",
+        "item-2": "Membantu menyelesaikan masalah dengan tepat dan sesuai dengan aturan yang berlaku",
+        "item-3": "Selalu menjaga kerahasian informasi pelanggan terhadap pihak-pihak yang tidak berkepentingan",
+        "item-4": "Dengan keramahan dan profesionalisme membantu mewujudkan visi dan misi perusahaan pelanggan",
+        "item-5": "Dengan layanan yang prima, memberikan kepuasan dan kebahagiaan untuk perusahaan pelanggan"
+      }
+    }
+  },
+  "services": {
+    "shared": {
+      "tag": "Apa yang Kami Tawarkan",
+      "title": "Keahlian & Layanan Kami",
+      "excerpt": "Perusahaan menawarkan berbagai layanan yang membuat proses imigrasi lebih mudah, cepat, dan efisien.",
+      "list": {
+        "item-1": {
+          "title": "Layanan Pengurusan Visa Indonesia",
+          "excerpt": "Solusi lengkap untuk berbagai kebutuhan visa di Indonesia, mulai dari kunjungan singkat, studi, pekerjaan, hingga perjalanan bisnis."
+        },
+        "item-2": {
+          "title": "Pengurusan KITAS & Izin Tenaga Kerja Asing (TKA)",
+          "excerpt": "Kami membantu ekspatriat dan perusahaan mengurus KITAS serta izin kerja TKA di Indonesia. Mulai dari RPTKA, IMTA, VITAS, ITAS hingga ITAP, semua diproses cepat, aman, dan sesuai regulasi."
+        },
+        "item-3": {
+          "title": "Layanan Pengurusan Paspor & E\u2011Paspor WNI",
+          "excerpt": "Kami melayani pembuatan paspor baru, perpanjangan, penggantian paspor hilang atau rusak, serta e\u2011paspor. Proses cepat, mudah, dan sesuai aturan imigrasi Indonesia."
+        },
+        "item-4": {
+          "title": "Jasa Pengurusan Visa Luar Negeri untuk Cepat & Mudah",
+          "excerpt": "Kami bantu urus visa bisnis, kunjungan, single entry hingga multiple entry untuk berbagai negara. Dokumen lengkap, proses lebih efisien, tanpa ribet."
+        },
+        "item-5": {
+          "title": "Jasa Pengurusan Legalitas & Izin Usaha Perusahaan",
+          "excerpt": "Dapatkan legalitas bisnis Anda dengan mudah. Kami membantu pendirian PT, akta perubahan, NIB, NPWP, SBU, hingga izin usaha lainnya agar perusahaan berjalan resmi dan aman."
+        }
+      }
+    },
+    "indonesian-visa-processing": {
+      "meta": {
+        "title": "Layanan Visa Indonesia — Cepat & Legal untuk Wisata, Kerja, Pelajar & Bisnis | Parama Satya Pertiwi",
+        "description": "Jelajahi layanan visa Indonesia termasuk Visa Wisata, Visa Kerja, Visa Pelajar, Visa Bisnis (Single & Multiple Entry), dan Visa Saat Kedatangan. Panduan profesional untuk aplikasi cepat, legal, dan tanpa ribet.",
+        "keywords": "layanan visa Indonesia, visa wisata Indonesia, visa kerja Indonesia, visa pelajar Indonesia, visa bisnis Indonesia, visa multiple entry Indonesia, visa saat kedatangan Indonesia, imigrasi korporat Indonesia, bantuan visa untuk warga asing"
+      },
+      "seo-title": "Panduan Lengkap Layanan Visa Indonesia untuk Wisata, Kerja, Pelajar, dan Bisnis",
+      "title": "Layanan Pengurusan Visa Indonesia",
+      "excerpt": "Layanan visa Indonesia cepat & legal: wisata, kerja, pelajar, bisnis, hingga visa on arrival dengan panduan profesional.",
+      "list": {
+        "item-1": {
+          "title": "Visa Kunjungan (Visit Visa)",
+          "description": "Visa Kunjungan Indonesia untuk perjalanan singkat, termasuk keperluan bisnis, wisata, kunjungan keluarga, atau urusan resmi lainnya."
+        },
+        "item-2": {
+          "title": "Visa Kerja (Work Visa)",
+          "description": "Visa Kerja Indonesia diperuntukkan bagi tenaga kerja asing dengan sponsor perusahaan lokal yang sah dan terdaftar di Indonesia."
+        },
+        "item-3": {
+          "title": "Visa Pelajar (Student Visa)",
+          "description": "Visa Pelajar Indonesia untuk siswa atau mahasiswa asing yang diterima secara resmi di institusi pendidikan di Indonesia."
+        },
+        "item-4": {
+          "title": "Visa on Arrival (VOA)",
+          "description": "Visa on Arrival Indonesia dapat diperoleh langsung di bandara internasional atau pos imigrasi tanpa pengajuan awal di kedutaan."
+        },
+        "item-5": {
+          "title": "Visa Bisnis Single Entry",
+          "description": "Visa Bisnis Single Entry Indonesia memungkinkan masuk satu kali untuk keperluan bisnis. Setelah keluar, diperlukan pengajuan visa baru."
+        },
+        "item-6": {
+          "title": "Visa Bisnis Multiple Entry",
+          "description": "Visa Bisnis Multiple Entry Indonesia memungkinkan perjalanan bisnis berulang kali selama masa berlaku, ideal untuk pengusaha atau investor."
+        }
+      }
+    },
+    "stay-and-work-permit": {
+      "meta": {
+        "title": "Pengurusan KITAS & ITAP Profesional — Tinggal & Bekerja Legal di Indonesia | Parama Satya Pertiwi",
+        "description": "Parama Satya Pertiwi menyediakan layanan profesional pengurusan KITAS (Izin Tinggal Terbatas), ITAS, dan ITAP untuk ekspatriat. Proses tinggal dan bekerja di Indonesia cepat, legal, dan sesuai regulasi.",
+        "keywords": "KITAS, ITAS, ITAP, izin tinggal terbatas, izin tinggal tetap, tenaga kerja asing, ekspatriat, layanan imigrasi Indonesia, pengurusan visa kerja, Parama Satya Pertiwi"
+      },
+      "seo-title": "Solusi Legal Tinggal dan Bekerja di Indonesia untuk Tenaga Kerja Asing",
+      "title": "Layanan KITAS & ITAP untuk Tinggal dan Bekerja Secara Legal di Indonesia",
+      "excerpt": "Layanan KITAS & ITAP profesional untuk ekspatriat. Tinggal dan bekerja di Indonesia cepat, legal, dan sesuai regulasi.",
+      "kitas": {
+        "title": "Layanan Pengurusan KITAS (Kartu Izin Tinggal Terbatas)",
+        "intro": "Parama Satya Pertiwi menyediakan layanan pengurusan KITAS dengan pendampingan profesional di setiap tahap, memastikan proses tinggal dan bekerja bagi ekspatriat di Indonesia berjalan cepat, legal, dan sesuai regulasi.",
+        "paragraphs": {
+          "paragraph-1": {
+            "tag": "Mengapa KITAS Penting?",
+            "paragraph": "Bagi ekspatriat yang ingin tinggal dan bekerja di Indonesia, KITAS (Kartu Izin Tinggal Terbatas) merupakan dokumen legal yang wajib dimiliki. Izin ini dikeluarkan oleh Direktorat Jenderal Imigrasi Indonesia dan menjadi dasar hukum untuk melakukan aktivitas tinggal, bekerja, maupun berinvestasi di Indonesia dalam jangka waktu tertentu."
+          },
+          "paragraph-2": {
+            "tag": "Kompleksitas yang Jadi Sederhana",
+            "paragraph": "Kami memahami bahwa proses pengurusan KITAS sering kali rumit dan memakan waktu. Dengan pengalaman dan keahlian tim kami, setiap tahapan dapat dijalankan lebih cepat, efisien, dan sesuai dengan regulasi yang berlaku, sehingga Anda bisa fokus pada pekerjaan maupun rencana bisnis Anda di Indonesia."
+          }
+        }
+      },
+      "services": {
+        "service-1": {
+          "title": "Prosedur Izin Tinggal dan Kerja Tenaga Kerja Asing (TKA) di Indonesia",
+          "list": {
+            "item-1": {
+              "title": "Rencana Penggunaan Tenaga Kerja Asing (RPTKA)",
+              "description": "Perusahaan sponsor mengajukan RPTKA ke Kementerian Ketenagakerjaan (Kemnaker) sebagai dokumen perencanaan tenaga kerja asing. RPTKA mencakup jabatan, durasi kontrak, jumlah TKA, dan lokasi kerja. Setelah disetujui, akan diterbitkan Pengesahan RPTKA sebagai dasar awal perizinan."
+            },
+            "item-2": {
+              "title": "Pengajuan Notifikasi atau Izin Mempekerjakan TKA (IMTA)",
+              "description": "Berdasarkan RPTKA yang telah disahkan, perusahaan wajib mengajukan Notifikasi penggunaan TKA. Pada tahap ini, perusahaan juga membayar Dana Kompensasi Penggunaan TKA (DKPTKA) kepada negara. Dokumen Notifikasi dari Kemnaker kemudian berfungsi sebagai izin resmi mempekerjakan TKA."
+            },
+            "item-3": {
+              "title": "Permohonan Visa Tinggal Terbatas (VITAS)",
+              "description": "Dengan dokumen Notifikasi, perusahaan mengajukan permohonan VITAS ke Direktorat Jenderal Imigrasi. Imigrasi akan menerbitkan persetujuan visa (telex visa) yang ditujukan ke Kedutaan atau Perwakilan RI di negara asal tenaga kerja asing sebagai dasar penerbitan visa."
+            },
+            "item-4": {
+              "title": "Kedatangan Tenaga Kerja Asing ke Indonesia",
+              "description": "Tenaga Kerja Asing masuk ke Indonesia menggunakan VITAS. Pada saat kedatangan, sistem imigrasi otomatis menerbitkan Izin Tinggal Terbatas (ITAS) dalam bentuk elektronik. ITAS ini juga berfungsi sebagai Kartu Izin Tinggal Terbatas (KITAS)."
+            },
+            "item-5": {
+              "title": "Pelaporan ke Dinas dan Dokumen Pendukung",
+              "description": "Setelah tiba, TKA wajib melapor ke Dinas Tenaga Kerja setempat serta melengkapi dokumen pendukung lain sesuai ketentuan, seperti laporan keberadaan, NPWP untuk masa kerja lebih dari 6 bulan, pendaftaran BPJS Ketenagakerjaan, dan dokumen administratif lainnya."
+            }
+          }
+        },
+        "service-2": {
+          "title": "Perpanjangan dan Alih Status Izin Tinggal Tenaga Kerja Asing (TKA) di Indonesia",
+          "excerpt": "Perpanjangan Izin Tenaga Kerja Asing (TKA) di Indonesia memastikan TKA dapat tinggal dan bekerja secara legal setelah izin sebelumnya habis. Pelajari berbagai pilihan perpanjangan ITK, ITAS, dan ITAP untuk kepatuhan imigrasi dan kelancaran kerja.",
+          "list": {
+            "item-1": {
+              "title": "Perpanjangan Izin Tinggal Kunjungan (ITK)",
+              "content": "<p>Perpanjangan ITK diberikan kepada Tenaga Kerja Asing (TKA) pemegang:</p><ul><li>Visa Kunjungan Satu Kali Perjalanan (Single-Entry Visitor Visa)</li><li>Visa Kunjungan Beberapa Kali Perjalanan (Multiple-Entry Visitor Visa)</li><li>Visa Kunjungan saat Kedatangan (Visa On Arrival/VoA)</li></ul>"
+            },
+            "item-2": {
+              "title": "Perpanjangan Izin Tinggal Terbatas (ITAS)",
+              "content": "<p>Perpanjangan ITAS diberikan untuk berbagai kategori Tenaga Kerja Asing (TKA) sesuai tujuan tinggal dan pekerjaan, termasuk:</p><ul><li>Tenaga ahli dengan keahlian profesional atau spesialis di bidang tertentu.</li><li>Pekerja asing yang dipekerjakan oleh perusahaan atau sponsor di Indonesia.</li><li>Orang Asing yang bekerja di kapal, alat apung, atau instalasi yang beroperasi di perairan Nusantara, laut teritorial, landas kontinen, atau Zona Ekonomi Eksklusif Indonesia.</li><li>Rohaniwan yang menjalankan tugas keagamaan di Indonesia.</li><li>Penanam modal asing yang berinvestasi di Indonesia.</li><li>Peneliti atau ilmuwan yang melakukan penelitian ilmiah.</li><li>Pelajar atau peserta program pendidikan di Indonesia.</li><li>Orang Asing yang bergabung dengan keluarga pemegang ITAS (penyatuan keluarga).</li><li>Orang Asing yang menjalani repatriasi atau relokasi di Indonesia.</li><li>Pemegang rumah kedua di Indonesia sesuai regulasi yang berlaku.</li><li>Orang Asing yang diundang oleh pemerintah karena keahliannya (global talent).</li><li>Tokoh dunia atau figur internasional yang diundang resmi.</li><li>Tenaga Kerja Asing lanjut usia berusia 60 tahun ke atas yang memenuhi syarat tinggal.</li></ul><p><strong>Persyaratan Umum Perpanjangan ITAS :</strong></p><ul><li>Paspor kebangsaan yang sah dan masih berlaku sebagai identitas resmi TKA.</li><li>Pernyataan integrasi, kecuali untuk anak di bawah 18 tahun yang belum menikah.</li><li>ITAS yang dimiliki Tenaga Kerja Asing (TKA) yang bersangkutan.</li><li>Bukti penjaminan dari Penjamin, jika TKA memiliki Penjamin.</li><li>Kartu Tanda Penduduk (KTP) dan/atau Kartu Keluarga Penjamin atau Penanggung Jawab, jika berlaku.</li><li>ITAS suami, istri, ayah, ibu, atau anak bagi TKA yang bergabung dengan anggota keluarga pemegang ITAS.</li></ul>"
+            },
+            "item-3": {
+              "title": "Perpanjangan Izin Tinggal Tetap (ITAP)",
+              "content": "<p>Perpanjangan ITAP memungkinkan TKA mempertahankan izin tinggal tetap secara legal di Indonesia sesuai permohonan.</p><ul><li>Izin Tinggal Tetap (ITAP) dapat diperpanjang tanpa batas waktu tertentu sesuai permohonan TKA.</li><li>Permohonan perpanjangan ITAP dapat diajukan mulai 3 bulan sebelum masa berlaku ITAP berakhir hingga hari terakhir masa berlaku.</li><li>Perpanjangan ITAP mulai berlaku sejak tanggal ITAP sebelumnya habis.</li><li>Pembayaran biaya imigrasi yang dilakukan sebelum masa berlaku ITAP habis tetap sah. Penyelesaian permohonan yang melewati masa berlaku ITAP tidak dianggap overstay.</li></ul>"
+            },
+            "item-4": {
+              "title": "Alih Status Izin Tinggal Kunjungan (ITK) menjadi Izin Tinggal Terbatas (ITAS)",
+              "content": "<p>Alih status ITK ke ITAS memungkinkan Tenaga Kerja Asing (TKA) untuk melanjutkan tinggal dan bekerja secara legal di Indonesia sebelum masa kunjungan berakhir.</p><ul><li>Permohonan alih status ITK menjadi ITAS dapat diajukan paling lambat 30 hari sebelum masa berlaku ITK habis.</li><li>Permohonan diajukan oleh Orang Asing, Penjamin, atau Penanggung Jawab melalui aplikasi kepada Kepala Kantor Imigrasi setempat.</li><li>Kategori kegiatan yang memenuhi syarat alih status:<ul><li>Tenaga ahli</li><li>Pekerja</li><li>Rohaniwan</li><li>Penanam modal asing</li><li>Penelitian ilmiah</li><li>Pendidikan</li><li>Penyatuan keluarga</li><li>Repatriasi</li><li>Rumah kedua</li><li>Pengobatan</li><li>Alasan kemanfaatan untuk kesejahteraan masyarakat dan/atau kemanusiaan</li></ul></li><li>ITK yang berasal dari Visa on Arrival (VoA) atau Bebas Visa Kunjungan (visa exemption) tidak dapat dialihstatuskan menjadi Izin Tinggal lain.</li><li>Permohonan alih status ITK yang diajukan dan dibayar sebelum masa berlaku ITK habis tetap sah. Penyelesaian permohonan yang melebihi masa berlaku ITK tidak dianggap overstay.</li></ul>"
+            },
+            "item-5": {
+              "title": "Alih Status Izin Tinggal Terbatas (ITAS) menjadi Izin Tinggal Tetap (ITAP)",
+              "content": "<p>Alih status ITAS ke ITAP memungkinkan TKA mempertahankan izin tinggal tetap secara legal di Indonesia sebelum masa ITAS berakhir.</p><ul><li>Permohonan alih status ITAS menjadi ITAP dapat diajukan paling lambat 30 hari sebelum masa berlaku ITAS habis.</li><li>Permohonan diajukan oleh Orang Asing, Penjamin, atau Penanggung Jawab melalui aplikasi kepada Kepala Kantor Imigrasi setempat.</li><li>Kategori kegiatan yang memenuhi syarat alih status: <ul><li>Pekerja</li><li>Rohaniwan</li><li>Penanam modal asing</li><li>Penyatuan keluarga</li><li>Repatriasi</li><li>Rumah kedua</li><li>Keahlian khusus</li><li>Tokoh dunia</li><li>Lanjut usia berusia 60 tahun atau lebih</li></ul></li></ul>"
+            },
+            "item-6": {
+              "title": "Pemberian Izin Tinggal Tetap (ITAP) Tanpa Alih Status",
+              "content": "<p>ITAP dapat diberikan langsung tanpa proses alih status untuk kategori tertentu sesuai regulasi.</p><ul><li>Eks-subjek anak berkewarganegaraan ganda Republik Indonesia yang memilih kewarganegaraan asing atau yang tidak memilih sampai umur 21 tahun di wilayah Indonesia.</li><li>Anak yang lahir di wilayah Indonesia dari orang tua pemegang ITAP.</li><li>Warga negara Indonesia yang kehilangan kewarganegaraan Indonesia di wilayah Indonesia.</li></ul><p><strong>Keterangan:</strong></p><ul><li>ITAP diberikan langsung tanpa prosedur Alih Status berdasarkan permohonan kepada Kepala Kantor Imigrasi setempat.</li><li>ITAP diberikan untuk jangka waktu 5 tahun.</li><li>ITAP bagi pemohon penyatuan keluarga dan anak yang lahir di Indonesia mengikuti jangka waktu ITAP Orang Asing yang diikuti.</li></ul>"
+            },
+            "item-7": {
+              "title": "Pelaporan Izin Tinggal Tetap (ITAP)",
+              "content": "<p>TKA pemegang ITAP wajib melapor setiap 5 tahun sekali kepada Kantor Imigrasi sesuai wilayah tempat tinggal.</p><p><strong>Persyaratan Umum:</strong></p><ul><li>Paspor kebangsaan yang sah dan masih berlaku</li><li>Izin Tinggal Tetap (ITAP)</li></ul><p><strong>Persyaratan Khusus:</strong></p><ul><li>Bukti keabsahan perusahaan</li><li>Bukti keabsahan perizinan ketenagakerjaan</li><li>Bukti keabsahan kegiatan rohaniwan</li><li>Bukti rekening terbaru</li><li>Perubahan akta perusahaan</li><li>Pajak bumi bangunan terbaru</li><li>Laporan keuangan terbaru</li><li>Pajak perusahaan terbaru</li><li>Bukti pendapatan terbaru</li><li>Surat obligasi terbaru</li><li>Kepemilikan saham terbaru</li><li>Bukti lain yang menguatkan maksud dan tujuan untuk tinggal di wilayah Indonesia</li></ul>"
+            }
+          }
+        }
+      }
+    },
+    "passport-processing": {
+      "meta": {
+        "title": "Layanan Paspor Indonesia — Pengurusan Baru, Perpanjangan, Penggantian & E-Paspor | Parama Satya Pertiwi",
+        "description": "Parama Satya Pertiwi menyediakan layanan profesional pengurusan paspor bagi Warga Negara Indonesia, termasuk pengajuan paspor baru, perpanjangan, penggantian paspor hilang atau rusak, serta penerbitan e-Paspor. Cepat, terpercaya, dan sepenuhnya sesuai regulasi imigrasi Indonesia.",
+        "keywords": "layanan paspor Indonesia, paspor baru, perpanjangan paspor, penggantian paspor hilang, e-paspor Indonesia, perubahan data paspor, Parama Satya Pertiwi, layanan paspor WNI"
+      },
+      "seo-title": "Layanan Paspor Indonesia — Cepat, Legal, dan Terpercaya",
+      "title": "Layanan Pengurusan Paspor Indonesia",
+      "excerpt": "Parama Satya Pertiwi menyediakan layanan lengkap pengurusan paspor Indonesia, mulai dari pembuatan paspor baru, perpanjangan, penggantian paspor rusak atau hilang, hingga e\u2011paspor. Proses cepat, aman, dan sesuai regulasi imigrasi yang berlaku.",
+      "list": {
+        "item-1": {
+          "title": "Pembuatan Paspor Baru",
+          "description": "Layanan pembuatan paspor bagi Warga Negara Indonesia yang belum pernah memiliki paspor. Tersedia pilihan paspor biasa elektronik (e\u2011paspor) maupun paspor biasa non-elektronik sesuai kebutuhan perjalanan.",
+          "image": {
+            "src": "/images/passport-new.webp",
+            "alt": "Layanan pembuatan paspor baru Indonesia"
+          }
+        },
+        "item-2": {
+          "title": "Perpanjangan & Penggantian Paspor",
+          "description": "Layanan perpanjangan masa berlaku paspor yang habis serta penggantian paspor yang rusak atau hilang. Kami memastikan seluruh proses berjalan cepat dan sesuai ketentuan Direktorat Jenderal Imigrasi.",
+          "image": {
+            "src": "/images/passport-renewal.webp",
+            "alt": "Perpanjangan dan penggantian paspor Indonesia"
+          }
+        },
+        "item-3": {
+          "title": "Perubahan Data Paspor",
+          "description": "Layanan perubahan data identitas pemegang paspor, meliputi nama, tempat dan tanggal lahir, serta jenis kelamin. Pengajuan dilakukan sesuai dengan peraturan resmi imigrasi.",
+          "image": {
+            "src": "/images/passport-amendment.webp",
+            "alt": "Layanan ubah data paspor resmi"
+          }
+        }
+      }
+    },
+    "foreign-visa-processing": {
+      "meta": {
+        "title": "Layanan Pengurusan Visa Luar Negeri — Cepat, Legal & Profesional | Parama Satya Pertiwi",
+        "description": "Parama Satya Pertiwi menyediakan layanan profesional pengurusan visa luar negeri untuk individu maupun perusahaan. Kami membantu menyiapkan dokumen, mengisi formulir, dan memantau status aplikasi agar proses visa lebih cepat, mudah, dan efisien.",
+        "keywords": "layanan visa luar negeri, pengurusan visa bisnis, visa kunjungan, visa single entry, visa multiple entry, Parama Satya Pertiwi, pendampingan visa profesional"
+      },
+      "seo-title": "Pengurusan Visa Luar Negeri — Mudah, Cepat, dan Terpercaya",
+      "title": "Layanan Pengurusan Visa Luar Negeri",
+      "excerpt": "Parama Satya Pertiwi menyediakan layanan pengurusan visa luar negeri secara profesional untuk mempermudah proses yang rumit. Kami membantu individu maupun perusahaan dalam menyiapkan dokumen, mengisi formulir, hingga memantau status aplikasi agar pengajuan visa menjadi lebih mudah, cepat, dan efisien.",
+      "list": {
+        "item-1": {
+          "title": "Visa Kunjungan Bisnis",
+          "description": "Pendampingan untuk kunjungan singkat ke luar negeri, termasuk urusan bisnis, konferensi, wisata, atau kunjungan keluarga. Kami memastikan aplikasi Anda sesuai dengan ketentuan imigrasi negara tujuan."
+        },
+        "item-2": {
+          "title": "Visa Single Entry",
+          "description": "Bantuan pengajuan visa dengan izin masuk satu kali. Setelah meninggalkan negara tujuan, pemohon perlu mengajukan kembali untuk masuk kembali."
+        },
+        "item-3": {
+          "title": "Visa Bisnis Multiple Entry",
+          "description": "Pengurusan visa multiple entry yang memungkinkan perjalanan keluar-masuk berkali-kali selama masa berlaku. Cocok untuk profesional bisnis dengan kebutuhan perjalanan rutin."
+        }
+      }
+    },
+    "company-legalization": {
+      "meta": {
+        "title": "Layanan Pengurusan Legalitas Perusahaan — Cepat, Profesional & Terpercaya | Parama Satya Pertiwi",
+        "description": "Parama Satya Pertiwi menyediakan layanan pengurusan legalitas perusahaan secara lengkap, mulai dari pendirian badan usaha, izin usaha, hingga sertifikasi khusus. Layanan cepat, profesional, dan sesuai regulasi, membantu bisnis Anda berjalan lancar tanpa repot urusan administrasi.",
+        "keywords": "legalitas perusahaan, pendirian perusahaan, izin usaha, sertifikasi perusahaan, NPWP perusahaan, SBU, Parama Satya Pertiwi, jasa legal perusahaan, layanan perizinan perusahaan"
+      },
+      "seo-title": "Pengurusan Legalitas Perusahaan — Cepat, Mudah, dan Profesional",
+      "title": "Layanan Pengurusan Legalitas Perusahaan",
+      "excerpt": "Layanan legalitas perusahaan cepat & profesional: pendirian, izin usaha, NPWP, hingga sertifikasi khusus.",
+      "description": "Legalitas yang lengkap adalah fondasi penting untuk menjalankan bisnis secara aman, profesional, dan sesuai peraturan perundang-undangan. Parama Satya Pertiwi membantu perusahaan dalam pendirian badan usaha, pengurusan izin usaha, hingga sertifikasi khusus dengan proses cepat, mudah, dan sesuai regulasi. Dengan dukungan tim ahli berpengalaman, setiap perizinan dapat diselesaikan secara efisien sehingga Anda bisa fokus mengembangkan bisnis tanpa terbebani urusan administrasi yang kompleks.",
+      "list": {
+        "item-1": "Pembuatan Akta Pendirian Perusahaan",
+        "item-2": "Pembuatan Akta Perubahan Perusahaan",
+        "item-3": "Pengurusan Nomor Induk Berusaha (NIB)",
+        "item-4": "Pembuatan NPWP Perusahaan",
+        "item-5": "Sertifikat Badan Usaha (SBU)",
+        "item-6": "Berbagai kebutuhan legalitas lainnya"
+      }
+    }
+  },
+  "client-trust-priority": {
+    "title": "\"Kepercayaan Klien Adalah Prioritas Kami\"",
+    "excerpt": "Kami memahami bahwa keberhasilan perusahaan tidak lepas dari kepuasan dan kepercayaan klien. Oleh karena itu, kami selalu berkomitmen memberikan pelayanan terbaik, profesional, dan sesuai dengan kebutuhan Anda.",
+    "list": {
+      "item-1": {
+        "count": "100",
+        "text": "Perusahaan puas dengan layanan kami"
+      },
+      "item-2": {
+        "count": "11900",
+        "text": "Ekspatriat senang dengan solusi kami"
+      },
+      "item-3": {
+        "count": "15100",
+        "text": "Dokumen berhasil diproses"
+      },
+      "item-4": {
+        "count": "10",
+        "text": "Tahun pengalaman terbukti"
+      }
+    }
+  },
+  "news": {
+    "meta": {
+      "title": "Berita & Update | Parama Satya Pertiwi",
+      "description": "Dapatkan informasi terbaru, wawasan, dan pengumuman dari Parama Satya Pertiwi. Jelajahi semua artikel dan update di satu tempat.",
+      "keywords": "berita, update, artikel, Parama Satya Pertiwi"
+    },
+    "tag": "Berita",
+    "title": "Informasi & Update",
+    "immigration-law": {
+      "meta": {
+        "title": "Undang-Undang Keimigrasian Indonesia — Panduan Lengkap Fungsi & Regulasi Keimigrasian | Parama Satya Pertiwi",
+        "description": "Pelajari Undang-Undang Keimigrasian Indonesia secara lengkap. Termasuk definisi keimigrasian, dokumen perjalanan, visa, izin tinggal, prosedur deportasi, pencegahan, dan fungsi pejabat imigrasi.",
+        "keywords": "Undang-Undang Keimigrasian, keimigrasian Indonesia, dokumen perjalanan Indonesia, visa Indonesia, izin tinggal Indonesia, KITAS, KITAP, deportasi, pencekalan, pejabat imigrasi, Direktorat Jenderal Imigrasi, hukum imigrasi Indonesia, regulasi TKA, imigrasi warga asing, sistem manajemen imigrasi, rudenim, ruang detensi imigrasi"
+      },
+      "title": "Undang-Undang Keimigrasian",
+      "excerpt": "Pelajari Undang-Undang Keimigrasian Indonesia: definisi, dokumen perjalanan, visa, izin tinggal, dan prosedur.",
+      "content": "<h2>Bab 1 - Ketentuan Umum</h2><section><h3>Pasal 1</h3><p>Dalam Undang-Undang ini yang dimaksud dengan:</p><ol><li>Keimigrasian adalah hal ihwal lalu lintas orang yang masuk atau keluar Wilayah Indonesia serta pengawasannya dalam rangka menjaga kedaulatan negara.</li><li>Wilayah Negara Republik Indonesia, yang selanjutnya disebut Wilayah Indonesia, adalah seluruh wilayah Indonesia beserta zona-zona tertentu yang ditetapkan berdasarkan undang-undang.</li><li>Fungsi Keimigrasian adalah bagian dari penyelenggaraan pemerintahan negara dalam memberikan pelayanan keimigrasian, penegakan hukum, keamanan negara, serta fasilitasi pembangunan kesejahteraan masyarakat.</li><li>Menteri adalah menteri yang menyelenggarakan urusan pemerintahan di bidang hukum dan hak asasi manusia.</li><li>Direktur Jenderal adalah Direktur Jenderal Imigrasi.</li><li>Direktorat Jenderal Imigrasi adalah unit pelaksana tugas dan fungsi Kementerian Hukum dan Hak Asasi Manusia di bidang keimigrasian.</li><li>Pejabat Imigrasi adalah pegawai negeri sipil yang telah mengikuti pendidikan dan pelatihan khusus keimigrasian serta memiliki keahlian teknis keimigrasian dan berwenang untuk melaksanakan tugas dan tanggung jawab berdasarkan Undang-Undang ini.</li><li>PPNS Keimigrasian adalah Pejabat Imigrasi yang diberi wewenang oleh undang-undang untuk melakukan penyidikan tindak pidana keimigrasian.</li><li>Orang Asing adalah orang yang bukan warga negara Indonesia.</li><li>Sistem Informasi Manajemen Keimigrasian adalah sistem teknologi informasi dan komunikasi yang digunakan untuk mengumpulkan, mengolah, dan menyajikan informasi guna mendukung operasional, manajemen, dan pengambilan keputusan dalam melaksanakan Fungsi Keimigrasian.</li><li>Kantor Imigrasi adalah unit pelaksana teknis yang melaksanakan Fungsi Keimigrasian di kabupaten, kota, atau kecamatan.</li><li>TPI (Tempat Pemeriksaan Imigrasi) adalah tempat pemeriksaan di pelabuhan laut, bandar udara, pos lintas batas, atau tempat lain yang ditetapkan sebagai tempat keluar masuk Wilayah Indonesia.</li><li>Dokumen Perjalanan adalah dokumen resmi yang dikeluarkan oleh pejabat berwenang dari suatu negara, PBB, atau organisasi internasional lainnya untuk perjalanan antar negara yang memuat identitas pemegangnya.</li><li>Dokumen Keimigrasian adalah Dokumen Perjalanan Republik Indonesia, serta Izin Tinggal yang dikeluarkan oleh Pejabat Imigrasi atau pejabat dinas luar negeri.</li><li>Dokumen Perjalanan Republik Indonesia adalah Paspor Indonesia dan Surat Perjalanan Laksana Paspor Indonesia.</li><li>Paspor Indonesia adalah dokumen yang dikeluarkan oleh Pemerintah Republik Indonesia kepada warganya untuk perjalanan antar negara yang berlaku dalam jangka waktu tertentu.</li><li>SPLP adalah dokumen pengganti paspor yang dikeluarkan dalam keadaan tertentu dan berlaku dalam jangka waktu tertentu.</li><li>Visa Republik Indonesia adalah keterangan tertulis yang diberikan oleh pejabat berwenang di perwakilan RI atau di tempat lain yang ditetapkan Pemerintah RI untuk izin perjalanan ke Wilayah Indonesia dan dasar pemberian Izin Tinggal.</li><li>Tanda Masuk adalah cap manual atau elektronik yang dibubuhkan pada Dokumen Perjalanan sebagai tanda masuk.</li><li>Tanda Keluar adalah cap manual atau elektronik yang dibubuhkan pada Dokumen Perjalanan sebagai tanda keluar.</li><li>Izin Tinggal adalah izin yang diberikan kepada orang asing untuk berada di Wilayah Indonesia.</li><li>Pernyataan Integrasi adalah pernyataan orang asing kepada Pemerintah RI sebagai syarat memperoleh Izin Tinggal Tetap.</li><li>Izin Tinggal Tetap adalah izin yang diberikan kepada orang asing tertentu untuk menetap di Wilayah Indonesia sebagai penduduk Indonesia.</li><li>Izin Masuk Kembali adalah izin tertulis yang diberikan kepada orang asing pemegang Izin Tinggal Terbatas atau Tetap untuk masuk kembali ke Wilayah Indonesia.</li><li>Korporasi adalah kumpulan orang dan/atau kekayaan yang terorganisasi, berbadan hukum maupun tidak.</li><li>Penjamin adalah orang atau korporasi yang bertanggung jawab atas keberadaan dan kegiatan orang asing selama di Indonesia.</li><li>Pengangkut adalah kapal, pesawat, atau alat angkut lain yang lazim digunakan.</li><li>Pencegahan adalah larangan sementara terhadap seseorang untuk keluar dari Indonesia berdasarkan alasan tertentu.</li><li>Pencekalan adalah larangan terhadap orang asing untuk masuk ke Indonesia berdasarkan alasan keimigrasian.</li><li>Intelijen Keimigrasian adalah kegiatan penyelidikan dan pengamanan dalam rangka analisis situasi keimigrasian.</li><li>Tindakan Administratif Keimigrasian adalah sanksi administratif di luar proses peradilan.</li><li>Penyelundupan Manusia adalah perbuatan membawa seseorang atau sekelompok orang untuk memperoleh keuntungan...</li><li>Rudenim (Rumah Detensi Imigrasi) adalah unit teknis sebagai tempat penampungan sementara bagi orang asing yang dikenai Tindakan Administratif Keimigrasian.</li><li>Ruang Detensi Imigrasi adalah tempat penampungan sementara yang berada di Ditjen Imigrasi dan Kantor Imigrasi.</li><li>Detainee adalah orang asing yang berada di Rumah atau Ruang Detensi Imigrasi berdasarkan keputusan penahanan.</li><li>Deportasi adalah tindakan paksa mengeluarkan orang asing dari Indonesia.</li><li>Penanggung Jawab Pengangkut adalah pemilik, pengurus, agen, nakhoda, kapten, pilot, atau pengemudi alat angkut.</li><li>Penumpang adalah setiap orang di atas alat angkut, kecuali awak.</li><li>Perwakilan Republik Indonesia adalah Kedubes RI, KJRI, dan Konsulat RI.</li></ol></section><section><h3>Pasal 2</h3><p>Setiap warga negara Indonesia berhak untuk bepergian ke luar negeri dan masuk kembali ke Wilayah Indonesia.</p></section><footer><p>Sumber: <a href=\"https://www.imigrasi.go.id/\">imigrasi.go.id</a></p></footer>",
+      "image": {
+        "src": "/images/gedung-kemenkumham.jpeg",
+        "alt": "Ilustrasi Undang-Undang Keimigrasian Indonesia: dokumen resmi, paspor, dan regulasi pemerintah"
+      },
+      "published": "2025-09-20T00:00:00Z",
+      "source": "https://www.imigrasi.go.id/"
+    },
+    "kitas-vs-kitap": {
+      "meta": {
+        "title": "Perbedaan KITAS dan KITAP di Indonesia — Panduan Lengkap Izin Tinggal untuk Warga Asing | Parama Satya Pertiwi",
+        "description": "Pelajari perbedaan KITAS (Izin Tinggal Terbatas) dan KITAP (Izin Tinggal Tetap) di Indonesia. Termasuk persyaratan, prosedur perpanjangan, pelaporan, dan dasar hukum ITAS & ITAP bagi warga asing.",
+        "keywords": "KITAS, KITAP, Izin Tinggal Terbatas, Izin Tinggal Tetap, ITAS, ITAP, izin tinggal Indonesia, prosedur KITAS, prosedur KITAP, perpanjangan KITAS, pelaporan KITAP, dokumen tinggal warga asing, hukum imigrasi Indonesia, regulasi TKA, izin kerja TKA, imigrasi Indonesia, visa Indonesia, Penjamin, Direktorat Jenderal Imigrasi"
+      },
+      "title": "Perbedaan KITAS dan KITAP",
+      "excerpt": "Pahami perbedaan KITAS (Izin Tinggal Terbatas) dan KITAP (Izin Tinggal Tetap) beserta prosedur dan dasar hukumnya.",
+      "content": "<h2>Apa Perbedaan KITAS dan KITAP, Bagaimana Pengurusannya</h2><section><h3>ITAS (Izin Tinggal Terbatas)</h3><p>Izin Tinggal Terbatas (ITAS) adalah dokumen resmi yang diberikan oleh pemerintah suatu negara kepada warga negara asing untuk tinggal di wilayahnya dalam jangka waktu tertentu yang terbatas. Durasi biasanya disesuaikan dengan kontrak kerja, dengan jangka waktu umum 6 atau 12 bulan.</p><p>Setiap Orang Asing yang berada di Wilayah Indonesia wajib memiliki Izin Tinggal. Izin Tinggal terbatas diberikan kepada:</p><ol><li>Orang Asing yang masuk Wilayah Indonesia dengan Visa tinggal terbatas.</li><li>Anak yang pada saat lahir di Wilayah Indonesia ayah dan/atau ibunya pemegang Izin Tinggal terbatas.</li><li>Orang Asing yang diberikan alih status dari Izin Tinggal kunjungan.</li><li>Nakhoda, awak kapal, atau tenaga ahli asing di atas kapal laut, alat apung, atau instalasi yang beroperasi di wilayah perairan dan yurisdiksi Indonesia sesuai ketentuan hukum.</li><li>Orang Asing yang kawin secara sah dengan warga negara Indonesia.</li><li>Anak dari Orang Asing yang kawin secara sah dengan warga negara Indonesia.</li></ol><h4>Persyaratan ITAS</h4><ul><li>Paspor Kebangsaan yang sah dan masih berlaku</li><li>Pernyataan integrasi kecuali bagi anak di bawah 18 tahun dan belum kawin</li><li>ITAS Orang Asing yang bersangkutan</li><li>Bukti penjaminan dari Penjamin (jika ada)</li><li>KTP/KK Penjamin atau Penanggung Jawab (jika ada)</li><li>ITAS suami/istri/ayah/ibu/anak (jika bergabung dengan keluarga pemegang ITAS)</li></ul><h4>Berakhirnya ITAS</h4><p>Izin Tinggal Terbatas berakhir apabila pemegangnya:</p><ol><li>Kembali ke negara asal dan tidak bermaksud masuk lagi ke Indonesia.</li><li>Kembali ke negara asal dan tidak kembali lagi melebihi masa berlaku izin masuk kembali.</li><li>Memperoleh kewarganegaraan Republik Indonesia.</li><li>Izin telah habis masa berlaku.</li><li>Izin beralih status menjadi Izin Tinggal Tetap.</li><li>Izin dibatalkan oleh Menteri atau Pejabat Imigrasi.</li><li>Dikenai Deportasi.</li><li>Meninggal dunia.</li></ol><h4>Perpanjangan ITAS</h4><ul><li>Untuk masa berlaku 1 tahun: diajukan paling cepat 30 hari sebelum berakhir dan paling lambat pada hari ITAS berakhir.</li><li>Untuk masa berlaku lebih dari 1 tahun: diajukan paling cepat 3 bulan sebelum berakhir dan paling lambat pada hari ITAS berakhir.</li><li>Permohonan perpanjangan yang sudah dibayar sebelum ITAS berakhir tidak dianggap overstay meski selesai setelah masa berlaku habis.</li><li>Perpanjangan diberikan 1 hari setelah ITAS berakhir.</li><li>Perpanjangan 1 tahun untuk pelajar/mahasiswa diberikan oleh Kepala Kantor Imigrasi.</li><li>Perpanjangan 2 tahun atau lebih untuk warga Calling Visa memerlukan persetujuan Dirjen.</li><li>Perpanjangan ITAS Perairan atau entitas tertentu diberikan oleh Dirjen atau pejabat yang ditunjuk.</li><li>Jika ITAS mensyaratkan pernyataan komitmen, perpanjangan hanya dapat dilakukan setelah komitmen terpenuhi.</li></ul><h4>Dasar Hukum ITAS</h4><ul><li>UU No. 6 Tahun 2011 tentang Keimigrasian</li><li>Permenkumham No. 22 Tahun 2023 tentang Visa dan Izin Tinggal</li><li>Keputusan Menkumham No. M.HH-02.GR.01.04 Tahun 2023 tentang Klasifikasi Visa</li><li>PMK No. 9/PMK.02/2022 tentang PNBP Pelayanan Keimigrasian</li><li>PMK No. 82 Tahun 2023 tentang PNBP Golden Visa</li></ul></section><section><h3>ITAP (Izin Tinggal Tetap)</h3><p>ITAP digunakan untuk Orang Asing pemegang Izin Tinggal Tetap dengan jangka waktu tidak terbatas. Pemegang wajib melapor setiap 5 tahun sekali kepada Kepala Kantor Imigrasi di wilayah tempat tinggalnya.</p><h4>Proses Pelaporan KITAP</h4><ol><li>Penerimaan pelaporan Izin Tinggal Tetap</li><li>Pengambilan foto</li><li>Persetujuan Kepala Kantor Imigrasi atau pejabat yang ditunjuk</li><li>Penerbitan Izin Tinggal Tetap dengan tanggal pelaporan baru</li></ol><strong>Catatan</strong><ul><li>Pelaporan dilakukan paling cepat 3 bulan sebelum dan paling lambat 1 hari kerja sebelum ITAP berakhir.</li><li>Pelaporan melewati batas waktu hanya dapat diproses dengan pertimbangan Kepala Kantor Imigrasi.</li></ul><h4>Persyaratan KITAP</h4><ul><li>Paspor Kebangsaan yang sah dan masih berlaku</li><li>Izin Tinggal Tetap</li><li>Bukti keabsahan perusahaan</li><li>Bukti perizinan ketenagakerjaan</li><li>Bukti kegiatan rohaniwan</li><li>Bukti rekening terbaru</li><li>Perubahan akta perusahaan</li><li>Pajak bumi bangunan terbaru</li><li>Laporan keuangan terbaru</li><li>Pajak perusahaan terbaru</li><li>Bukti pendapatan terbaru</li><li>Surat obligasi terbaru</li><li>Kepemilikan saham terbaru</li><li>Bukti lain yang mendukung tujuan tinggal di Indonesia</li></ul><h4>Dasar Hukum ITAP</h4><ul><li>Permenkumham No. 22 Tahun 2023 tentang Visa dan Izin Tinggal</li><li>Keputusan Menkumham No. M.HH-02.GR.01.04 Tahun 2023 tentang Klasifikasi Visa</li></ul></section><footer><p>Sumber: <a href=\"https://www.imigrasi.go.id/\">imigrasi.go.id</a></p></footer>",
+      "image": {
+        "src": "/images/pengurusan-visa-indonesia.jpg",
+        "alt": "Perbandingan KITAS dan KITAP: Izin Tinggal Terbatas vs Izin Tinggal Tetap di Indonesia"
+      },
+      "published": "2025-09-20T00:00:00Z",
+      "source": "https://www.imigrasi.go.id/"
+    },
+    "visa-c17-extension": {
+      "meta": {
+        "title": "Cara Memperpanjang Visa C17 di Indonesia — Panduan Lengkap Izin Tinggal Kunjungan | Parama Satya Pertiwi",
+        "description": "Pelajari cara perpanjang Visa C17 di Indonesia untuk kegiatan audit, inspeksi, wisata, atau kunjungan keluarga. Termasuk dokumen diperlukan, prosedur perpanjangan, dan dasar hukum resmi.",
+        "keywords": "Visa C17, perpanjangan Visa C17, izin tinggal kunjungan Indonesia, Visa Kunjungan C17, prosedur perpanjangan visa, dokumen perpanjangan visa C17, audit dan inspeksi Indonesia, perjalanan wisata Indonesia, KITAS konversi, penjamin visa C17, hukum imigrasi Indonesia, regulasi visa kunjungan, PNBP Kemenkumham, Permenkumham Visa"
+      },
+      "title": "Cara Perpanjang Visa C17",
+      "excerpt": "Panduan lengkap perpanjangan Visa C17 di Indonesia, termasuk dokumen, prosedur, durasi izin tinggal, dan dasar hukum.",
+      "content": "<h2>Langkah-Langkah Memperpanjang Visa C17</h2><section><p>Visa dengan indeks <strong>C17</strong> dapat digunakan untuk kegiatan audit, kendali mutu produksi, atau inspeksi pada cabang perusahaan di Indonesia. Selain itu, pemegang visa ini dapat melakukan perjalanan wisata atau kunjungan kepada teman dan keluarga.</p><p>Visa C17 adalah Visa Kunjungan sekali masuk dengan izin tinggal awal maksimal <strong>60 hari</strong>. Izin tinggal ini dapat diperpanjang beberapa kali hingga maksimal <strong>180 hari</strong> dan dapat dikonversi menjadi Izin Tinggal Terbatas (KITAS) dengan penjamin yang sama.</p></section><section><h3>Dokumen yang Diperlukan</h3><ol><li>Surat permohonan dan surat pernyataan penjamin</li><li>Dokumen perjalanan yang sah dan masih berlaku:<ul><li>Paspor minimal berlaku 6 bulan</li><li>Dokumen lain (paspor darurat/dokumen identitas) minimal berlaku 12 bulan</li></ul></li><li>Bukti biaya hidup di Indonesia berupa rekening koran 3 bulan terakhir atas nama Orang Asing atau penjamin</li><li>Pasfoto berwarna terbaru (diambil dalam 1 tahun terakhir)</li></ol></section><section><h3>Dasar Hukum</h3><ul><li>UU No. 6 Tahun 2011 tentang Keimigrasian</li><li>Peraturan Pemerintah No. 31 Tahun 2013</li><li>Peraturan Pemerintah No. 45 Tahun 2024 tentang Tarif PNBP Kemenkumham</li><li>Permenkumham No. 11 Tahun 2024 tentang Visa dan Izin Tinggal</li><li>Permenkumham No. 22 Tahun 2023 tentang Visa dan Izin Tinggal</li><li>Keputusan Menkumham No. M.IP-08.GR.01.01 Tahun 2025 tentang Klasifikasi Visa</li><li>PMK No. 9/PMK.02/2022 tentang PNBP Pelayanan Keimigrasian</li><li>PMK No. 82 Tahun 2023 tentang PNBP Golden Visa</li></ul></section><footer><p>Sumber: <a href=\"https://www.imigrasi.go.id/\">imigrasi.go.id</a></p></footer>",
+      "image": {
+        "src": "/images/c17-visa.jpg",
+        "alt": "Panduan perpanjangan Visa C17 di Indonesia: paspor, stempel visa, dan kantor imigrasi"
+      },
+      "published": "2025-09-20T00:00:00Z",
+      "source": "https://www.imigrasi.go.id/"
+    }
+  },
+  "visa": {
+    "title": "Jenis Visa bedasarkan nama/index",
+    "list": {
+      "A1": "Bebas Visa (Wisata)",
+      "B1": "Visa Saat Kedatangan (Wisata)",
+      "C1": "Visa Wisata",
+      "A36": "Bebas Visa (Kru Alat Angkut Yang Sedang Bertugas)",
+      "A37": "Bebas Visa (Kru Alat Angkat Di Perairan Nusantara)",
+      "A4": "Bebas Visa (Tugas Pemerintahan)",
+      "B4": "Visa Saat Kedatangan (Tugas Pemerintahan)",
+      "C10": "Visa Pertemuan Bisnis",
+      "C10A": "Visa Pemuka Agama",
+      "C11": "Visa Bisnis (Pameran)",
+      "E28A": "Visa Investor",
+      "E28B": "Visa Investor (Pendirian Perusahaan)",
+      "E28C": "Visa Investor (Tanpa Mendirikan Perusahaan)",
+      "E28D": "Visa Investor (Pendirian Kantor Cabang/Anak Perusahaan)",
+      "E28F": "Visa Investor (Ibukota Negara)",
+      "E28G": "Visa Investor (Perwakilan Perusahaan Induk)",
+      "E29": "Visa Penelitian",
+      "E30A": "Visa Pelajar",
+      "E308": "Visa Pendidikan",
+      "E31A": "Visa Keluarga",
+      "E31B": "Visa Keluarga (Istri/Suami Pemegang ITAS/ITAP)",
+      "E31C": "Visa Keluarga (Anak dari Ibu/Ayah WNI)",
+      "E31D": "Visa Keluarga (Anak)",
+      "E31E": "Visa Keluarga (Anak)",
+      "E31F": "Visa Keluarga (Anak)",
+      "E31G": "Visa Keluarga (Orang Tua)",
+      "E31H": "Visa Keluarga (Orang Tua)",
+      "E31J": "Visa Keluarga (Saudara)",
+      "E32A": "Visa Eks WNI",
+      "E32B": "Visa Eks WNI (Derajat 1 dan 2)",
+      "E32C": "Visa Eks WNI (Tinggal Maksimal 2 Tahun)",
+      "E32D": "Visa Eks WNI (Tinggal Maksimal 1 Tahun)",
+      "E33": "Visa Rumah Kedua",
+      "E33A": "Visa Keahlian Khusus",
+      "E33B": "Visa Keahlian Khusus (Tanpa Penjamin)",
+      "E33C": "Visa Tokoh Dunia (Diundang Pemerintah Karena Ketokohannya)",
+      "E33E": "Visa Lanjut Usia",
+      "E33F": "Visa Lanjut Usia",
+      "E33G": "Visa Pekerja Jarak Jauh",
+      "E33G2": "Visa Pengobatan",
+      "E35": "Visa Bekerja dan Berwisata",
+      "C11A": "Visa Bisnis (Pameran) untuk Warga Negara dari Negara Calling Visa",
+      "C12": "Visa Pra-Investasi",
+      "C13": "Visa Kru Alat Angkut",
+      "C14": "Visa Aktivitas Pembuatan dan Produksi Film",
+      "C15": "Visa Pekerjaan Darurat",
+      "C16": "Visa Pelatihan (Peserta & Instruktur)",
+      "C17": "Visa Bisnis (Audit dan Inspeksi)",
+      "C18": "Visa Uji Coba Kerja",
+      "C19": "Visa Bisnis (Pelayanan Purnajual)",
+      "C2": "Visa Bisnis",
+      "C20": "Visa Bisnis (Pemasangan & Perbaikan Mesin)",
+      "C21": "Visa Proses Peradilan",
+      "C22": "Visa Program Magang",
+      "C22A": "Visa Program Magang (Akademik)",
+      "C22B": "Visa Program Magang (Industri & Perusahaan)",
+      "C3": "Visa Perawatan Kesehatan",
+      "C4": "Visa Tugas Pemerintahan",
+      "C5": "Visa Media & Pers",
+      "C6": "Visa Kegiatan Sosial",
+      "C7": "Visa Kegiatan Seni & Budaya",
+      "C7A": "Visa Pertunjukan Musik",
+      "C7B": "Visa Kru Pertunjukan Musik",
+      "C7C": "Visa Pertunjukan Seni",
+      "C8A": "Visa Olahraga (Atlet)",
+      "C8B": "Visa Olahraga (Ofisial)",
+      "C9": "Visa Studi Banding, Kursus & Pelatihan Singkat",
+      "C9A": "Visa Studi, Kursus & Pelatihan Singkat (Keagamaan)",
+      "C9B": "Visa Studi, Kursus & Pelatihan Singkat (Bahasa Indonesia)",
+      "D1": "Visa Wisata",
+      "D12": "Visa Pra-Investasi",
+      "D14": "Visa Aktivitas Pembuatan & Produksi Film",
+      "D17": "Visa Bisnis (Audit & Inspeksi)",
+      "D2": "Visa Bisnis",
+      "D3": "Visa Perawatan Kesehatan",
+      "D7": "Visa Kegiatan Seni & Budaya",
+      "D7A": "Visa Pertunjukan Musik",
+      "D7B": "Visa Kru Pertunjukan Musik",
+      "D8A": "Visa Olahraga (Atlet)",
+      "D8B": "Visa Olahraga (Ofisial)",
+      "F1": "Visa Saat Kedatangan (Wisata)",
+      "F4": "Visa Saat Kedatangan (Tugas Pemerintahan)"
+    }
+  },
+  "contact": {
+    "meta": {
+      "title": "Hubungi Kami — Parama Satya Pertiwi | Konsultasi & Informasi Layanan",
+      "description": "Hubungi Parama Satya Pertiwi untuk konsultasi dan informasi lebih lanjut mengenai layanan legalitas perusahaan, visa Indonesia, KITAS, ITAP, dan perizinan lainnya. Tim kami siap membantu Anda dengan cepat dan profesional.",
+      "keywords": "hubungi kami, kontak Parama Satya Pertiwi, konsultasi layanan, informasi layanan visa, informasi KITAS, informasi ITAP, legalitas perusahaan Indonesia, jasa imigrasi Indonesia"
+    },
+    "tag": "Kontak",
+    "seo-title": "Hubungi Parama Satya Pertiwi — Konsultasi & Informasi Layanan",
+    "title": "Kami senang mendengar dari Anda",
+    "excerpt": "Hubungi kami hari ini untuk mengetahui lebih lanjut tentang layanan kami.",
+    "form": {
+      "fname": "Nama Depan",
+      "lname": "Nama Belakang",
+      "phone": "Telepon",
+      "email": "Alamat Email",
+      "message": "Pesan"
+    }
+  },
+  "footer": {
+    "groups": {
+      "1": {
+        "name": "Tentang Kami",
+        "1": {
+          "title": "Visi & Misi"
+        }
+      },
+      "2": {
+        "name": "Layanan",
+        "1": {
+          "title": "Layanan Pengurusan Visa Indonesia"
+        },
+        "2": {
+          "title": "Layanan Pengurusan KITAS & Izin Tenaga Kerja Asing (TKA)"
+        },
+        "3": {
+          "title": "Layanan Pengurusan Paspor & E\u2011Passport WNI"
+        },
+        "4": {
+          "title": "Layanan Pengurusan Visa Luar Negeri"
+        },
+        "5": {
+          "title": "Layanan Pengurusan Legalitas Perusahaan"
+        }
+      }
+    }
+  }
+}

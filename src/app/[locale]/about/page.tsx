@@ -1,0 +1,77 @@
+import { Metadata } from "next";
+import { useTranslations } from "next-intl";
+import type { PageProps } from "@/types";
+import { SERVICES_NAVIGATION_KEYS } from "@/constants/navigation";
+import { SERVICES } from "@/constants/service";
+import { generatePageMetadata } from "@/lib/seo";
+import Banner from "@/components/Banner";
+import VisionMission, {
+  VisionMissionProps,
+} from "@/components/about/VisionMission";
+import OurCommitment, {
+  OurCommitmentProps,
+} from "@/components/about/OurCommitment";
+import Services, { ServicesProps } from "@/components/Services";
+import TestimonialCarousel from "@/components/TestimonialCarousel";
+
+export async function generateMetadata({
+  params,
+}: PageProps): Promise<Metadata> {
+  const { locale } = await params;
+  return generatePageMetadata(locale, "about", "about-us");
+}
+
+export default function AboutPage() {
+  const global = useTranslations("global");
+  const services = useTranslations("services");
+  const about = useTranslations("about-us");
+
+  const visionMissionProps: VisionMissionProps = {
+    tag: about("vision-mission.tag"),
+    title: about("vision-mission.title"),
+    paragraph: about("vision-mission.excerpt"),
+    vision: {
+      title: about("vision-mission.vision.title"),
+      content: about("vision-mission.vision.content"),
+    },
+    mission: {
+      title: about("vision-mission.mission.title"),
+      content: about("vision-mission.mission.content"),
+    },
+  };
+
+  const ourCommitmentsProps: OurCommitmentProps = {
+    tag: about("commitment.tag"),
+    title: about("commitment.title"),
+    commitments: [1, 2, 3, 4, 5].map((v) => about(`commitment.list.item-${v}`)),
+  };
+
+  const servicesProps: ServicesProps = {
+    bottomShape: true,
+    tag: services("shared.tag"),
+    title: services("shared.title"),
+    paragraph: services("shared.excerpt"),
+    cards: SERVICES_NAVIGATION_KEYS.map((key, idx) => ({
+      id: key,
+      title: services(`${key}.title`),
+      excerpt: services(`${key}.excerpt`),
+      imgPath: SERVICES[idx].imgPath,
+      href: SERVICES[idx].href,
+    })),
+    button: global("button.read-more"),
+  };
+
+  return (
+    <main id="about">
+      <h1 className="sr-only">{about("seo-title")}</h1>
+      <Banner
+        bannerImgPath="/images/banner-about-us.jpg"
+        title={about("tag")}
+      />
+      <VisionMission {...visionMissionProps} />
+      <OurCommitment {...ourCommitmentsProps} />
+      <Services {...servicesProps} />
+      <TestimonialCarousel />
+    </main>
+  );
+}

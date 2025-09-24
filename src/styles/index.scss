@@ -1,0 +1,313 @@
+@use "./abstracts/variables.scss" as *;
+@use "./components/button.scss";
+@use "./components/card.scss";
+@use "./components/form.scss";
+@use "./components/accordion.scss";
+@use "./components/header.scss";
+@use "./components/sidebar.scss";
+@use "./components/footer.scss";
+@use "./pages/home.scss";
+@use "./pages/about.scss";
+@use "./pages/services.scss";
+@use "./pages/news.scss";
+@use "./pages/contact.scss";
+
+@font-face {
+  font-family: "BebasNeue";
+  src: url("../assets/fonts/BebasNeue-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../assets/fonts/Inter-VariableFont_opsz,wght.ttf")
+    format("truetype-variations");
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../assets/fonts/Inter-Italic-VariableFont_opsz,wght.ttf")
+    format("truetype-variations");
+  font-weight: 100 900;
+  font-style: italic;
+}
+
+%tag {
+  margin-bottom: 0.25rem;
+  line-height: 1;
+  color: $accent-color-darken;
+  font-family: "BebasNeue", sans-serif;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+html {
+  font-size: 100%; /* 16px */
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: none;
+}
+
+body {
+  margin: 0;
+  color: $primary-text-color;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+h1,
+h2 {
+  margin: 0;
+  color: #fff;
+  font-family: "BebasNeue", sans-serif;
+  font-weight: unset;
+  letter-spacing: 2px;
+}
+
+h1 {
+  margin-bottom: 2rem;
+  font-size: 3rem;
+}
+
+h2 {
+  margin-bottom: 1.5rem;
+  line-height: 1;
+  font-size: clamp(2rem, 1rem + 1vw, 2.5rem); /*clamp(min, preferred, max)*/
+  // 1vw = 1200px / 100 = 12px
+  // 1rem + 1vw = 16px + 12px = 28px
+}
+
+h3 {
+  margin: 0 0 1rem;
+  color: #fff;
+  font-family: "Inter";
+  font-size: 1.125rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+h4 {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+// $font-sizes: (
+//   h1: clamp(1.75rem, 2vw + 1rem, 3rem),
+//   h2: clamp(1.5rem, 1.5vw + 1rem, 2.25rem),
+//   body: 1rem
+// );
+
+// @each $key, $size in $font-sizes {
+//   .fs-#{$key} {
+//     font-size: #{$size};
+//   }
+// }
+
+p {
+  margin: 0;
+}
+
+section {
+  padding-block: 100px;
+  overflow: hidden;
+
+  .section__tag {
+    @extend %tag;
+  }
+
+  .section__title {
+    margin-bottom: 0.5rem;
+    color: #fff;
+    font-family: "BebasNeue", sans-serif;
+    font-size: 2.875rem;
+    letter-spacing: 2px;
+    line-height: 1;
+    text-transform: uppercase;
+  }
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.container {
+  max-width: $screen-xl;
+  width: 100%;
+  margin-inline: auto;
+  padding-inline: 1rem;
+}
+
+// Old universal boilerplate
+// .visually-hidden {
+//   position: absolute;
+//   width: 1px;
+//   height: 1px;
+//   padding: 0;
+//   margin: -1px;
+//   overflow: hidden;
+//   clip: rect(0, 0, 0, 0);
+//   white-space: nowrap;
+//   border: 0;
+// }
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+}
+
+.bg-number {
+  position: absolute;
+  bottom: -5rem;
+  right: -2.5rem;
+  color: rgb(22 32 41 / 28%);
+  // color: transparent;
+  font-size: 24rem;
+  font-weight: 900;
+  line-height: 1;
+  // -webkit-text-stroke: 1px rgba(255, 255, 255, 0.1);
+  pointer-events: none;
+  user-select: none;
+}
+
+.section__banner {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 240px;
+  margin-top: 80px;
+  padding-block: 50px;
+  text-align: center;
+  background-color: rgba(24, 41, 54, 0.6);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+
+  .content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.875rem;
+    color: #f9fafb;
+    z-index: 2;
+    user-select: none;
+
+    &__tag {
+      @extend %tag;
+      margin: 0;
+    }
+
+    &__title {
+      margin: 0;
+      color: #fff;
+      font-family: "BebasNeue", sans-serif;
+      font-size: 3.25rem;
+      line-height: 1;
+      letter-spacing: 2px;
+    }
+
+    &__excerpt {
+      font-size: 1.125rem;
+      color: #e5e7eb;
+    }
+
+    &__published {
+      font-size: 1rem;
+      color: #e5e7eb;
+    }
+
+    .breadcrumb {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      column-gap: 0.5rem;
+      letter-spacing: 0.5px;
+
+      svg {
+        color: $secondary-text-color;
+      }
+
+      .active {
+        color: $accent-color;
+      }
+    }
+  }
+
+  @media (max-width: $screen-m) {
+    .content {
+      .breadcrumb {
+        flex-wrap: wrap;
+        font-size: 0.875rem;
+      }
+    }
+  }
+}
+
+.section__services,
+.section__client-trust,
+.section__kitas__service-1 {
+  &.with-shape {
+    position: relative;
+    padding-bottom: 200px;
+
+    .svg-shape {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      height: 100px;
+
+      .shape-fill {
+        fill: $primary-bg-color;
+      }
+    }
+
+    @media (max-width: $screen-m) {
+      padding-bottom: 150px;
+
+      .svg-shape {
+        height: 50px;
+      }
+    }
+  }
+}
+
+.section__kitas__service-1 {
+  &.with-shape {
+    .svg-shape {
+      transform: scaleX(-1);
+    }
+  }
+}
+
+@media (max-width: $screen-xl) {
+  .container {
+    max-width: $screen-m;
+  }
+
+  section {
+    .section__tag {
+      font-size: 1.25rem;
+    }
+
+    .section__title {
+      font-size: 2rem;
+    }
+  }
+}

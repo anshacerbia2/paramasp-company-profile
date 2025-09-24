@@ -1,0 +1,403 @@
+@use "../abstracts/variables.scss" as *;
+
+.section__indonesian-visa-service {
+  background-color: $primary-bg-color;
+  color: #fff;
+
+  h2 {
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+}
+
+.section__visa-types {
+  background-color: $primary-bg-color;
+  color: #fff;
+
+  h2 {
+    text-align: center;
+  }
+
+  .visa-types__table-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.25rem 1rem;
+
+    .visa-types__row {
+      display: flex;
+      gap: 0.25rem;
+
+      div {
+        padding: 0.25rem 1rem;
+        border: 1px solid #344959;
+        color: $secondary-text-color;
+      }
+
+      div:first-child {
+        min-width: 100px;
+        width: 100px;
+        border-top-left-radius: 0.5rem;
+        border-bottom-left-radius: 0.5rem;
+      }
+
+      div:last-child {
+        flex-grow: 1;
+        border-top-right-radius: 0.5rem;
+        border-bottom-right-radius: 0.5rem;
+      }
+    }
+  }
+
+  @media (max-width: $screen-m) {
+    .visa-types__table-wrapper {
+      grid-template-columns: 1fr;
+    }
+  }
+}
+
+.section__kitas {
+  background-color: $primary-bg-color;
+
+  .kitas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "image vm";
+    gap: 1.875rem 2.5rem;
+
+    &__image {
+      grid-area: image;
+      display: flex;
+      border-radius: 1.5rem;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+      overflow: hidden;
+
+      img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        object-position: center;
+      }
+    }
+
+    &__content {
+      grid-area: vm;
+      color: $secondary-text-color;
+
+      > h2 {
+        margin-bottom: 2rem;
+      }
+
+      > p {
+        font-weight: 300;
+        margin-bottom: 2rem;
+      }
+
+      .blue-card__item {
+        flex-direction: column;
+        gap: 0.75rem;
+      }
+    }
+  }
+
+  @media (max-width: $screen-xl) {
+    .kitas {
+      grid-template-columns: 1fr;
+      grid-template-areas: "vm" "image";
+
+      &__image {
+        img {
+          max-height: 280px;
+          object-position: top;
+        }
+      }
+
+      &__content {
+        .cards {
+          padding: 1rem;
+        }
+      }
+    }
+  }
+}
+
+.section__kitas__service-1 {
+  padding-bottom: 200px;
+  background: linear-gradient(130deg, #172530, #d3d3d3);
+
+  .service-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "vm image";
+    gap: 1.875rem 2.5rem;
+
+    &__image {
+      grid-area: image;
+      display: flex;
+      border-radius: 1.5rem;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+      overflow: hidden;
+
+      img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        object-position: center;
+      }
+    }
+
+    &__content {
+      grid-area: vm;
+
+      > h2 {
+        margin-bottom: 2rem;
+      }
+
+      .accordion {
+        &__nav {
+          &.active {
+            .accordion__number {
+              background-color: #fff;
+              color: #000;
+            }
+
+            .accordion__line {
+              border-left-color: #fff;
+              border-left-style: solid;
+            }
+          }
+
+          .accordion__number {
+            border: 1px solid #c2c2c2;
+            background-color: #323d47;
+            color: #fff;
+          }
+
+          .accordion__line {
+            border-left: 1px dashed #c2c2c2;
+          }
+        }
+
+        &__button {
+          border: 1px solid #c2c2c2;
+          background: linear-gradient(45deg, #323d47, #f3f3f31a);
+          box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+          color: #fff;
+
+          &::before {
+            display: none;
+          }
+
+          &.active {
+            border-color: #fff;
+            .child:hover {
+              box-shadow: 0 16px 32px rgba(0, 0, 0, 0.2),
+                0 0 0 1px rgba(255, 255, 255, 0.05) inset;
+            }
+          }
+          //   background: linear-gradient(
+          //     135deg,
+          //     rgba(75, 85, 99, 1) 0%,
+          //     // abu-abu gelap (tailwind gray-600)
+          //     rgba(107, 114, 128, 0.95) 40%,
+          //     // abu-abu medium (gray-500)
+          //     rgba(156, 163, 175, 0.85) 100% // abu-abu terang (gray-400)
+          //   );
+          //   color: #f9fafb; // teks putih agar kontras
+          //   border: 1px solid rgba(255, 255, 255, 0.08);
+          //   border-radius: 0.75rem;
+          //   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05),
+          //     0 2px 6px rgba(0, 0, 0, 0.4);
+          //   transition: all 0.3s ease;
+          // }
+        }
+
+        &__content {
+          p {
+            color: #efefef;
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width: $screen-xl) {
+    .service-1 {
+      grid-template-columns: 1fr;
+      grid-template-areas: "image" "vm";
+
+      &__image {
+        img {
+          max-height: 280px;
+          object-position: top;
+        }
+      }
+
+      &__content {
+        .cards {
+          padding: 1rem;
+        }
+      }
+    }
+  }
+
+  @media (max-width: $screen-m) {
+    padding-bottom: 150px;
+  }
+}
+
+.section__kitas__service-2 {
+  position: relative;
+  background-color: $primary-bg-color;
+
+  .svg-shape {
+    position: absolute;
+    top: -100px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    transform: scaleX(-1);
+
+    .shape-fill {
+      fill: $primary-bg-color;
+    }
+  }
+
+  .service-2 {
+    &__content {
+      grid-area: vm;
+      color: $secondary-text-color;
+
+      > h2 {
+        margin-bottom: 2rem;
+        text-align: center;
+      }
+
+      .accordion {
+        &__content {
+          .raw-content {
+            margin-top: 1rem;
+            color: $secondary-text-color;
+            font-size: 0.95rem;
+            font-weight: 300;
+
+            p {
+              margin: 0 0 0.5rem;
+            }
+
+            ul {
+              list-style-type: disc;
+              margin-block: 0.75rem;
+
+              li {
+                margin-bottom: 0.25rem;
+              }
+            }
+
+            strong {
+              font-weight: 600;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.section__pasport-processing,
+.section__foreign-visa-processing {
+  background-color: $primary-bg-color;
+  color: $secondary-text-color;
+
+  h2 {
+    text-align: center;
+  }
+
+  h2 + p {
+    margin-bottom: 3rem;
+    font-weight: 300;
+    text-align: center;
+  }
+
+  .card-wrapper {
+    display: flex;
+    gap: 1.5rem;
+
+    .blue-card {
+      width: calc((100% - 3rem) / 3);
+      padding: 0;
+      font-weight: 300;
+
+      .image {
+        aspect-ratio: 16/9;
+        background-size: cover;
+        background-position: center;
+      }
+
+      .content {
+        position: relative;
+        padding: 1.5rem;
+        text-align: center;
+
+        h3 {
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+
+  @media (max-width: $screen-xl) {
+    .card-wrapper {
+      flex-wrap: wrap;
+      justify-content: center;
+
+      .blue-card {
+        width: calc((100% - 1.5rem) / 2);
+      }
+    }
+  }
+
+  @media (max-width: $screen-s) {
+    .card-wrapper {
+      .blue-card {
+        width: 100%;
+      }
+    }
+  }
+}
+
+.section__foreign-visa-processing {
+  .card-wrapper {
+    .blue-card {
+      padding-block: 5rem;
+    }
+  }
+}
+
+.section__company-legalization {
+  background-color: $primary-bg-color;
+  color: $secondary-text-color;
+
+  h2 {
+    text-align: center;
+  }
+
+  h2 + p {
+    margin-bottom: 3rem;
+    font-weight: 300;
+    text-align: center;
+  }
+}
+
+#indonesian-visa-processing,
+#stay-and-work-permit,
+#passport-processing,
+#foreign-visa-processing,
+#company-legalization {
+  .section__client-trust {
+    .svg-shape {
+      .shape-fill {
+        fill: #fff;
+      }
+    }
+  }
+}

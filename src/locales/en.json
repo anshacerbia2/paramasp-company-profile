@@ -1,0 +1,554 @@
+{
+  "meta": {
+    "title": "Parama Satya Pertiwi | Professional, Fast, and Trusted Foreign Worker Permit Services in Indonesia",
+    "description": "Paramasp (PT. Parama Satya Pertiwi) provides fast, secure, and professional foreign worker work and stay permit services in Indonesia, fully compliant with regulations.",
+    "keywords": "Paramasp, foreign worker permit Indonesia, expatriate work permit service, KITAS processing Indonesia, expatriate stay permit, Indonesia work visa assistance, professional expatriate legal services, foreign worker permit procedure, Indonesia expat consultant, expatriate visa service Indonesia"
+  },
+  "global": {
+    "button": {
+      "read-more": "Read More..."
+    },
+    "words": {
+      "published": "Published",
+      "prev": "Previous",
+      "next": "Next",
+      "aria-label-wa": "Chat with us on WhatsApp",
+      "aria-label-open-sidebar": "Open Sidebar",
+      "aria-label-close-sidebar": "Close Sidebar"
+    }
+  },
+  "header": {
+    "navigation": {
+      "home": {
+        "label": "Home"
+      },
+      "about": {
+        "label": "About Us"
+      },
+      "services": {
+        "label": "Services",
+        "list": {
+          "indonesian-visa-processing": "Indonesian Visa Processing",
+          "stay-and-work-permit": "Temporary Stay Permit & Foreign Worker Permit Processing",
+          "passport-processing": "Passport Processing",
+          "foreign-visa-processing": "Foreign Visa Processing",
+          "company-legalization": "Company Legalization Services"
+        }
+      },
+      "news": {
+        "label": "News",
+        "list": {
+          "immigration-law": "Immigration Law",
+          "kitas-vs-kitap": "KITAS & KITAP",
+          "visa-c17-extension": "C17 Visa Extension"
+        }
+      },
+      "contact": {
+        "label": "Contact"
+      }
+    }
+  },
+  "home": {
+    "meta": {
+      "title": "Parama Satya Pertiwi | Professional, Fast, and Trusted Foreign Worker Permit Services in Indonesia",
+      "description": "Paramasp (PT. Parama Satya Pertiwi) provides fast, secure, and professional foreign worker work and stay permit services in Indonesia, fully compliant with regulations.",
+      "keywords": "Paramasp, foreign worker permit Indonesia, expatriate work permit service, KITAS processing Indonesia, expatriate stay permit, Indonesia work visa assistance, professional expatriate legal services, foreign worker permit procedure, Indonesia expat consultant, expatriate visa service Indonesia"
+    },
+    "title": "Professional Foreign Worker (TKA) Management Services in Indonesia",
+    "hero": {
+      "carousel": {
+        "slide-1": {
+          "title": "Practical Solutions for Expatriate Permits in Indonesia — Safe, Fast, and Professional",
+          "content": "We help your company manage all requirements for foreign workers stay and work permits with a transparent process and guaranteed results.",
+          "button": "Read More..."
+        },
+        "slide-2": {
+          "title": "From Documents to Legalization — Hassle-Free Expatriate Permit Services",
+          "content": "No need to worry about administrative details — our team handles every stage of the process so you can stay focused on growing your business.",
+          "button": "Read More..."
+        },
+        "slide-3": {
+          "title": "Leave Expatriate Permit Matters to the Experts — Boost Your Business Efficiency",
+          "content": "With our experience and expertise, expatriate permit management becomes faster, more accurate, and always compliant with the latest regulations.",
+          "button": "Read More..."
+        }
+      }
+    }
+  },
+  "about-us": {
+    "meta": {
+      "title": "About Us | Parama Satya Pertiwi — Professional & Trusted Foreign Worker Permit Services",
+      "description": "Parama Satya Pertiwi is a trusted company providing foreign worker permit services. Fast, legal, and confidential services with a professional commitment to client satisfaction.",
+      "keywords": "About Parama Satya Pertiwi, foreign worker permit services, work permit processing, foreign worker legalization, foreign worker consultancy, corporate immigration services, work permit Indonesia"
+    },
+    "seo-title": "Getting to Know Parama Satya Pertiwi — Experts in Foreign Worker Permit Services",
+    "tag": "About Us",
+    "title": "PT. Parama Satya Pertiwi",
+    "excerpt": "PT. Parama Satya Pertiwi operates in legal document management for Foreign Workers (TKA), covering Stay Permits, Work Permits, and other related authorizations.",
+    "vision-mission": {
+      "tag": "What Drives Us",
+      "title": "Our Vision and Mission for Trusted and Hassle-Free Foreign Worker Permit Services",
+      "excerpt": "We exist to help businesses and individuals navigate the complexities of foreign worker permits. Our vision is to be a trusted partner in managing RPTKA and IMTA applications efficiently, legally, and confidentially—making the process smooth and reliable for every client.",
+      "vision": {
+        "title": "Vision",
+        "content": "To become a trusted company in providing foreign worker permit management services."
+      },
+      "mission": {
+        "title": "Mission",
+        "content": "Assisting clients in obtaining RPTKA and IMTA in compliance with applicable laws and regulations."
+      }
+    },
+    "commitment": {
+      "tag": "Our Commitments",
+      "title": "Delivering Reliable, Professional, and Client-Centered Foreign Worker Permit Services",
+      "list": {
+        "item-1": "Ready to serve clients anytime with the fastest and most reliable service.",
+        "item-2": "Helping resolve issues accurately and in full compliance with applicable regulations.",
+        "item-3": "Strictly maintaining the confidentiality of client information from unauthorized parties.",
+        "item-4": "With friendliness and professionalism, we support our clients in achieving their business and operational goals.",
+        "item-5": "Delivering excellent service to ensure satisfaction and peace of mind for every client."
+      }
+    }
+  },
+  "services": {
+    "shared": {
+      "tag": "What We Do",
+      "title": "Our Expertise & Services",
+      "excerpt": "We provide a wide range of professional services designed to make the immigration process easier, faster, and more efficient.",
+      "list": {
+        "item-1": {
+          "title": "Indonesia Visa Services",
+          "excerpt": "Comprehensive solutions for all types of Indonesian visas, including short visits, study, employment, and business travel."
+        },
+        "item-2": {
+          "title": "KITAS & Foreign Worker Permit (TKA) Processing",
+          "excerpt": "We assist expatriates and companies in obtaining KITAS and work permits in Indonesia. From RPTKA, IMTA, VITAS, ITAS to ITAP, all processed quickly, securely, and in compliance with regulations."
+        },
+        "item-3": {
+          "title": "Indonesian Passport & E\u2011Passport Services",
+          "excerpt": "We handle new passport applications, renewals, replacements for lost or damaged passports, as well as e\u2011passports. Fast, simple, and compliant with Indonesian immigration rules."
+        },
+        "item-4": {
+          "title": "Overseas Visa Application Services",
+          "excerpt": "We assist with business, tourist, single-entry, and multiple-entry visa applications for various countries. Complete documentation, more efficient processing, and hassle-free."
+        },
+        "item-5": {
+          "title": "Company Legalization & Business Licensing",
+          "excerpt": "Easily secure your business legality. We support PT establishment, deed amendments, NIB, NPWP, SBU, and other business licenses to ensure your company operates legally and safely."
+        }
+      }
+    },
+    "indonesian-visa-processing": {
+      "meta": {
+        "title": "Indonesia Visa Services — Fast & Legal Visit, Work, Student & Business Visa Assistance | Parama Satya Pertiwi",
+        "description": "Explore Indonesia visa services including Visit Visa, Work Visa, Student Visa, Business Visa (Single & Multiple Entry), and Visa on Arrival. Professional guidance for fast, legal, and hassle-free application.",
+        "keywords": "Indonesia visa services, visit visa Indonesia, work visa Indonesia, student visa Indonesia, business visa Indonesia, multiple entry visa Indonesia, visa on arrival Indonesia, corporate immigration Indonesia, foreigner visa assistance"
+      },
+      "seo-title": "Complete Guide to Indonesian Visa Services for Tourism, Work, Study, and Business",
+      "title": "Indonesia Visa Services",
+      "excerpt": "Fast & legal Indonesian visa services: tourist, work, student, business, and visa on arrival with expert guidance.",
+      "list": {
+        "item-1": {
+          "title": "Visit Visa",
+          "description": "The Indonesia Visit Visa is intended for short stays, including business meetings, tourism, family visits, or official purposes."
+        },
+        "item-2": {
+          "title": "Work Visa",
+          "description": "The Indonesia Work Visa is required for foreign workers employed by a legally registered company based in Indonesia."
+        },
+        "item-3": {
+          "title": "Student Visa",
+          "description": "The Indonesia Student Visa is designed for international students officially accepted by an accredited educational institution in Indonesia."
+        },
+        "item-4": {
+          "title": "Visa on Arrival (VOA)",
+          "description": "The Indonesia Visa on Arrival can be obtained directly at international airports or immigration checkpoints without prior application at an embassy."
+        },
+        "item-5": {
+          "title": "Single Entry Business Visa",
+          "description": "The Indonesia Single Entry Business Visa allows a one-time entry for business purposes. A new application is required once you exit the country."
+        },
+        "item-6": {
+          "title": "Multiple Entry Business Visa",
+          "description": "The Indonesia Multiple Entry Business Visa allows frequent business visits during its validity period, ideal for entrepreneurs and investors."
+        }
+      }
+    },
+    "stay-and-work-permit": {
+      "meta": {
+        "title": "KITAS & ITAP Services — Legal Stay and Work in Indonesia | Parama Satya Pertiwi",
+        "description": "Parama Satya Pertiwi provides professional services for managing KITAS (Limited Stay Permit), ITAS, and ITAP for expatriates. Ensure a fast, legal, and regulation-compliant stay and work process in Indonesia.",
+        "keywords": "KITAS, ITAS, ITAP, limited stay permit, permanent stay permit, foreign workers, expatriates, Indonesia immigration services, work visa processing, Parama Satya Pertiwi"
+      },
+      "seo-title": "Legal Stay and Work Solutions in Indonesia for Foreign Workers",
+      "title": "KITAS & ITAP Services for Legal Stay and Work in Indonesia",
+      "excerpt": "Professional KITAS & ITAP services for expats. Stay and work in Indonesia legally, quickly, and hassle-free.",
+      "kitas": {
+        "title": "KITAS (Limited Stay Permit Card) Processing Services",
+        "intro": "Parama Satya Pertiwi provides professional KITAS processing services at every step, ensuring a fast, legal, and fully compliant stay-and-work experience for expatriates in Indonesia.",
+        "paragraphs": {
+          "paragraph-1": {
+            "tag": "Why KITAS is Important",
+            "paragraph": "For expatriates wishing to live and work in Indonesia, the KITAS (Limited Stay Permit) is a mandatory legal document. It is issued by the Directorate General of Immigration and serves as the legal basis for living, working, or investing in Indonesia for a specified period."
+          },
+          "paragraph-2": {
+            "tag": "Simplifying a Complex Process",
+            "paragraph": "We understand that the KITAS application process can be complex and time-consuming. With our team's experience and expertise, each step is executed efficiently and in full compliance with regulations, allowing you to focus on your work or business plans in Indonesia."
+          }
+        }
+      },
+      "services": {
+        "service-1": {
+          "title": "Procedure for Work and Stay Permits for Foreign Workers (Expatriates) in Indonesia",
+          "list": {
+            "item-1": {
+              "title": "Expatriate Manpower Utilization Plan (RPTKA)",
+              "description": "The sponsoring company submits an RPTKA to the Ministry of Manpower of Indonesia (Kemnaker) as a mandatory planning document for employing foreign workers. The RPTKA outlines the job title, duration of employment, number of expatriates, and work location. Once approved, the RPTKA Endorsement is issued as the initial legal basis."
+            },
+            "item-2": {
+              "title": "Notification or Expatriate Employment Permit (IMTA)",
+              "description": "Based on the approved RPTKA, the company must apply for a Notification of foreign manpower utilization. At this stage, the company is also required to pay the Compensation Fund for the Utilization of Foreign Workers (DKPTKA) to the state. The Notification document issued by the Ministry of Manpower then serves as the official work permit for expatriates."
+            },
+            "item-3": {
+              "title": "Application for Limited Stay Visa (VITAS)",
+              "description": "With the Notification document, the company applies for a Limited Stay Visa (VITAS) at the Directorate General of Immigration. Immigration will issue a visa approval letter (telex visa) addressed to the Indonesian Embassy or Consulate in the expatriate's country of origin."
+            },
+            "item-4": {
+              "title": "Arrival of the Expatriate in Indonesia",
+              "description": "The expatriate enters Indonesia using the VITAS. Upon arrival, the immigration system automatically issues an electronic Limited Stay Permit (ITAS). The ITAS simultaneously functions as the Limited Stay Permit Card (KITAS)."
+            },
+            "item-5": {
+              "title": "Reporting to Authorities and Supporting Documents",
+              "description": "After arrival, the expatriate must report to the local Manpower Office and complete additional supporting documents as required, such as presence reporting, Taxpayer Identification Number (NPWP) for employment exceeding six months, registration with BPJS (Social Security), and other administrative documents."
+            }
+          }
+        },
+        "service-2": {
+          "title": "Extension and Status Change of Foreign Worker Stay Permits (TKA) in Indonesia",
+          "excerpt": "Extending Foreign Worker (TKA) stay permits in Indonesia ensures legal residence and work after the previous permit expires. Explore the options for extending ITK, ITAS, and ITAP to maintain immigration compliance and smooth employment.",
+          "list": {
+            "item-1": {
+              "title": "Extension of Visit Stay Permit (ITK)",
+              "content": "<p>The ITK extension is granted to Foreign Workers (TKA) holding:</p><ul><li>Single-Entry Visitor Visa</li><li>Multiple-Entry Visitor Visa</li><li>Visa on Arrival (VoA)</li></ul>"
+            },
+            "item-2": {
+              "title": "Extension of Limited Stay Permit (ITAS)",
+              "content": "<p>The ITAS extension is granted for various categories of Foreign Workers (TKA) based on the purpose of stay and employment, including:</p><ul><li>Experts with professional or specialized skills in specific fields.</li><li>Foreign workers employed by companies or sponsors in Indonesia.</li><li>Foreign nationals working on ships, floating equipment, or installations operating in Indonesian waters, territorial seas, continental shelf, or the Indonesian Exclusive Economic Zone.</li><li>Clergy members performing religious duties in Indonesia.</li><li>Foreign investors investing in Indonesia.</li><li>Researchers or scientists conducting scientific research.</li><li>Students or participants in educational programs in Indonesia.</li><li>Foreign nationals joining family members holding ITAS (family reunification).</li><li>Foreign nationals undergoing repatriation or relocation in Indonesia.</li><li>Holders of a second home permit in Indonesia under applicable regulations.</li><li>Foreign nationals invited by the government for their expertise (global talent).</li><li>World figures or international personalities officially invited.</li><li>Foreign Workers aged 60 years or older who meet residence requirements.</li></ul><p><strong>General Requirements for ITAS Extension:</strong></p><ul><li>A valid and legitimate national passport as the official identity of the Foreign Worker (TKA).</li><li>Statement of integration, except for unmarried children under 18 years old.</li><li>The ITAS held by the respective Foreign Worker (TKA).</li><li>Guarantee from the Sponsor, if applicable.</li><li>Identity Card (KTP) and/or Family Card of the Sponsor or Responsible Party, if applicable.</li><li>ITAS of the spouse, parent, or child for Foreign Workers joining family members holding ITAS.</li></ul>"
+            },
+            "item-3": {
+              "title": "Extension of Permanent Stay Permit (ITAP)",
+              "content": "<p>The ITAP extension allows Foreign Workers (TKA) to legally maintain their permanent stay permit in Indonesia as requested.</p><ul><li>Permanent Stay Permits (ITAP) may be extended without time limitation as requested by the TKA.</li><li>ITAP extension applications can be submitted from 3 months before the ITAP expiry until the last valid day.</li><li>The extension takes effect from the expiration date of the previous ITAP.</li><li>Immigration fee payments made before ITAP expiry remain valid. Applications processed beyond the ITAP validity period are not considered overstay.</li></ul>"
+            },
+            "item-4": {
+              "title": "Conversion of Visit Stay Permit (ITK) to Limited Stay Permit (ITAS)",
+              "content": "<p>Converting ITK to ITAS allows Foreign Workers (TKA) to continue residing and working legally in Indonesia before the visit period ends.</p><ul><li>Applications for conversion must be submitted no later than 30 days before the ITK expiry date.</li><li>Applications are submitted by the Foreign National, Sponsor, or Responsible Party via the application system to the local Immigration Office Head.</li><li>Eligible activity categories for conversion:<ul><li>Expert</li><li>Worker</li><li>Clergy</li><li>Foreign investor</li><li>Scientific research</li><li>Education</li><li>Family reunification</li><li>Repatriation</li><li>Second home</li><li>Medical treatment</li><li>Public welfare and/or humanitarian reasons</li></ul></li><li>ITK obtained from Visa on Arrival (VoA) or Visa Exemption cannot be converted to another stay permit.</li><li>Applications submitted and paid before the ITK expiry remain valid. Applications processed beyond the validity period are not considered overstay.</li></ul>"
+            },
+            "item-5": {
+              "title": "Conversion of Limited Stay Permit (ITAS) to Permanent Stay Permit (ITAP)",
+              "content": "<p>Converting ITAS to ITAP allows Foreign Workers (TKA) to maintain permanent residency legally in Indonesia before ITAS expires.</p><ul><li>Applications for conversion must be submitted no later than 30 days before the ITAS expiry date.</li><li>Applications are submitted by the Foreign National, Sponsor, or Responsible Party via the application system to the local Immigration Office Head.</li><li>Eligible activity categories for conversion: <ul><li>Worker</li><li>Clergy</li><li>Foreign investor</li><li>Family reunification</li><li>Repatriation</li><li>Second home</li><li>Special expertise</li><li>World figure</li><li>Foreign Worker aged 60 years or older</li></ul></li></ul>"
+            },
+            "item-6": {
+              "title": "Granting of Permanent Stay Permit (ITAP) Without Conversion",
+              "content": "<p>ITAP may be granted directly without conversion for certain categories under regulations.</p><ul><li>Former dual-national children of the Republic of Indonesia who chose foreign citizenship or failed to choose until the age of 21 while in Indonesia.</li><li>Children born in Indonesia to ITAP holders.</li><li>Indonesians who lost their citizenship while in Indonesia.</li></ul><p><strong>Notes:</strong></p><ul><li>ITAP is granted directly without conversion procedures upon application to the local Immigration Office Head.</li><li>ITAP is granted for a period of 5 years.</li><li>ITAP for applicants under family reunification or children born in Indonesia follows the validity of the ITAP held by the Foreign National they join.</li></ul>"
+            },
+            "item-7": {
+              "title": "Reporting of Permanent Stay Permit (ITAP)",
+              "content": "<p>Foreign Workers (TKA) holding ITAP must report every 5 years to the Immigration Office in their area of residence.</p><p><strong>General Requirements:</strong></p><ul><li>A valid national passport</li><li>Permanent Stay Permit (ITAP)</li></ul><p><strong>Specific Requirements:</strong></p><ul><li>Proof of company legitimacy</li><li>Proof of employment permit legitimacy</li><li>Proof of religious activities legitimacy</li><li>Latest bank statement</li><li>Company deed amendment</li><li>Latest land and building tax (PBB)</li><li>Latest financial report</li><li>Latest corporate tax</li><li>Latest income proof</li><li>Latest bond certificate</li><li>Latest share ownership</li><li>Other supporting documents confirming the purpose of residence in Indonesia</li></ul>"
+            }
+          }
+        }
+      }
+    },
+    "passport-processing": {
+      "meta": {
+        "title": "Indonesian Passport Services — New, Renewal, Replacement & E-Passport Assistance | Parama Satya Pertiwi",
+        "description": "Parama Satya Pertiwi provides professional Indonesian passport services for citizens, including new passport applications, renewals, replacements for lost or damaged passports, and e-passport issuance. Fast, reliable, and fully compliant with Indonesian immigration regulations.",
+        "keywords": "Indonesian passport services, new passport Indonesia, passport renewal, lost passport replacement, e-passport Indonesia, passport data amendment, Parama Satya Pertiwi, Indonesian citizen passport services"
+      },
+      "seo-title": "Comprehensive Indonesian Passport Services for Citizens",
+      "title": "Indonesian Passport Services",
+      "excerpt": "Parama Satya Pertiwi provides comprehensive Indonesian passport services, including new passport applications, renewals, lost or damaged passport replacements, and e\u2011passport issuance. Fast, reliable, and fully compliant with Indonesian immigration regulations.",
+      "list": {
+        "item-1": {
+          "title": "New Passport Application",
+          "description": "Assistance for Indonesian citizens applying for a passport for the first time. Available options include electronic passports (e\u2011passport) and non-electronic regular passports.",
+          "image": {
+            "src": "/images/passport-new.webp",
+            "alt": "Indonesian new passport application service"
+          }
+        },
+        "item-2": {
+          "title": "Passport Renewal & Replacement",
+          "description": "Services for renewing expired passports or replacing lost or damaged passports. We ensure a smooth process in compliance with the Directorate General of Immigration regulations.",
+          "image": {
+            "src": "/images/passport-renewal.webp",
+            "alt": "Indonesian passport renewal and replacement service"
+          }
+        },
+        "item-3": {
+          "title": "Passport Data Amendment",
+          "description": "Support for updating passport holder information, including name, place and date of birth, and gender, in accordance with official immigration procedures.",
+          "image": {
+            "src": "/images/passport-amendment.webp",
+            "alt": "Passport data amendment service in Indonesia"
+          }
+        }
+      }
+    },
+    "foreign-visa-processing": {
+      "meta": {
+        "title": "Foreign Visa Processing Services — Fast, Legal & Professional | Parama Satya Pertiwi",
+        "description": "Parama Satya Pertiwi offers professional foreign visa processing services for individuals and companies. We assist with document preparation, form submission, and application tracking to ensure a fast, easy, and efficient visa process.",
+        "keywords": "foreign visa services, business visa, visit visa, single entry visa, multiple entry visa, Parama Satya Pertiwi, professional visa assistance"
+      },
+      "seo-title": "Foreign Visa Processing — Fast, Reliable, and Hassle-Free",
+      "title": "Overseas Visa Services",
+      "excerpt": "Parama Satya Pertiwi provides professional overseas visa services to simplify the complex process of obtaining foreign visas. We assist individuals and corporations with document preparation, form completion, and application tracking to ensure a smooth, fast, and efficient visa application process.",
+      "list": {
+        "item-1": {
+          "title": "Business Visit Visa",
+          "description": "Support for short-term visits abroad, including business meetings, conferences, tourism, or family purposes. We ensure your application complies with the respective country's immigration requirements."
+        },
+        "item-2": {
+          "title": "Single-Entry Visa",
+          "description": "Assistance in applying for a single-entry visa that allows one-time entry. Once you leave the destination country, a new application is required for re-entry."
+        },
+        "item-3": {
+          "title": "Multiple-Entry Business Visa",
+          "description": "Processing of multiple-entry visas that allow frequent travel during the validity period. Ideal for business professionals with regular overseas travel needs."
+        }
+      }
+    },
+    "company-legalization": {
+      "meta": {
+        "title": "Company Legalization Services — Fast, Professional & Trusted | Parama Satya Pertiwi",
+        "description": "Parama Satya Pertiwi offers comprehensive company legalization services, including company establishment, business permits, and special certifications. Fast, professional, and fully compliant with regulations, enabling your business to operate smoothly without administrative burdens.",
+        "keywords": "company legalization, business permits, company establishment, NPWP, SBU, corporate certification, Parama Satya Pertiwi, professional company services, legal compliance"
+      },
+      "seo-title": "Company Legalization — Fast, Easy, and Professional",
+      "title": "Corporate Legalization Services",
+      "excerpt": "Fast & professional company legalization services: incorporation, business licenses, tax ID, and special certifications.",
+      "description": "Complete business legalization is the foundation for running a company safely, professionally, and in compliance with regulations. Parama Satya Pertiwi assists businesses with company establishment, business licensing, and special certifications through a fast, easy, and fully compliant process. Supported by an experienced team of experts, we ensure every licensing requirement is handled efficiently, allowing you to focus on growing your business without the burden of complex administrative matters.",
+      "list": {
+        "item-1": "Company Establishment Deed",
+        "item-2": "Company Amendment Deed",
+        "item-3": "Business Identification Number (NIB)",
+        "item-4": "Corporate Taxpayer Identification Number (NPWP)",
+        "item-5": "Business Entity Certificate (SBU)",
+        "item-6": "Other corporate legalization needs"
+      }
+    }
+  },
+  "client-trust-priority": {
+    "title": "\"Client Trust Is Our Top Priority\"",
+    "excerpt": "We understand that a company's success depends on client satisfaction and trust. That's why we are committed to providing the best, professional, and tailored services to meet your needs.",
+    "list": {
+      "item-1": {
+        "count": "100",
+        "text": "Companies satisfied with our services"
+      },
+      "item-2": {
+        "count": "11900",
+        "text": "Expatriates happy with our solutions"
+      },
+      "item-3": {
+        "count": "15100",
+        "text": "Documents successfully processed"
+      },
+      "item-4": {
+        "count": "10",
+        "text": "Proven years of experience"
+      }
+    }
+  },
+  "news": {
+    "meta": {
+      "title": "News & Updates | Parama Satya Pertiwi",
+      "description": "Stay updated with the latest news, insights, and announcements from Parama Satya Pertiwi. Explore all articles and updates in one place.",
+      "keywords": "news, updates, articles, Parama Satya Pertiwi"
+    },
+    "tag": "News",
+    "title": "Information & Updates",
+    "immigration-law": {
+      "meta": {
+        "title": "Indonesia Immigration Law — Complete Guide to Terms, Permits & Regulations | Parama Satya Pertiwi",
+        "description": "Understand Indonesia's Immigration Law: definitions, residence permits, visas, entry and exit procedures, immigration enforcement, and official regulations. Learn legal terms and requirements for foreigners and citizens.",
+        "keywords": "Indonesia Immigration Law, Indonesian visas, residence permits Indonesia, KITAS, KITAP, Immigration Regulations Indonesia, Entry and Exit Indonesia, Immigration Enforcement, Immigration Officers, Travel Document Indonesia, Permanent Residence Indonesia, Indonesian immigration legal terms, immigration compliance Indonesia, Indonesian Ministry of Law and Human Rights"
+      },
+      "title": "Immigration Law",
+      "excerpt": "Learn Indonesia's Immigration Law: definitions, residence permits, visas, entry/exit rules, and enforcement.",
+      "content": "<h2>Chapter 1 - General Provisions</h2><section><h3>Article 1</h3><p>In this Law, the following terms shall mean:</p><ol><li>Immigration refers to matters related to the traffic of people entering or leaving the Territory of Indonesia and its supervision in order to safeguard state sovereignty.</li><li>The Territory of the Republic of Indonesia, hereinafter referred to as the Territory of Indonesia, is the entire territory of Indonesia along with certain zones established under the law.</li><li>The Immigration Function is part of the administration of the state in providing immigration services, law enforcement, state security, and facilitation of community welfare development.</li><li>The Minister is the minister responsible for government affairs in the field of law and human rights.</li><li>The Director General is the Director General of Immigration.</li><li>The Directorate General of Immigration is the implementing unit of the duties and functions of the Ministry of Law and Human Rights in the field of immigration.</li><li>Immigration Officer is a civil servant who has completed special immigration education and training, possesses technical immigration expertise, and is authorized to carry out duties and responsibilities under this Law.</li><li>Immigration Civil Servant Investigator (PPNS Keimigrasian) is an Immigration Officer authorized by law to conduct investigations into immigration crimes.</li><li>Foreigner means a person who is not an Indonesian citizen.</li><li>The Immigration Management Information System is an information and communication technology system used to collect, process, and present information to support operations, management, and decision-making in carrying out the Immigration Function.</li><li>Immigration Office is a technical implementation unit that carries out the Immigration Function in a regency, city, or district.</li><li>Immigration Checkpoint (TPI) is a checkpoint at seaports, airports, border crossings, or other designated places for entering and leaving the Territory of Indonesia.</li><li>Travel Document is an official document issued by an authorized officer of a country, the UN, or other international organization for international travel containing the identity of its holder.</li><li>Immigration Document is the Travel Document of the Republic of Indonesia, as well as Residence Permits issued by Immigration Officers or foreign service officers.</li><li>Travel Document of the Republic of Indonesia refers to the Indonesian Passport and the Indonesian Travel Document in Lieu of a Passport.</li><li>Indonesian Passport is a document issued by the Government of the Republic of Indonesia to its citizens for international travel valid for a certain period.</li><li>SPLP is a substitute travel document issued under certain circumstances and valid for a certain period.</li><li>Indonesian Visa is a written statement issued by an authorized official at an Indonesian mission abroad or at another place designated by the Indonesian Government granting permission to travel to the Territory of Indonesia and forming the basis for granting a Residence Permit.</li><li>Entry Stamp is a manual or electronic stamp affixed to a Travel Document as proof of entry.</li><li>Exit Stamp is a manual or electronic stamp affixed to a Travel Document as proof of exit.</li><li>Residence Permit is a permit granted to a foreigner to stay in the Territory of Indonesia.</li><li>Integration Statement is a declaration by a foreigner to the Government of Indonesia as a requirement for obtaining a Permanent Residence Permit.</li><li>Permanent Residence Permit is a permit granted to certain foreigners to reside permanently in the Territory of Indonesia as Indonesian residents.</li><li>Re-entry Permit is a written permit granted to a foreign holder of a Limited or Permanent Residence Permit to re-enter the Territory of Indonesia.</li><li>Corporation means an organized group of people and/or assets, whether incorporated or not.</li><li>Sponsor is a person or corporation responsible for the presence and activities of foreigners while in Indonesia.</li><li>Carrier refers to ships, aircraft, or other means of transportation commonly used.</li><li>Prevention is a temporary prohibition against someone leaving Indonesia for certain reasons.</li><li>Blacklist is a prohibition against foreigners from entering Indonesia based on immigration reasons.</li><li>Immigration Intelligence is investigative and security activities conducted to analyze immigration situations.</li><li>Immigration Administrative Action refers to administrative sanctions outside the judicial process.</li><li>Human Smuggling is the act of bringing a person or group of people to obtain financial or other material benefits...</li><li>Immigration Detention Center (Rudenim) is a technical unit serving as a temporary holding place for foreigners subject to Immigration Administrative Action.</li><li>Immigration Detention Room is a temporary holding place located at the Directorate General of Immigration and Immigration Offices.</li><li>Detainee is a foreigner placed in an Immigration Detention Center or Room based on a detention decision.</li><li>Deportation is the forced removal of a foreigner from Indonesia.</li><li>Carrier's Responsible Person is the owner, manager, agent, captain, pilot, or driver of the means of transportation.</li><li>Passenger means any person on board a means of transportation, except the crew.</li><li>Indonesian Mission refers to the Indonesian Embassy, Consulate General, and Consulate.</li></ol></section><section><h3>Article 2</h3><p>Every Indonesian citizen has the right to travel abroad and re-enter the Territory of Indonesia.</p></section><footer><p>Source: <a href=\"https://www.imigrasi.go.id/\">imigrasi.go.id</a></p></footer>",
+      "image": {
+        "src": "/images/gedung-kemenkumham.jpeg",
+        "alt": "Illustration of Indonesian Immigration Law: official documents, passport, and government regulations"
+      },
+      "published": "2025-09-20T00:00:00Z",
+      "source": "https://www.imigrasi.go.id/"
+    },
+    "kitas-vs-kitap": {
+      "meta": {
+        "title": "Difference Between KITAS and KITAP in Indonesia — Complete Guide to ITAS & ITAP | Parama Satya Pertiwi",
+        "description": "Learn the key differences between KITAS (Limited Stay Permit) and KITAP (Permanent Stay Permit) in Indonesia. Discover eligibility, requirements, extension rules, reporting procedures, and legal basis for foreign residents.",
+        "keywords": "KITAS, KITAP, ITAS, ITAP, Indonesia residence permit, Indonesian immigration, foreign stay Indonesia, limited stay permit Indonesia, permanent stay permit Indonesia, visa and stay permit Indonesia, immigration requirements Indonesia, Indonesian Ministry of Law and Human Rights, immigration legal basis"
+      },
+      "title": "Difference Between KITAS and KITAP",
+      "excerpt": "Understand the differences between KITAS (Limited Stay Permit) and KITAP (Permanent Stay Permit) in Indonesia.",
+      "content": "<h2>What is the Difference Between KITAS and KITAP, and How to Process Them?</h2><section><h3>ITAS (Limited Stay Permit)</h3><p>The Limited Stay Permit (ITAS) is an official document issued by the Indonesian government to foreign nationals to reside in its territory for a specific, limited period. The duration is usually adjusted to the employment contract, commonly 6 or 12 months.</p><p>Every foreign national in Indonesia must hold a residence permit. A Limited Stay Permit is granted to:</p><ol><li>Foreign nationals entering Indonesia with a Limited Stay Visa.</li><li>Children born in Indonesia to a father and/or mother holding a Limited Stay Permit.</li><li>Foreign nationals granted status change from a Visit Stay Permit.</li><li>Captains, crew members, or foreign experts on ships, floating devices, or installations operating within Indonesian waters and jurisdiction under applicable law.</li><li>Foreign nationals legally married to an Indonesian citizen.</li><li>Children of foreign nationals legally married to an Indonesian citizen.</li></ol><h4>ITAS Requirements</h4><ul><li>A valid and legal passport</li><li>Integration statement, except for children under 18 years old and unmarried</li><li>The foreign national's existing ITAS</li><li>Guarantee letter from a sponsor (if applicable)</li><li>Sponsor's ID card and/or family card (if applicable)</li><li>Spouse's/parent's/child's ITAS (if joining a family member holding ITAS)</li></ul><h4>Expiration of ITAS</h4><p>The Limited Stay Permit expires if the holder:</p><ol><li>Returns to their home country and does not intend to re-enter Indonesia.</li><li>Returns to their home country and does not return within the validity of the Re-Entry Permit.</li><li>Obtains Indonesian citizenship.</li><li>Has the permit expired.</li><li>Changes status to a Permanent Stay Permit.</li><li>Has the permit revoked by the Minister or Immigration Officer.</li><li>Is subject to deportation.</li><li>Passes away.</li></ol><h4>ITAS Extension</h4><ul><li>For a validity of 1 year: application must be submitted no earlier than 30 days before expiry and no later than the last day of ITAS validity.</li><li>For validity longer than 1 year: application must be submitted no earlier than 3 months before expiry and no later than the last day of ITAS validity.</li><li>Applications paid before expiry are not considered overstay, even if processed after the ITAS validity ends.</li><li>Extensions are granted 1 day after the ITAS expires.</li><li>1-year extensions for students are granted by the Head of Immigration Office.</li><li>2-year or longer extensions for nationals of Calling Visa countries require approval from the Director General.</li><li>Extensions for Seafarer ITAS or certain entities are granted by the Director General or designated officer.</li><li>If ITAS requires a commitment statement, extensions can only be processed once the commitment is fulfilled.</li></ul><h4>Legal Basis for ITAS</h4><ul><li>Law No. 6 of 2011 on Immigration</li><li>Minister of Law and Human Rights Regulation No. 22 of 2023 on Visa and Stay Permit</li><li>Ministerial Decree No. M.HH-02.GR.01.04 of 2023 on Visa Classification</li><li>Minister of Finance Regulation No. 9/PMK.02/2022 on Immigration Service Fees</li><li>Minister of Finance Regulation No. 82 of 2023 on Golden Visa Service Fees</li></ul></section><section><h3>ITAP (Permanent Stay Permit)</h3><p>ITAP is issued to foreign nationals holding a Permanent Stay Permit for an unlimited period. Holders are required to report every 5 years to the Head of the Immigration Office in their place of residence.</p><h4>ITAP Reporting Procedure</h4><ol><li>Submission of Permanent Stay Permit report</li><li>Photo capture</li><li>Approval by the Head of Immigration Office or designated officer</li><li>Issuance of updated Permanent Stay Permit with new reporting date</li></ol><strong>Notes</strong><ul><li>Reporting must be submitted no earlier than 3 months before and no later than 1 working day before the ITAP expires.</li><li>Late reporting may only be processed with consideration from the Head of Immigration Office.</li></ul><h4>ITAP Requirements</h4><ul><li>A valid and legal passport</li><li>Permanent Stay Permit</li><li>Proof of company legality</li><li>Proof of employment permit legality</li><li>Proof of religious activities (if applicable)</li><li>Recent bank statement</li><li>Updated company deed</li><li>Latest land and building tax (PBB)</li><li>Latest financial report</li><li>Latest company tax report</li><li>Latest proof of income</li><li>Latest bond certificate</li><li>Latest share ownership certificate</li><li>Other supporting documents proving the intention to stay in Indonesia</li></ul><h4>Legal Basis for ITAP</h4><ul><li>Minister of Law and Human Rights Regulation No. 22 of 2023 on Visa and Stay Permit</li><li>Ministerial Decree No. M.HH-02.GR.01.04 of 2023 on Visa Classification</li></ul></section><footer><p>Source: <a href=\\\"https://www.imigrasi.go.id/\\\">imigrasi.go.id</a></p></footer>",
+      "image": {
+        "src": "/images/pengurusan-visa-indonesia.jpg",
+        "alt": "Comparison between KITAS and KITAP: Limited Stay Permit vs Permanent Stay Permit in Indonesia"
+      },
+      "published": "2025-09-20T00:00:00Z",
+      "source": "https://www.imigrasi.go.id/"
+    },
+    "visa-c17-extension": {
+      "meta": {
+        "title": "How to Extend a C17 Visa in Indonesia — Step-by-Step Guide | Parama Satya Pertiwi",
+        "description": "Complete guide on extending a C17 Visa in Indonesia. Learn eligibility, required documents, stay duration, conversion to KITAS, and legal basis for foreign nationals visiting Indonesia.",
+        "keywords": "C17 Visa extension, Indonesia C17 Visa, single-entry visa Indonesia, KITAS conversion, foreign stay Indonesia, Indonesian immigration, visa extension requirements, travel permit Indonesia, Ministry of Law and Human Rights Indonesia, immigration legal basis"
+      },
+      "title": "C17 Visa Extension in Indonesia",
+      "excerpt": "Step-by-step guide to extend a C17 Visa in Indonesia, including requirements, stay duration, and conversion to KITAS.",
+      "content": "<h2>Step-by-Step Guide to Extend a C17 Visa</h2><section><p>A <strong>C17 Visa</strong> is used for auditing, production quality control, or inspection activities at a company branch in Indonesia. Visa holders may also travel for tourism or visit friends and family.</p><p>The C17 Visa is a single-entry visit visa granting an initial stay of up to <strong>60 days</strong>. This stay permit can be extended multiple times up to a maximum of <strong>180 days</strong> and can be converted into a Limited Stay Permit (KITAS) with the same guarantor.</p></section><section><h3>Required Documents</h3><ol><li>Sponsor's application letter and statement letter</li><li>Valid travel document(s):<ul><li>Passport with minimum 6 months validity</li><li>Other documents (emergency passport/ID) with minimum 12 months validity</li></ul></li><li>Proof of living expenses in Indonesia: last 3 months' bank statement under the Foreigner or sponsor's name</li><li>Recent color photograph (taken within the last 1 year)</li></ol></section><section><h3>Legal Basis</h3><ul><li>Law No. 6 of 2011 on Immigration</li><li>Government Regulation No. 31 of 2013</li><li>Government Regulation No. 45 of 2024 on PNBP Tariffs Ministry of Law and Human Rights</li><li>Minister of Law and Human Rights Regulation No. 11 of 2024 on Visa and Stay Permit</li><li>Minister of Law and Human Rights Regulation No. 22 of 2023 on Visa and Stay Permit</li><li>Decree of Minister of Immigration No. M.IP-08.GR.01.01 of 2025 on Visa Classification</li><li>Minister of Finance Regulation No. 9/PMK.02/2022 on Urgent Immigration Services PNBP</li><li>Minister of Finance Regulation No. 82 of 2023 on Golden Visa PNBP</li></ul></section><footer><p>Source: <a href=\"https://www.imigrasi.go.id/\">Directorate General of Immigration</a></p></footer>",
+      "image": {
+        "src": "/images/c17-visa.jpg",
+        "alt": "Guide to extending a C17 Visa in Indonesia: passport, visa stamp, and immigration office"
+      },
+      "published": "2025-09-20T00:00:00Z",
+      "source": "https://www.imigrasi.go.id/"
+    }
+  },
+  "visa": {
+    "title": "Types of Visas by Name/Index",
+    "list": {
+      "A1": "Visa Exemption (Tourism)",
+      "B1": "Visa on Arrival (Tourism)",
+      "C1": "Tourist Visa",
+      "A36": "Visa Exemption (Transport Crew on Duty)",
+      "A37": "Visa Exemption (Transport Crew in Indonesian Waters)",
+      "A4": "Visa Exemption (Government Duty)",
+      "B4": "Visa on Arrival (Government Duty)",
+      "C10": "Business Meeting Visa",
+      "C10A": "Religious Leader Visa",
+      "C11": "Business Visa (Exhibition)",
+      "E28A": "Investor Visa",
+      "E28B": "Investor Visa (Company Establishment)",
+      "E28C": "Investor Visa (Without Establishing Company)",
+      "E28D": "Investor Visa (Branch/Subsidiary Establishment)",
+      "E28F": "Investor Visa (Capital City)",
+      "E28G": "Investor Visa (Parent Company Representative)",
+      "E29": "Research Visa",
+      "E30A": "Student Visa",
+      "E308": "Education Visa",
+      "E31A": "Family Visa",
+      "E31B": "Family Visa (Spouse of ITAS/ITAP Holder)",
+      "E31C": "Family Visa (Child of Indonesian Citizen)",
+      "E31D": "Family Visa (Child)",
+      "E31E": "Family Visa (Child)",
+      "E31F": "Family Visa (Child)",
+      "E31G": "Family Visa (Parent)",
+      "E31H": "Family Visa (Parent)",
+      "E31J": "Family Visa (Sibling)",
+      "E32A": "Ex-Indonesian Citizen Visa",
+      "E32B": "Ex-Indonesian Citizen Visa (1st & 2nd Degree)",
+      "E32C": "Ex-Indonesian Citizen Visa (Max Stay 2 Years)",
+      "E32D": "Ex-Indonesian Citizen Visa (Max Stay 1 Year)",
+      "E33": "Second Home Visa",
+      "E33A": "Special Skills Visa",
+      "E33B": "Special Skills Visa (Without Sponsor)",
+      "E33C": "World Figure Visa (Invited by Government)",
+      "E33E": "Elderly Visa",
+      "E33F": "Elderly Visa",
+      "E33G": "Remote Worker Visa",
+      "E33G2": "Medical Visa",
+      "E35": "Work and Holiday Visa",
+      "C11A": "Business Visa (Exhibition) for Citizens from Calling Visa Countries",
+      "C12": "Pre-Investment Visa",
+      "C13": "Transport Crew Visa",
+      "C14": "Film Production Visa",
+      "C15": "Emergency Work Visa",
+      "C16": "Training Visa (Participant & Instructor)",
+      "C17": "Business Visa (Audit & Inspection)",
+      "C18": "Work Trial Visa",
+      "C19": "Business Visa (After-Sales Service)",
+      "C2": "Business Visa",
+      "C20": "Business Visa (Machine Installation & Repair)",
+      "C21": "Judicial Process Visa",
+      "C22": "Internship Program Visa",
+      "C22A": "Internship Program Visa (Academic)",
+      "C22B": "Internship Program Visa (Industry & Company)",
+      "C3": "Medical Care Visa",
+      "C4": "Government Duty Visa",
+      "C5": "Media & Press Visa",
+      "C6": "Social Activities Visa",
+      "C7": "Art & Culture Activities Visa",
+      "C7A": "Music Performance Visa",
+      "C7B": "Music Performance Crew Visa",
+      "C7C": "Art Performance Visa",
+      "C8A": "Sports Visa (Athlete)",
+      "C8B": "Sports Visa (Official)",
+      "C9": "Study Tour, Course & Short Training Visa",
+      "C9A": "Short Course & Training Visa (Religious)",
+      "C9B": "Short Course & Training Visa (Indonesian Language)",
+      "D1": "Tourist Visa",
+      "D12": "Pre-Investment Visa",
+      "D14": "Film Production Visa",
+      "D17": "Business Visa (Audit & Inspection)",
+      "D2": "Business Visa",
+      "D3": "Medical Care Visa",
+      "D7": "Art & Culture Activities Visa",
+      "D7A": "Music Performance Visa",
+      "D7B": "Music Performance Crew Visa",
+      "D8A": "Sports Visa (Athlete)",
+      "D8B": "Sports Visa (Official)",
+      "F1": "Visa on Arrival (Tourism)",
+      "F4": "Visa on Arrival (Government Duty)"
+    }
+  },
+  "contact": {
+    "meta": {
+      "title": "Contact Us — Parama Satya Pertiwi | Consultation & Service Information",
+      "description": "Get in touch with Parama Satya Pertiwi for consultation and more details about our services including company legalization, Indonesian visas, KITAS, ITAP, and other permits. Our team is ready to assist you quickly and professionally.",
+      "keywords": "contact us, Parama Satya Pertiwi contact, service consultation, visa information Indonesia, KITAS assistance, ITAP assistance, company legalization Indonesia, immigration services Indonesia"
+    },
+    "tag": "Contact",
+    "seo-title": "Contact Parama Satya Pertiwi — Consultation & Service Information",
+    "title": "We'd love to hear from you",
+    "excerpt": "Enquire today to find out more about our services.",
+    "form": {
+      "fname": "First Name",
+      "lname": "Last Name",
+      "phone": "Phone",
+      "email": "Email Address",
+      "message": "Message"
+    }
+  },
+  "footer": {
+    "groups": {
+      "1": {
+        "name": "About Us",
+        "1": {
+          "title": "Vision & Mission"
+        }
+      },
+      "2": {
+        "name": "Services",
+        "1": {
+          "title": "Indonesia Visa Services"
+        },
+        "2": {
+          "title": "KITAS & Foreign Worker Permit (TKA) Processing"
+        },
+        "3": {
+          "title": "Indonesian Passport & E\u2011Passport Services"
+        },
+        "4": {
+          "title": "Overseas Visa Application Services"
+        },
+        "5": {
+          "title": "Company Legalization & Business Licensing"
+        }
+      }
+    }
+  }
+}

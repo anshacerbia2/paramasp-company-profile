@@ -1,0 +1,128 @@
+@use "../abstracts/variables.scss" as *;
+
+.accordion {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  > li {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  &__wrapper {
+    flex-grow: 1;
+  }
+
+  &__nav {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-width: 40px;
+    width: 40px;
+    height: 100%;
+
+    &.active {
+      .accordion__number {
+        background-color: $accent-color;
+        color: $primary-text-color;
+        font-weight: 600;
+      }
+
+      .accordion__line {
+        border-left-style: solid;
+        border-left-color: $accent-color;
+      }
+    }
+
+    .accordion__number {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 30px;
+      width: 30px;
+      height: 30px;
+      border: 1px solid $accent-color-darken;
+      border-radius: 50%;
+      background-color: $primary-bg-color;
+      transition: background-color 0.4s ease-out, color 0.4s ease-out;
+      z-index: 1;
+    }
+
+    .accordion__line {
+      position: absolute;
+      top: 2px;
+      bottom: -1.5rem;
+      left: 50%;
+      width: 0px;
+      border-left: 1px dashed $accent-color-darken;
+      transform: translateX(-50%);
+      transition: border 0.4s ease-out;
+      z-index: 0;
+    }
+  }
+
+  &__button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+    padding: 1rem 2rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 200px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    color: $secondary-text-color;
+    font-weight: 600;
+    text-align: left;
+    overflow: hidden;
+    user-select: none;
+    cursor: pointer;
+
+    &::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(
+        circle at top right,
+        rgba(100, 150, 255, 0.15),
+        transparent 70%
+      );
+    }
+
+    &.active {
+      border-color: $accent-color;
+      transform: translateY(-2px);
+      box-shadow: 0 15px 25px rgba(0, 0, 0, 0.3);
+      transition: all 0.3s ease;
+
+      svg {
+        opacity: 0;
+      }
+    }
+
+    svg {
+      color: $secondary-text-color;
+      font-size: 1.5em;
+      transition: opacity 0.3s;
+    }
+  }
+
+  &__content {
+    padding: 0 2rem;
+    overflow: hidden;
+
+    p {
+      margin: 1rem 0 1rem;
+      color: $secondary-text-color;
+      font-weight: 300;
+    }
+  }
+}

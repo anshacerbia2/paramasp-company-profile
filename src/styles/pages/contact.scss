@@ -1,0 +1,16 @@
+@use "../abstracts/variables.scss" as *;
+
+.section__contact {
+  background-color: $primary-bg-color;
+
+  h2 {
+    text-align: center;
+  }
+
+  h2 + p {
+    margin-bottom: 5rem;
+    color: $secondary-text-color;
+    font-size: 1.125rem;
+    text-align: center;
+  }
+}

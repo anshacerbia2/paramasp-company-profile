@@ -1,0 +1,76 @@
+@use "../abstracts/variables.scss" as *;
+
+.c-02-display {
+  position: relative;
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  padding-top: 80px;
+  background-color: #fff;
+  overflow: hidden;
+  user-select: none;
+
+  &::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(24, 41, 54, 0.6);
+    z-index: 1;
+  }
+
+  .c-02-content-wrapper {
+    display: flex;
+    height: 100%;
+    padding-block: 150px 250px;
+
+    .c-02-content {
+      position: relative;
+      border-radius: 2px;
+      color: #fff;
+      max-width: $screen-s;
+      width: 100%;
+      z-index: 10;
+
+      p {
+        margin-bottom: 24px;
+        font-size: 1.125em;
+      }
+
+      h2 {
+        margin: 0 0 20px 0;
+        letter-spacing: 3px;
+        font-family: "BebasNeue", sans-serif;
+        font-size: 2.875em;
+        line-height: 1;
+      }
+
+      h2,
+      p {
+        position: relative;
+      }
+
+      a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 220px;
+        height: 40px;
+        padding: 0 25px;
+        border: 1px solid #fff;
+        border-radius: 20px;
+        color: #fff;
+        font-family: "BebasNeue", sans-serif;
+        font-size: 16px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        transition: background-color 0.1s ease-in-out,
+          border-color 0.1s ease-in-out;
+      }
+
+      a:hover {
+        background-color: $accent-color;
+        border-color: $accent-color;
+      }
+    }
+  }
+}

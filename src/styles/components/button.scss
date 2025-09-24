@@ -1,0 +1,80 @@
+@use "../abstracts/variables.scss" as *;
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.5rem;
+  margin: 0;
+  padding: 0 1.5rem;
+  border: none;
+  border-radius: 1.25rem;
+  background-color: transparent;
+  color: inherit;
+  font-family: "BebasNeue", sans-serif;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  cursor: pointer;
+
+  &.outline {
+    border: 1px solid $primary-btn-color;
+    color: $primary-text-color;
+    transition: background-color 0.4s ease, color 0.4s ease;
+
+    &.secondary {
+      border-color: #fff;
+    }
+
+    &.accent {
+      border-color: $accent-color-darken;
+      color: $accent-color-darken;
+    }
+
+    &:hover {
+      background-color: $primary-btn-color;
+      color: #fff;
+      &.secondary {
+        background-color: #fff;
+      }
+
+      &.accent {
+        background-color: $accent-color-darken;
+      }
+    }
+  }
+
+  &.fill {
+    background-color: $primary-btn-color;
+    color: #fff;
+    transition: background-color 0.4s ease, color 0.4s ease;
+
+    &.secondary {
+      background-color: #fff;
+      color: $primary-text-color;
+    }
+
+    &.accent {
+      background-color: $accent-color;
+    }
+
+    &:hover {
+      background-color: $primary-bg-color;
+
+      &.secondary {
+        background-color: #fff;
+      }
+
+      &.accent {
+        background-color: $accent-color-darken;
+      }
+    }
+  }
+
+  &.fit {
+    width: fit-content;
+  }
+
+  @media (max-width: $screen-m) {
+    font-size: 0.875rem;
+  }
+}

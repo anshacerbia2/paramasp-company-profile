@@ -1,0 +1,68 @@
+@use "../abstracts/variables.scss" as *;
+
+.section__vision-mission {
+  background-color: $primary-bg-color;
+
+  .vision-mission {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "image vm";
+    gap: 1.875rem 2.5rem;
+
+    &__image {
+      grid-area: image;
+      display: flex;
+      border-radius: 1.5rem;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+      overflow: hidden;
+
+      img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        object-position: center;
+      }
+    }
+
+    &__content {
+      grid-area: vm;
+      color: $secondary-text-color;
+
+      > h2 {
+        margin-bottom: 2rem;
+      }
+
+      > p {
+        margin-bottom: 2rem;
+        font-weight: 300;
+      }
+    }
+  }
+
+  @media (max-width: $screen-xl) {
+    .vision-mission {
+      grid-template-columns: 1fr;
+      grid-template-areas: "image" "vm";
+
+      &__image {
+        img {
+          max-height: 280px;
+          object-position: top;
+        }
+      }
+
+      &__content {
+        .cards {
+          padding: 1rem;
+        }
+      }
+    }
+  }
+}
+
+.section__commitment {
+  position: relative;
+  background-color: $primary-bg-color;
+  color: $primary-text-color;
+  text-align: center;
+}

@@ -1,0 +1,97 @@
+@use "../abstracts/variables.scss" as *;
+
+#footer {
+  background-color: #fff;
+  color: $secondary-text-color;
+  user-select: none;
+
+  .container {
+    display: grid;
+    grid-template-columns: 0.75fr 0.5fr 1fr;
+    gap: 2rem;
+    padding-block: 100px;
+
+    .group {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+
+      &:first-child {
+        gap: 1rem;
+      }
+
+      .company-name {
+        color: $primary-text-color;
+        font-weight: 700;
+      }
+
+      &__title {
+        color: $primary-text-color;
+        font-family: "BebasNeue", sans-serif;
+        font-size: 1.25rem;
+        letter-spacing: 1px;
+      }
+
+      .contact {
+        display: flex;
+        flex-direction: column;
+        gap: 0.25rem;
+
+        a {
+          display: flex;
+          align-items: center;
+          gap: 0.75rem;
+        }
+      }
+
+      p,
+      ul {
+        font-weight: 400;
+      }
+
+      svg {
+        font-size: 1.15rem;
+      }
+
+      ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+
+        li {
+          transition: color 0.2s ease-in-out;
+          &:not(:last-child) {
+            margin-bottom: 0.5rem;
+          }
+
+          &:hover {
+            color: $accent-color-darken;
+          }
+        }
+      }
+    }
+  }
+
+  .copyright {
+    padding: 1rem;
+    border-top: 1px solid #e7e7e7;
+    color: #fff;
+    background-color: $primary-bg-color;
+    font-size: 0.875em;
+    text-align: center;
+    font-weight: 300;
+  }
+
+  @media (max-width: $screen-m) {
+    .container {
+      grid-template-columns: 1fr;
+    }
+  }
+}
+
+.wa-trigger {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 800;
+}
