@@ -1,12 +1,12 @@
-import "@/styles/index.scss";
 import type { Metadata } from "next";
 import { headers } from "next/headers";
 import { notFound } from "next/navigation";
 import { SpeedInsights } from "@vercel/speed-insights/next";
-import { hasLocale, NextIntlClientProvider } from "next-intl";
+import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { routing } from "@/i18n/routing";
-import Footer from "@/components/Footer";
+import { LangUpdater } from "@/hooks";
 import NavigationWrapper from "@/components/NavigationWrapper";
+import Footer from "@/components/Footer";
 
 type Props = {
   children: React.ReactNode;
@@ -55,15 +55,12 @@ export default async function LocaleLayout({ children, params }: Props) {
   }
 
   return (
-    <html lang={locale}>
-      <body>
-        <NextIntlClientProvider>
-          <NavigationWrapper />
-          {children}
-          <SpeedInsights />
-          <Footer />
-        </NextIntlClientProvider>
-      </body>
-    </html>
+    <NextIntlClientProvider>
+      <LangUpdater />
+      <NavigationWrapper />
+      {children}
+      <SpeedInsights />
+      <Footer />
+    </NextIntlClientProvider>
   );
 }

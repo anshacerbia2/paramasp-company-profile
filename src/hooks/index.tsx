@@ -1,6 +1,17 @@
 "use client";
 
 import { useState, useEffect, useRef, useLayoutEffect } from "react";
+import { useLocale } from "next-intl";
+
+export function LangUpdater() {
+  const locale = useLocale();
+
+  useEffect(() => {
+    document.documentElement.lang = locale;
+  }, [locale]);
+
+  return null;
+}
 
 const useWindowSize = () => {
   const [size, setSize] = useState<(undefined | number)[]>([

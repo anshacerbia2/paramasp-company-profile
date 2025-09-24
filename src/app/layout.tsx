@@ -1,5 +1,7 @@
-import { Metadata } from "next";
+import "@/styles/index.scss";
 import { ReactNode } from "react";
+import { Metadata } from "next";
+import { getLocale } from "next-intl/server";
 
 type Rootlayout = {
   children: ReactNode;
@@ -12,8 +14,14 @@ export const metadata: Metadata = {
   },
 };
 
-const Rootlayout = ({ children }: Rootlayout) => {
-  return <>{children}</>;
+const Rootlayout = async ({ children }: Rootlayout) => {
+  const locale = await getLocale();
+
+  return (
+    <html lang={locale}>
+      <body>{children}</body>
+    </html>
+  );
 };
 
 export default Rootlayout;

@@ -6,6 +6,7 @@ import { generatePageMetadata } from "@/lib/seo";
 import Banner from "@/components/Banner";
 import Article, { ArticleProps } from "@/components/news/Article";
 import NewsIndex, { NewsIndexProps } from "@/components/news/NewsIndex";
+import { notFound } from "next/navigation";
 
 export async function generateMetadata({
   params,
@@ -26,6 +27,10 @@ export function generateStaticParams() {
 export default async function Page({ params }: NewsPageProps) {
   const { slug } = await params;
   const slugKey = slug?.[0] || "";
+
+  if (slugKey && !NEWS_NAVIGATION_KEYS.includes(slugKey)) {
+    notFound();
+  }
 
   const global = await getTranslations("global");
   const news = await getTranslations("news");

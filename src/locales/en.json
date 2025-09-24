@@ -14,7 +14,12 @@
       "next": "Next",
       "aria-label-wa": "Chat with us on WhatsApp",
       "aria-label-open-sidebar": "Open Sidebar",
-      "aria-label-close-sidebar": "Close Sidebar"
+      "aria-label-close-sidebar": "Close Sidebar",
+      "page-not-found": {
+        "title": "Page Not Found",
+        "paragraph": "Oops! We can't seem to find the page you're looking for."
+      },
+      "back-to-home": "Back to Home"
     }
   },
   "header": {

@@ -14,7 +14,12 @@
       "next": "Berita Berikutnya",
       "aria-label-wa": "Chat dengan kami di WhatsApp",
       "aria-label-open-sidebar": "Open Sidebar",
-      "aria-label-close-sidebar": "Close Sidebar"
+      "aria-label-close-sidebar": "Close Sidebar",
+      "page-not-found": {
+        "title": "Halaman Tidak Ditemukan",
+        "paragraph": "Ups! Kami tidak dapat menemukan halaman yang Anda cari."
+      },
+      "back-to-home": "Kembali ke Beranda"
     }
   },
   "header": {

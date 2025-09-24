@@ -73,6 +73,8 @@ const NavigationWrapper = () => {
     } else {
       setScrolled(true);
     }
+
+    setOpenSidebar(false);
   }, [locales, pathname]);
 
   useEffect(() => {

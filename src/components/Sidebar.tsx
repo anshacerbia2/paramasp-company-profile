@@ -45,11 +45,7 @@ const Sidebar = ({
               {navMenus.map((nav, i) => (
                 <li key={i} className={nav.childs ? "has-dropdown" : ""}>
                   {nav.href && nav.href !== pathname ? (
-                    <Link
-                      className={`menu-item`}
-                      href={nav.href}
-                      onClick={() => setOpenSidebar(false)}
-                    >
+                    <Link className={`menu-item`} href={nav.href}>
                       {nav.label}
                     </Link>
                   ) : (
@@ -62,11 +58,7 @@ const Sidebar = ({
                       {nav.childs.map((obj, idx) => (
                         <li key={idx}>
                           {obj.href ? (
-                            <Link
-                              href={obj.href}
-                              className={"menu-item"}
-                              onClick={() => setOpenSidebar(false)}
-                            >
+                            <Link href={obj.href} className={"menu-item"}>
                               {obj.label}
                             </Link>
                           ) : (

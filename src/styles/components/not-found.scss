@@ -1,0 +1,25 @@
+@use "../abstracts/variables.scss" as *;
+
+#not-found {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin-top: 80px;
+  border-bottom: 1px solid #ddd;
+
+  h2 {
+    color: $primary-text-color;
+  }
+
+  h2,
+  p,
+  a {
+    text-align: center;
+  }
+
+  a {
+    margin-top: 1em;
+    margin-inline: auto;
+  }
+}

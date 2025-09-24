@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { Link } from "@/i18n/navigation";
 import { useLayoutEffect, useRef, useState } from "react";
 import { ITEM_VARIANT_Y, VARIANT } from "@/constants/motions";
+import { useWindowSize } from "@/hooks";
 
 type ServiceCard = {
   id: string;
@@ -33,30 +34,41 @@ const Services = ({
   const containerRef = useRef<HTMLDivElement>(null);
   const cardRefs = useRef<(HTMLDivElement | null)[]>([]);
   const [offsets, setOffsets] = useState<{ x: number; y: number }[]>([]);
-
+  const [width] = useWindowSize();
   // const isInView = useInView(containerRef, { once: true });
 
   useLayoutEffect(() => {
     if (!containerRef.current) return;
 
-    const containerRect = containerRef.current.getBoundingClientRect();
-    const centerX = containerRect.width / 2;
-    const centerY = containerRect.height / 2;
+    if (width) {
+      if (width > 1200) {
+        const containerRect = containerRef.current.getBoundingClientRect();
+        const centerX = containerRect.width / 2;
+        const centerY = containerRect.height / 2;
 
-    const newOffsets = cardRefs.current.map((card) => {
-      if (!card) return { x: 0, y: 0 };
-      const rect = card.getBoundingClientRect();
-      const cardCenterX = rect.left - containerRect.left + rect.width / 2;
-      const cardCenterY = rect.top - containerRect.top + rect.height / 2;
+        const newOffsets = cardRefs.current.map((card) => {
+          if (!card) return { x: 0, y: 0 };
+          const rect = card.getBoundingClientRect();
+          const cardCenterX = rect.left - containerRect.left + rect.width / 2;
+          const cardCenterY = rect.top - containerRect.top + rect.height / 2;
 
-      return {
-        x: centerX - cardCenterX,
-        y: centerY - cardCenterY,
-      };
-    });
+          return {
+            x: centerX - cardCenterX,
+            y: centerY - cardCenterY,
+          };
+        });
 
-    setOffsets(newOffsets);
-  }, [cards]);
+        setOffsets(newOffsets);
+      } else {
+        setOffsets(
+          cardRefs.current.map((_) => ({
+            x: 0,
+            y: 50,
+          }))
+        );
+      }
+    }
+  }, [cards, width]);
 
   // const canShow = isInView && offsets.length > 0;
 
