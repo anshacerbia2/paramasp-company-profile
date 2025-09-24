@@ -33,14 +33,14 @@
 
       p {
         margin-bottom: 24px;
-        font-size: 1.125em;
+        font-size: 1.125rem;
       }
 
       h2 {
         margin: 0 0 20px 0;
         letter-spacing: 3px;
         font-family: "BebasNeue", sans-serif;
-        font-size: 2.875em;
+        font-size: clamp(2rem, 1rem + 2vw, 2.875rem);
         line-height: 1;
       }
 
@@ -70,6 +70,16 @@
       a:hover {
         background-color: $accent-color;
         border-color: $accent-color;
+      }
+    }
+  }
+
+  @media (max-width: $screen-m) {
+    .c-02-content-wrapper {
+      .c-02-content {
+        p {
+          font-size: 1rem;
+        }
       }
     }
   }

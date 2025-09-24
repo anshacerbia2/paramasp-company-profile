@@ -3,7 +3,7 @@
 import styles from "../styles/modules/carousel_02.module.scss";
 import { useState, useEffect } from "react";
 import { Link } from "@/i18n/navigation";
-import { useInterval } from "../hooks";
+import { useInterval, useWindowSize } from "../hooks";
 import Image, { StaticImageData } from "next/image";
 
 type CarouselSlide = {
@@ -26,6 +26,7 @@ const HomeCarousel = ({ slides }: HomeCarouselProps) => {
   const [newIdx, setNewIdx] = useState(0);
   const [phase, setPhase] = useState<"idle" | "out" | "switch" | "in">("idle");
   const [autoDelay, setAutoDelay] = useState<number | null>(8000);
+  const [width] = useWindowSize();
 
   useInterval(() => slider(), autoDelay);
 
@@ -67,7 +68,13 @@ const HomeCarousel = ({ slides }: HomeCarouselProps) => {
   const imageStyle = (idx: number, isActive: boolean) => ({
     position: "absolute" as const,
     inset: 0,
-    transform: isActive ? "scale(1,1)" : "scale(1.25,1.25)",
+    transform: isActive
+      ? width && width > 768
+        ? "scale(1)"
+        : "scale(1.025)"
+      : width && width > 768
+      ? "scale(1.25)"
+      : "scale(1.05)",
     opacity: isActive ? 1 : 0,
     transition: "transform 0.6s ease, opacity 0.6s ease",
     zIndex: isActive ? 1 : 0,
