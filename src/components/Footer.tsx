@@ -53,11 +53,11 @@ const Footer = () => {
           </p>
 
           <div className="contact">
-            <a href="tel:+628111002827">
-              <FaPhoneAlt /> +62 811-1002-827
+            <a href="tel:+622122179146">
+              <FaPhoneAlt /> 021 22179146
             </a>
             <a href="mailto:noor@paramasp.com">
-              <MdEmail /> noor@paramasp.com
+              <MdEmail /> cs@paramasp.com
             </a>
           </div>
         </div>

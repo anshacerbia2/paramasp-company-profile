@@ -22,7 +22,11 @@ export async function generateMetadata({
 }
 
 const slideImages = [slide1, slide2, slide3];
-const slideHrefs = ["/", "/", "/"];
+const slideHrefs = [
+  "/services/stay-and-work-permit",
+  "/services/stay-and-work-permit",
+  "/services/stay-and-work-permit",
+];
 
 export default function HomePage() {
   const global = useTranslations("global");
