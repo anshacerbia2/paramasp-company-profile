@@ -16,6 +16,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 - 🏗️ **On-page SEO & Semantic Structure** – accessible headings, internal linking, and ARIA support
 - 📱 **Responsive Design** – mobile-first and optimized across devices
 - 🎬 **Smooth Animations** – powered by **Framer Motion** for an engaging user experience
+- 🗂️ **Clean Expert-Level Folder Structure** – scalable and maintainable architecture for enterprise-grade projects
 
 ---
 
@@ -23,7 +24,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 - [Next.js](https://nextjs.org/) – React framework for production
 - [TypeScript](https://www.typescriptlang.org/) – type-safe development
-- [Tailwind CSS](https://tailwindcss.com/) – utility-first styling
+- [SCSS](https://sass-lang.com/) – modular and scalable styling with theming support
 - [next-intl](https://next-intl-docs.vercel.app/) – internationalization support
 - [Framer Motion](https://www.framer.com/motion/) – animation library for React
 
