@@ -1,0 +1,26 @@
+import express from "express";
+import next from "next";
+import { parse } from "url";
+import path from "path";
+
+const port = parseInt(process.env.PORT || "8080", 10);
+const hostname = process.env.HOSTNAME || "0.0.0.0";
+
+const app = next({ dev: false });
+const handle = app.getRequestHandler();
+
+app.prepare().then(() => {
+  const server = express();
+
+  // serve public folder
+  server.use(express.static(path.join(__dirname, "public")));
+
+  // handle Next.js pages
+  server.all("*", (req, res) => {
+    return handle(req, res, parse(req.url || "", true));
+  });
+
+  server.listen(port, hostname, () => {
+    console.log(`🚀 Next.js running on http://${hostname}:${port}`);
+  });
+});
