@@ -18,6 +18,10 @@
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
 
     .navbar {
+      .logo {
+        color: #fff;
+      }
+
       .menu-wrapper {
         > ul {
           .menu-item {
