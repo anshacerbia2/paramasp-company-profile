@@ -87,7 +87,6 @@ const ContactForm = ({ title, paragraph, form }: ContactFormProps) => {
 
     try {
       setSubmitting(true);
-      await new Promise((resolve) => setTimeout(resolve, 100000));
 
       const res = await fetch("/api/contact", {
         method: "POST",

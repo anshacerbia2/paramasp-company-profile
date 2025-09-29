@@ -289,6 +289,16 @@ a {
   }
 }
 
+.section__services {
+  &.with-shape {
+    .svg-shape {
+      .shape-fill {
+        fill: #fff;
+      }
+    }
+  }
+}
+
 .section__kitas__service-1 {
   &.with-shape {
     .svg-shape {

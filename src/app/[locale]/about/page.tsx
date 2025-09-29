@@ -12,7 +12,7 @@ import OurCommitment, {
   OurCommitmentProps,
 } from "@/components/about/OurCommitment";
 import Services, { ServicesProps } from "@/components/Services";
-import TestimonialCarousel from "@/components/TestimonialCarousel";
+// import TestimonialCarousel from "@/components/TestimonialCarousel";
 
 export async function generateMetadata({
   params,
@@ -71,7 +71,7 @@ export default function AboutPage() {
       <VisionMission {...visionMissionProps} />
       <OurCommitment {...ourCommitmentsProps} />
       <Services {...servicesProps} />
-      <TestimonialCarousel />
+      {/* <TestimonialCarousel /> */}
     </main>
   );
 }

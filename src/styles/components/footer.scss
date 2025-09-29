@@ -20,11 +20,7 @@
         gap: 1rem;
       }
 
-      .company-name {
-        color: $primary-text-color;
-        font-weight: 700;
-      }
-
+      .company-name,
       &__title {
         color: $primary-text-color;
         font-family: "BebasNeue", sans-serif;

@@ -15,7 +15,7 @@ import HomeCarousel from "@/components/HomeCarousel";
 import AboutUs, { AboutUsProps } from "@/components/AboutUs";
 import Services, { ServicesProps } from "@/components/Services";
 import ClientTrust, { ClientTrustProps } from "@/components/ClientTrust";
-import TestimonialCarousel from "@/components/TestimonialCarousel";
+// import TestimonialCarousel from "@/components/TestimonialCarousel";
 import NewsIndex, { NewsIndexProps } from "@/components/news/NewsIndex";
 
 export async function generateMetadata({
@@ -116,7 +116,7 @@ export default function HomePage() {
       <AboutUs {...aboutUsProps} />
       <Services {...servicesProps} />
       <ClientTrust {...clientTrustProps} />
-      <TestimonialCarousel />
+      {/* <TestimonialCarousel /> */}
       <NewsIndex {...newsIndexProps} />
     </main>
   );

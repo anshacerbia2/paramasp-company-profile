@@ -46,7 +46,7 @@ const Footer = () => {
       <div className="container">
         <div className="group">
           <Image src={logo} width={50} alt="paramasp-logo" />
-          <span className="company-name">Paramasp</span>
+          <span className="company-name">PT. Parama Satya Pertiwi</span>
           <p>
             Allure Mansion Blok M1 Rt.001 Rw.003, Jatimurni, Pondok Melati Kota
             Bekasi, Jawa Barat 17431.

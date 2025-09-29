@@ -15,7 +15,9 @@ export async function POST(req: Request) {
     // SMTP2GO setup
     const transporter = nodemailer.createTransport({
       host: process.env.SMTP_HOST, // smtp.smtp2go.com
-      port: Number(process.env.SMTP_PORT) || 587,
+      port: Number(process.env.SMTP_PORT),
+      secure: false,
+      // secure: process.env.SMTP_PORT === "465",
       auth: {
         user: process.env.SMTP_USER, // username SMTP2GO
         pass: process.env.SMTP_PASS, // password SMTP2GO
@@ -23,7 +25,9 @@ export async function POST(req: Request) {
     });
 
     const mailOptions = {
-      from: `"${fname} ${lname}" <${email}>`,
+      from: `"${fname} ${lname}" <${process.env.FROM_EMAIL}>`,
+      replyTo: email, // biar balasan tetap ke user
+      // from: `"${fname} ${lname}" <${email}>`,
       to: process.env.CONTACT_TO_EMAIL, // email tujuan tim/admin
       subject: `Contact Us Form: ${fname} ${lname}`,
       text: `
@@ -39,7 +43,7 @@ Message: ${message}
 <p><strong>Message:</strong><br/>${message}</p>
       `,
     };
-
+    console.log(">>>>>>>>>>", mailOptions);
     await transporter.sendMail(mailOptions);
 
     return NextResponse.json({ message: "Email sent successfully" });
