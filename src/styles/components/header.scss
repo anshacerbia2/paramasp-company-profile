@@ -19,7 +19,7 @@
 
     .navbar {
       .logo {
-        color: #fff;
+        color: $primary-text-color;
       }
 
       .menu-wrapper {
@@ -71,6 +71,7 @@
       gap: 0.5rem;
 
       > div {
+        color: #fff;
         font-size: 1rem;
         font-weight: 700;
       }
