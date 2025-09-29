@@ -62,19 +62,20 @@ const NavigationWrapper = () => {
   }, []);
 
   useLayoutEffect(() => {
+    const onScroll = () => setScrolled(window.scrollY > 80);
+
     if (pathname === "/") {
       setScrolled(window.scrollY > 80);
-
-      const onScroll = () => {
-        setScrolled(window.scrollY > 80);
-      };
       window.addEventListener("scroll", onScroll);
-      return () => window.removeEventListener("scroll", onScroll);
     } else {
       setScrolled(true);
     }
 
     setOpenSidebar(false);
+
+    return () => {
+      window.removeEventListener("scroll", onScroll);
+    };
   }, [locales, pathname]);
 
   useEffect(() => {

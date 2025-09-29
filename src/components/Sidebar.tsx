@@ -22,8 +22,11 @@ const Sidebar = ({
     <aside id="sidebar" className={openSidebar ? "active" : ""}>
       <div className="container">
         <nav className="navbar">
-          <div className="image">
-            <Image src={logo} height={50} alt="paramasp-logo" />
+          <div className="navbar__header">
+            <Link href="/" className="logo">
+              <Image src={logo} height={50} alt="paramasp-logo" />
+              <div>Paramasp</div>
+            </Link>
             <div>
               <LocaleSwitcher />
               <button
