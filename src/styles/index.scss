@@ -183,6 +183,15 @@ a {
   user-select: none;
 }
 
+/* override posisi NotifyX */
+.notifyx-container {
+  left: 50% !important;
+  top: 50% !important;
+  transform: translate(-50%);
+  right: auto !important;
+  z-index: 1000;
+}
+
 .section__banner {
   position: relative;
   display: flex;

@@ -1,5 +1,6 @@
 "use client";
 
+import "notifyx/dist/notifyx.min.css";
 import { Fragment, useState } from "react";
 import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
