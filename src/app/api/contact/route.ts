@@ -1,13 +1,16 @@
 import { NextResponse } from "next/server";
+import { getTranslations } from "next-intl/server";
 import nodemailer from "nodemailer";
 
 export async function POST(req: Request) {
+  const words = await getTranslations("global.words");
+
   try {
     const { fname, lname, phone, email, message } = await req.json();
 
     if (!fname || !lname || !email || !message) {
       return NextResponse.json(
-        { error: "Missing required fields" },
+        { error: words("res-message.404") },
         { status: 400 }
       );
     }
@@ -25,7 +28,7 @@ export async function POST(req: Request) {
     });
 
     const mailOptions = {
-      from: `"${fname} ${lname}" <${process.env.FROM_EMAIL}>`,
+      from: `NoReply <${process.env.FROM_EMAIL}>`,
       replyTo: email, // biar balasan tetap ke user
       // from: `"${fname} ${lname}" <${email}>`,
       to: process.env.CONTACT_TO_EMAIL, // email tujuan tim/admin
@@ -43,14 +46,13 @@ Message: ${message}
 <p><strong>Message:</strong><br/>${message}</p>
       `,
     };
-    console.log(">>>>>>>>>>", mailOptions);
     await transporter.sendMail(mailOptions);
 
-    return NextResponse.json({ message: "Email sent successfully" });
+    return NextResponse.json({ message: words("res-message.200") });
   } catch (err) {
     console.error(err);
     return NextResponse.json(
-      { error: "Failed to send email" },
+      { error: words("res-message.500") },
       { status: 500 }
     );
   }

@@ -6,7 +6,9 @@
   },
   "global": {
     "button": {
-      "read-more": "Selengkapnya..."
+      "read-more": "Selengkapnya...",
+      "send-message": "Kirim Pesan",
+      "sending": "Mengirim..."
     },
     "words": {
       "published": "Dipublikasikan",
@@ -19,7 +21,36 @@
         "title": "Halaman Tidak Ditemukan",
         "paragraph": "Ups! Kami tidak dapat menemukan halaman yang Anda cari."
       },
-      "back-to-home": "Kembali ke Beranda"
+      "back-to-home": "Kembali ke Beranda",
+      "contact-us": {
+        "form": {
+          "fname": {
+            "required": "Nama depan wajib diisi"
+          },
+          "lname": {
+            "required": "Nama belakang wajib diisi"
+          },
+          "phone": {
+            "required": "Nomor telepon wajib diisi",
+            "invalid": "Format nomor telepon tidak valid"
+          },
+          "email": {
+            "required": "Email wajib diisi",
+            "invalid": "Format email tidak valid"
+          },
+          "message": {
+            "required": "Pesan wajib diisi",
+            "minlength": "Pesan harus berisi minimal {min} karakter"
+          }
+        },
+        "success": "Terima kasih, pesan Anda telah berhasil dikirim. Kami akan segera menghubungi Anda.",
+        "error": "Terjadi kesalahan. Silakan coba lagi.",
+        "res-message": {
+          "200": "Pesan berhasil dikirim!",
+          "404": "Beberapa data wajib belum diisi",
+          "500": "Gagal mengirim email"
+        }
+      }
     }
   },
   "header": {

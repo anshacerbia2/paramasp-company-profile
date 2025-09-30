@@ -1,7 +1,9 @@
 "use client";
 
 import { Fragment, useState } from "react";
+import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
+import { NotifyX } from "notifyx";
 import { ITEM_VARIANT_Y } from "@/constants/motions";
 
 type ContactFormProps = {
@@ -24,6 +26,9 @@ const chunkedForm = [["fname", "lname"], ["phone", "email"], ["message"]];
 const MESSAGE_LIMIT = 500;
 
 const ContactForm = ({ title, paragraph, form }: ContactFormProps) => {
+  const button = useTranslations("global.button");
+  const words = useTranslations("global.words");
+
   const [values, setValues] = useState<FormValues>({
     fname: "",
     lname: "",
@@ -53,25 +58,29 @@ const ContactForm = ({ title, paragraph, form }: ContactFormProps) => {
   const validate = (vals: FormValues): FormErrors => {
     const newErrors: FormErrors = {};
 
-    if (!vals.fname.trim()) newErrors.fname = "First name is required";
-    if (!vals.lname.trim()) newErrors.lname = "Last name is required";
+    if (!vals.fname.trim())
+      newErrors.fname = words("contact-us.form.fname.required");
+    if (!vals.lname.trim())
+      newErrors.lname = words("contact-us.form.lname.required");
 
     if (!vals.phone.trim()) {
-      newErrors.phone = "Phone number is required";
+      newErrors.phone = words("contact-us.form.phone.required");
     } else if (!/^\+?[0-9]{8,15}$/.test(vals.phone)) {
-      newErrors.phone = "Invalid phone number format";
+      newErrors.phone = words("contact-us.form.phone.invalid");
     }
 
     if (!vals.email.trim()) {
-      newErrors.email = "Email is required";
+      newErrors.email = words("contact-us.form.email.required");
     } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(vals.email)) {
-      newErrors.email = "Invalid email format";
+      newErrors.email = words("contact-us.form.email.invalid");
     }
 
     if (!vals.message.trim()) {
-      newErrors.message = "Message is required";
+      newErrors.message = words("contact-us.form.message.required");
     } else if (vals.message.length < 10) {
-      newErrors.message = "Message must be at least 10 characters";
+      newErrors.message = words("contact-us.form.message.minlength", {
+        min: 10,
+      });
     }
 
     return newErrors;
@@ -97,7 +106,7 @@ const ContactForm = ({ title, paragraph, form }: ContactFormProps) => {
       const data = await res.json();
 
       if (res.ok) {
-        alert("Message sent successfully!");
+        NotifyX.success(words("contact-us.success"));
         setValues({
           fname: "",
           lname: "",
@@ -106,11 +115,13 @@ const ContactForm = ({ title, paragraph, form }: ContactFormProps) => {
           message: "",
         });
       } else {
-        alert(data.error || "Something went wrong.");
+        NotifyX.error(data.error || words("contact-us.error"), {
+          duration: 3000,
+          dismissible: true,
+        });
       }
     } catch (err) {
-      console.error(err);
-      alert("Something went wrong. Please try again.");
+      NotifyX.success(words("contact-us.error"));
     } finally {
       setSubmitting(false);
     }
@@ -205,7 +216,7 @@ const ContactForm = ({ title, paragraph, form }: ContactFormProps) => {
               y: 50,
             })}
           >
-            {submitting ? "Sending..." : "Send Message"}
+            {submitting ? button("sending") : button("send-message")}
           </motion.button>
         </form>
       </div>
