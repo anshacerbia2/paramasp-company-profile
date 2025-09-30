@@ -106,7 +106,10 @@ const ContactForm = ({ title, paragraph, form }: ContactFormProps) => {
       const data = await res.json();
 
       if (res.ok) {
-        NotifyX.success(words("contact-us.success"));
+        NotifyX.success(words("contact-us.success"), {
+          duration: 3000,
+          dismissible: true,
+        });
         setValues({
           fname: "",
           lname: "",
@@ -121,7 +124,10 @@ const ContactForm = ({ title, paragraph, form }: ContactFormProps) => {
         });
       }
     } catch (err) {
-      NotifyX.success(words("contact-us.error"));
+      NotifyX.success(words("contact-us.error"), {
+        duration: 3000,
+        dismissible: true,
+      });
     } finally {
       setSubmitting(false);
     }

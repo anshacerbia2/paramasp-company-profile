@@ -10,7 +10,7 @@ export async function POST(req: Request) {
 
     if (!fname || !lname || !email || !message) {
       return NextResponse.json(
-        { error: words("res-message.404") },
+        { error: words("contact-us.res-message.404") },
         { status: 400 }
       );
     }
@@ -48,11 +48,11 @@ Message: ${message}
     };
     await transporter.sendMail(mailOptions);
 
-    return NextResponse.json({ message: words("res-message.200") });
+    return NextResponse.json({ message: words("contact-us.res-message.200") });
   } catch (err) {
     console.error(err);
     return NextResponse.json(
-      { error: words("res-message.500") },
+      { error: words("contact-us.res-message.500") },
       { status: 500 }
     );
   }
