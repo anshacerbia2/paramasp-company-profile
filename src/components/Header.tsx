@@ -28,7 +28,7 @@ const Header = ({
         <nav className="navbar">
           <Link href="/" className="logo">
             <Image src={logo} height={50} alt="paramasp-logo" />
-            <div>Paramasp</div>
+            <div>Parama Satya Pertiwi</div>
           </Link>
           <div className="menu-wrapper">
             {(width === undefined || (width && width > 768)) && (
