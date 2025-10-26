@@ -1,41 +1,79 @@
 import { Metadata } from "next";
-import { useTranslations } from "next-intl";
-import type { PageProps } from "@/types";
-import { generatePageMetadata } from "@/lib/seo";
+import { getTranslations } from "next-intl/server";
+import type { MetaProps, PageProps } from "@/types";
+import type { OfferCatalog } from "@/types/json-ld";
+import { SERVICES_NAVIGATION_KEYS } from "@/constants/navigation";
+import { generatePageMetadata, generateWebpageSchemaLD } from "@/lib/seo";
 import Banner from "@/components/Banner";
-import ForeignVisaService, {
-  ForeignVisaServiceProps,
-} from "@/components/foreign-visa-processing/ForeignVisaService";
+import ForeignVisaProcessing, {
+  ForeignVisaProcessingProps,
+} from "@/components/services/foreign-visa-processing/ForeignVisaProcessing";
 import ClientTrust, { ClientTrustProps } from "@/components/ClientTrust";
+
+const PATH = SERVICES_NAVIGATION_KEYS[3];
 
 export async function generateMetadata({
   params,
-}: PageProps): Promise<Metadata> {
+}: MetaProps): Promise<Metadata> {
   const { locale } = await params;
-  return generatePageMetadata(
-    locale,
-    "services/foreign-visa-processing",
-    "services.foreign-visa-processing"
-  );
+  return generatePageMetadata(locale, `/services/${PATH}`, `services.${PATH}`);
 }
 
-export default function Page() {
-  const nav = useTranslations("header.navigation");
-  const content = useTranslations("services.foreign-visa-processing");
-  const ctp = useTranslations("client-trust-priority");
+export default async function Page({ params }: PageProps) {
+  const { locale } = await params;
 
+  const nav = await getTranslations("header.navigation");
+  const content = await getTranslations(`services.${PATH}`);
+  const ctp = await getTranslations("client-trust-priority");
+  const jsonLd = await getTranslations(`jsonLd`);
+
+  const breadcrumbLD = [
+    {
+      label: jsonLd("home.name"),
+      path: `/${locale}`,
+    },
+    {
+      label: nav("services.label"),
+    },
+    {
+      label: jsonLd(`${PATH}.name`),
+      path: `/${locale}/services/${PATH}`,
+    },
+  ];
+
+  const offerCatalog: OfferCatalog = {
+    "@type": "OfferCatalog",
+    name: content("title"),
+    description: content("excerpt"),
+    itemListElement: [1, 2, 3].map((i) => ({
+      "@type": "Offer",
+      itemOffered: {
+        "@type": "Service",
+        name: content(`list.item-${i}.title`),
+        description: content(`list.item-${i}.description`),
+      },
+    })),
+  };
+
+  const webpageSchema = await generateWebpageSchemaLD(
+    locale,
+    PATH,
+    breadcrumbLD,
+    "service",
+    offerCatalog
+  );
   const breadcrumb = [
     {
       label: nav("services.label"),
       href: null,
     },
     {
-      label: nav("services.list.foreign-visa-processing"),
+      label: nav(`services.list.${PATH}`),
       href: null,
     },
   ];
 
-  const foreignVisaServiceProps: ForeignVisaServiceProps = {
+  const foreignVisaProcessingProps: ForeignVisaProcessingProps = {
     title: content("title"),
     paragraph: content("excerpt"),
     cards: [1, 2, 3].map((v) => ({
@@ -56,15 +94,22 @@ export default function Page() {
   };
 
   return (
-    <main id="foreign-visa-processing">
-      <h1 className="sr-only">{content("seo-title")}</h1>
-      <Banner
-        bannerImgPath="/images/banner-services.jpg"
-        title={nav("services.list.foreign-visa-processing")}
-        breadcrumb={breadcrumb}
+    <>
+      <script
+        id="webpage-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(webpageSchema) }}
       />
-      <ForeignVisaService {...foreignVisaServiceProps} />
-      <ClientTrust {...clientTrustProps} />
-    </main>
+      <main id={`${PATH}`}>
+        <h1 className="sr-only">{content("seo-title")}</h1>
+        <Banner
+          bannerImgPath="/images/banner-services.jpg"
+          title={nav(`services.list.${PATH}`)}
+          breadcrumb={breadcrumb}
+        />
+        <ForeignVisaProcessing {...foreignVisaProcessingProps} />
+        <ClientTrust {...clientTrustProps} />
+      </main>
+    </>
   );
 }

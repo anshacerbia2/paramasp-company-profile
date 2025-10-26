@@ -1,9 +1,9 @@
 import { Metadata } from "next";
-import { useTranslations } from "next-intl";
-import type { PageProps } from "@/types";
+import { getTranslations } from "next-intl/server";
+import type { MetaProps, PageProps } from "@/types";
 import { SERVICES_NAVIGATION_KEYS } from "@/constants/navigation";
 import { SERVICES } from "@/constants/service";
-import { generatePageMetadata } from "@/lib/seo";
+import { generatePageMetadata, generateWebpageSchemaLD } from "@/lib/seo";
 import Banner from "@/components/Banner";
 import VisionMission, {
   VisionMissionProps,
@@ -16,15 +16,31 @@ import Services, { ServicesProps } from "@/components/Services";
 
 export async function generateMetadata({
   params,
-}: PageProps): Promise<Metadata> {
+}: MetaProps): Promise<Metadata> {
   const { locale } = await params;
-  return generatePageMetadata(locale, "about", "about-us");
+  return generatePageMetadata(locale, "/about", "about-us");
 }
 
-export default function AboutPage() {
-  const global = useTranslations("global");
-  const services = useTranslations("services");
-  const about = useTranslations("about-us");
+export default async function Page({ params }: PageProps) {
+  const { locale } = await params;
+
+  const global = await getTranslations("global");
+  const services = await getTranslations("services");
+  const about = await getTranslations("about-us");
+  const jsonLd = await getTranslations(`jsonLd`);
+
+  const webpageSchema = await generateWebpageSchemaLD(
+    locale,
+    "about-us",
+    [
+      {
+        label: jsonLd("home.name"),
+        path: `/${locale}`,
+      },
+      { label: jsonLd("about-us.name"), path: `/${locale}/about` },
+    ],
+    "about"
+  );
 
   const visionMissionProps: VisionMissionProps = {
     tag: about("vision-mission.tag"),
@@ -62,16 +78,23 @@ export default function AboutPage() {
   };
 
   return (
-    <main id="about">
-      <h1 className="sr-only">{about("seo-title")}</h1>
-      <Banner
-        bannerImgPath="/images/banner-about-us.jpg"
-        title={about("tag")}
+    <>
+      <script
+        id="webpage-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(webpageSchema) }}
       />
-      <VisionMission {...visionMissionProps} />
-      <OurCommitment {...ourCommitmentsProps} />
-      <Services {...servicesProps} />
-      {/* <TestimonialCarousel /> */}
-    </main>
+      <main id="about">
+        <h1 className="sr-only">{about("seo-title")}</h1>
+        <Banner
+          bannerImgPath="/images/banner-about-us.jpg"
+          title={about("tag")}
+        />
+        <VisionMission {...visionMissionProps} />
+        <OurCommitment {...ourCommitmentsProps} />
+        <Services {...servicesProps} />
+        {/* <TestimonialCarousel /> */}
+      </main>
+    </>
   );
 }

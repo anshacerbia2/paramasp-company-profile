@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 
 export async function GET() {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000";
+  const baseUrl = process.env.SITE_URL || "https://paramasp.com";
 
   const sitemaps = [
     `${baseUrl}/sitemap-0.xml`, // hanya sitemap statis

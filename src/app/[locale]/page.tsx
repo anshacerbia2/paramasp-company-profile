@@ -3,14 +3,14 @@ import slide2 from "@/assets/images/home-carousel-slide-2.jpg";
 import slide3 from "@/assets/images/home-carousel-slide-3.jpg";
 
 import { Metadata } from "next";
-import { useTranslations } from "next-intl";
-import type { PageProps } from "@/types";
+import { getTranslations } from "next-intl/server";
+import type { MetaProps, PageProps } from "@/types";
 import {
   NEWS_NAVIGATION_KEYS,
   SERVICES_NAVIGATION_KEYS,
 } from "@/constants/navigation";
 import { SERVICES } from "@/constants/service";
-import { generatePageMetadata } from "@/lib/seo";
+import { generatePageMetadata, generateWebpageSchemaLD } from "@/lib/seo";
 import HomeCarousel from "@/components/HomeCarousel";
 import AboutUs, { AboutUsProps } from "@/components/AboutUs";
 import Services, { ServicesProps } from "@/components/Services";
@@ -20,9 +20,9 @@ import NewsIndex, { NewsIndexProps } from "@/components/news/NewsIndex";
 
 export async function generateMetadata({
   params,
-}: PageProps): Promise<Metadata> {
+}: MetaProps): Promise<Metadata> {
   const { locale } = await params;
-  return generatePageMetadata(locale, "/", "home");
+  return generatePageMetadata(locale, "", "home");
 }
 
 const slideImages = [slide1, slide2, slide3];
@@ -32,14 +32,24 @@ const slideHrefs = [
   "/services/stay-and-work-permit",
 ];
 
-export default function HomePage() {
-  const global = useTranslations("global");
-  const home = useTranslations("home");
-  const about = useTranslations("about-us");
-  const services = useTranslations("services");
-  const ctp = useTranslations("client-trust-priority");
-  const news = useTranslations("news");
+export default async function Page({ params }: PageProps) {
+  const { locale } = await params;
+
+  const global = await getTranslations("global");
+  const home = await getTranslations("home");
+  const about = await getTranslations("about-us");
+  const services = await getTranslations("services");
+  const ctp = await getTranslations("client-trust-priority");
+  const news = await getTranslations("news");
   const readMore = global("button.read-more");
+  const jsonLd = await getTranslations(`jsonLd`);
+
+  const webpageSchema = await generateWebpageSchemaLD(locale, "home", [
+    {
+      label: jsonLd("home.name"),
+      path: `/${locale}`,
+    },
+  ]);
 
   const slides = Array(3)
     .fill(null)
@@ -109,15 +119,22 @@ export default function HomePage() {
   };
 
   return (
-    <main id="home">
-      {/* SEO required - screen reader only */}
-      <h1 className="sr-only">{home("title")}</h1>
-      <HomeCarousel slides={slides} />
-      <AboutUs {...aboutUsProps} />
-      <Services {...servicesProps} />
-      <ClientTrust {...clientTrustProps} />
-      {/* <TestimonialCarousel /> */}
-      <NewsIndex {...newsIndexProps} />
-    </main>
+    <>
+      <script
+        id="webpage-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(webpageSchema) }}
+      />
+      <main id="home">
+        {/* SEO required - screen reader only */}
+        <h1 className="sr-only">{home("title")}</h1>
+        <HomeCarousel slides={slides} />
+        <AboutUs {...aboutUsProps} />
+        <Services {...servicesProps} />
+        <ClientTrust {...clientTrustProps} />
+        {/* <TestimonialCarousel /> */}
+        <NewsIndex {...newsIndexProps} />
+      </main>
+    </>
   );
 }

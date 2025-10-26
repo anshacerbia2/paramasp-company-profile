@@ -1,47 +1,108 @@
 import { Metadata } from "next";
-import { useTranslations } from "next-intl";
-import type { PageProps } from "@/types";
-import { generatePageMetadata } from "@/lib/seo";
+import { getTranslations } from "next-intl/server";
+import type { MetaProps, PageProps } from "@/types";
+import type { OfferCatalog } from "@/types/json-ld";
+import { SERVICES_NAVIGATION_KEYS } from "@/constants/navigation";
+import { generatePageMetadata, generateWebpageSchemaLD } from "@/lib/seo";
 import Banner from "@/components/Banner";
 import KITAProcessingService, {
   KITASProcessingServiceProps,
-} from "@/components/services/KITASProcessingService";
+} from "@/components/services/stay-and-work-permit/KITASProcessingService";
 import KITASService_1, {
   KITASService_1_Props,
-} from "@/components/services/KITASService_1";
+} from "@/components/services/stay-and-work-permit/KITASService_1";
 import KITASService_2, {
   KITASService_2_Props,
-} from "@/components/services/KITASService_2";
+} from "@/components/services/stay-and-work-permit/KITASService_2";
 import ClientTrust, { ClientTrustProps } from "@/components/ClientTrust";
+
+const PATH = SERVICES_NAVIGATION_KEYS[1];
 
 export async function generateMetadata({
   params,
-}: PageProps): Promise<Metadata> {
+}: MetaProps): Promise<Metadata> {
   const { locale } = await params;
-  return generatePageMetadata(
-    locale,
-    "services/stay-and-work-permit",
-    "services.stay-and-work-permit"
-  );
+  return generatePageMetadata(locale, `/services/${PATH}`, `services.${PATH}`);
 }
 
-export default function Page() {
-  const nav = useTranslations("header.navigation");
-  const content = useTranslations("services.stay-and-work-permit");
-  const ctp = useTranslations("client-trust-priority");
+export default async function Page({ params }: PageProps) {
+  const { locale } = await params;
 
+  const nav = await getTranslations("header.navigation");
+  const content = await getTranslations(`services.${PATH}`);
+  const ctp = await getTranslations("client-trust-priority");
+  const jsonLd = await getTranslations(`jsonLd`);
+
+  const breadcrumbLD = [
+    {
+      label: jsonLd("home.name"),
+      path: `/${locale}`,
+    },
+    {
+      label: nav("services.label"),
+    },
+    {
+      label: jsonLd(`${PATH}.name`),
+      path: `/${locale}/services/${PATH}`,
+    },
+  ];
+
+  const offerCatalog: OfferCatalog = {
+    "@type": "OfferCatalog",
+    name: content("title"),
+    description: content("excerpt"),
+    itemListElement: [
+      // kitas
+      {
+        "@type": "Offer",
+        itemOffered: {
+          "@type": "Service",
+          name: content("kitas.title"),
+          description: content("kitas.intro"),
+        },
+      },
+      // service-1
+      {
+        "@type": "Offer",
+        itemOffered: {
+          "@type": "Service",
+          name: content("services.service-1.title"),
+        },
+      },
+      // service-2 with sub-items
+      {
+        "@type": "OfferCatalog",
+        name: content("services.service-2.title"),
+        itemListElement: [1, 2, 3, 4, 5, 6, 7].map((i) => ({
+          "@type": "Offer",
+          itemOffered: {
+            "@type": "Service",
+            name: content(`services.service-2.list.item-${i}.title`),
+          },
+        })),
+      },
+    ],
+  };
+
+  const webpageSchema = await generateWebpageSchemaLD(
+    locale,
+    PATH,
+    breadcrumbLD,
+    "service",
+    offerCatalog
+  );
   const breadcrumb = [
     {
       label: nav("services.label"),
       href: null,
     },
     {
-      label: nav("services.list.stay-and-work-permit"),
+      label: nav(`services.list.${PATH}`),
       href: null,
     },
   ];
 
-  const indonesianVisaProcessingProps: KITASProcessingServiceProps = {
+  const kitasProcessingProps: KITASProcessingServiceProps = {
     title: content("kitas.title"),
     intro: content("kitas.intro"),
     paragraphs: [1, 2].map((key) => ({
@@ -84,20 +145,27 @@ export default function Page() {
   };
 
   return (
-    <main id="stay-and-work-permit">
-      {/* SEO required - screen reader only */}
-      <h1 className="sr-only">{content("seo-title")}</h1>
-
-      {/* Use navigation label as title */}
-      <Banner
-        bannerImgPath="/images/banner-services.jpg"
-        title={nav("services.list.stay-and-work-permit")}
-        breadcrumb={breadcrumb}
+    <>
+      <script
+        id="webpage-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(webpageSchema) }}
       />
-      <KITAProcessingService {...indonesianVisaProcessingProps} />
-      <KITASService_1 {...kitasService1Props} />
-      <KITASService_2 {...kitasService2Props} />
-      <ClientTrust {...clientTrustProps} />
-    </main>
+      <main id={`${PATH}`}>
+        {/* SEO required - screen reader only */}
+        <h1 className="sr-only">{content("seo-title")}</h1>
+
+        {/* Use navigation label as title */}
+        <Banner
+          bannerImgPath="/images/banner-services.jpg"
+          title={nav(`services.list.${PATH}`)}
+          breadcrumb={breadcrumb}
+        />
+        <KITAProcessingService {...kitasProcessingProps} />
+        <KITASService_1 {...kitasService1Props} />
+        <KITASService_2 {...kitasService2Props} />
+        <ClientTrust {...clientTrustProps} />
+      </main>
+    </>
   );
 }

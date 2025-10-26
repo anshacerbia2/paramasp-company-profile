@@ -1,8 +1,9 @@
 import { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
-import { NewsPageProps } from "@/types/index";
+import type { NewsPageProps } from "@/types/index";
+import type { BreadcrumbLD } from "@/types/json-ld";
 import { NEWS_NAVIGATION_KEYS } from "@/constants/navigation";
-import { generatePageMetadata } from "@/lib/seo";
+import { generatePageMetadata, generateWebpageSchemaLD } from "@/lib/seo";
 import Banner from "@/components/Banner";
 import Article, { ArticleProps } from "@/components/news/Article";
 import NewsIndex, { NewsIndexProps } from "@/components/news/NewsIndex";
@@ -15,7 +16,7 @@ export async function generateMetadata({
   const slugKey = slug?.[0] || "";
   return generatePageMetadata(
     locale,
-    `news/${slugKey}`,
+    `/news/${slugKey}`,
     `news${slugKey ? "." + slugKey : ""}`
   );
 }
@@ -25,7 +26,7 @@ export function generateStaticParams() {
 }
 
 export default async function Page({ params }: NewsPageProps) {
-  const { slug } = await params;
+  const { locale, slug } = await params;
   const slugKey = slug?.[0] || "";
 
   if (slugKey && !NEWS_NAVIGATION_KEYS.includes(slugKey)) {
@@ -35,6 +36,32 @@ export default async function Page({ params }: NewsPageProps) {
   const global = await getTranslations("global");
   const news = await getTranslations("news");
   const content = await getTranslations(slug ? `news.${slugKey}` : "news");
+  const jsonLd = await getTranslations(`jsonLd`);
+
+  const breadcrumbLD: BreadcrumbLD[] = [
+    {
+      label: jsonLd("home.name"),
+      path: `/${locale}`,
+    },
+    {
+      label: jsonLd("news.name"),
+      path: `/${locale}/news`,
+    },
+  ];
+
+  if (slugKey) {
+    breadcrumbLD.push({
+      label: news(`${slugKey}.title`),
+      path: `/${locale}/news/${slugKey}`,
+    });
+  }
+
+  const webpageSchema = await generateWebpageSchemaLD(
+    locale,
+    slugKey ? `news.${slugKey}` : "news",
+    breadcrumbLD,
+    slugKey ? "news" : "webpage"
+  );
 
   // const breadcrumb = [
   //   {
@@ -105,25 +132,32 @@ export default async function Page({ params }: NewsPageProps) {
   }
 
   return (
-    <main className="news">
-      <Banner
-        useH1
-        bannerImgPath={
-          slugKey ? content("image.src") : "/images/banner-news.jpg"
-        }
-        tag={slugKey ? news("tag") : undefined}
-        title={slugKey ? content("title") : news("tag")}
-        published={slugKey ? content("published") : undefined}
-        // breadcrumb={breadcrumb}
+    <>
+      <script
+        id="webpage-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(webpageSchema) }}
       />
-      {slugKey ? (
-        <Article
-          content={content.raw("content")}
-          navigation={articleNavigation}
+      <main className="news">
+        <Banner
+          useH1
+          bannerImgPath={
+            slugKey ? content("image.src") : "/images/banner-news.jpg"
+          }
+          tag={slugKey ? news("tag") : undefined}
+          title={slugKey ? content("title") : news("tag")}
+          published={slugKey ? content("published") : undefined}
+          // breadcrumb={breadcrumb}
         />
-      ) : (
-        <NewsIndex {...newsIndexProps} />
-      )}
-    </main>
+        {slugKey ? (
+          <Article
+            content={content.raw("content")}
+            navigation={articleNavigation}
+          />
+        ) : (
+          <NewsIndex {...newsIndexProps} />
+        )}
+      </main>
+    </>
   );
 }

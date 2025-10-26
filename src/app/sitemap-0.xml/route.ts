@@ -8,7 +8,7 @@ import {
 
 export async function GET() {
   const locales = routing.locales; // daftar locale
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000";
+  const baseUrl = process.env.SITE_URL || "https://paramasp.com";
 
   // Generate URL untuk static pages
   const staticUrls = locales.flatMap((locale) =>

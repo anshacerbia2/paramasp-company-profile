@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 
 import { memo } from "react";
-import Accordion, { AccordionProps } from "../Accordion";
+import Accordion, { AccordionProps } from "@/components/Accordion";
 import { ITEM_VARIANT_Y } from "@/constants/motions";
 
 export type KITASService_2_Props = {

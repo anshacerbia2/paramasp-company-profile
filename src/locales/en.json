@@ -95,7 +95,7 @@
       "carousel": {
         "slide-1": {
           "title": "Practical Solutions for Expatriate Permits in Indonesia — Safe, Fast, and Professional",
-          "content": "We help your company manage all requirements for foreign workers stay and work permits with a transparent process and guaranteed results.",
+          "content": "WWe help your company manage all official KITAS work and stay permit requirements for Foreign Workers through a transparent process and guaranteed results.",
           "button": "Read More..."
         },
         "slide-2": {
@@ -120,7 +120,7 @@
     "seo-title": "Getting to Know Parama Satya Pertiwi — Experts in Foreign Worker Permit Services",
     "tag": "About Us",
     "title": "PT. Parama Satya Pertiwi",
-    "excerpt": "PT. Parama Satya Pertiwi operates in legal document management for Foreign Workers (TKA), covering Stay Permits, Work Permits, and other related authorizations.",
+    "excerpt": "As a trusted KITAS agent, PT. Parama Satya Pertiwi has extensive experience in handling various legal documents for Foreign Workers (Expatriates), including Stay Permits, Work Permits, and other supporting licenses — offering affordable KITAS services at competitive prices.",
     "vision-mission": {
       "tag": "What Drives Us",
       "title": "Our Vision and Mission for Trusted and Hassle-Free Foreign Worker Permit Services",
@@ -176,44 +176,64 @@
     },
     "indonesian-visa-processing": {
       "meta": {
-        "title": "Indonesia Visa Services — Fast & Legal Visit, Work, Student & Business Visa Assistance | Parama Satya Pertiwi",
-        "description": "Explore Indonesia visa services including Visit Visa, Work Visa, Student Visa, Business Visa (Single & Multiple Entry), and Visa on Arrival. Professional guidance for fast, legal, and hassle-free application.",
-        "keywords": "Indonesia visa services, visit visa Indonesia, work visa Indonesia, student visa Indonesia, business visa Indonesia, multiple entry visa Indonesia, visa on arrival Indonesia, corporate immigration Indonesia, foreigner visa assistance"
+        "title": "Indonesia Visa Services — Fast, Legal & Reliable for Tourist, Business, Work, and Student Purposes | Parama Satya Pertiwi",
+        "description": "Professional visa services in Indonesia — Work, Business, Tourist, Student, VOA, and Investor. Fast, reliable, and compliant with current immigration regulations.",
+        "keywords": "Indonesia visa services, work visa Indonesia, business visa C17 D17, tourist visa Indonesia, multiple entry visa, visa on arrival Indonesia, student visa, investor visa, professional visa agency Indonesia, Parama Satya Pertiwi"
       },
-      "seo-title": "Complete Guide to Indonesian Visa Services for Tourism, Work, Study, and Business",
-      "title": "Indonesia Visa Services",
-      "excerpt": "Fast & legal Indonesian visa services: tourist, work, student, business, and visa on arrival with expert guidance.",
+      "seo-title": "Indonesia Visa Services — Trusted, Legal, and Fast Processing by Parama Satya Pertiwi",
+      "title": "Indonesia Visa Processing Services",
+      "excerpt": "Comprehensive visa solutions in Indonesia for business, work, study, tourism, and investment. Managed by certified immigration consultants for a fast, legal, and transparent process.",
       "list": {
         "item-1": {
-          "title": "Visit Visa",
-          "description": "The Indonesia Visit Visa is intended for short stays, including business meetings, tourism, family visits, or official purposes."
+          "title": "Tourist Visa (Visit Visa)",
+          "description": "The Indonesia Tourist Visa allows short-term visits for leisure, family reunions, conferences, or official trips. Valid for up to 60 days with a simple application process."
         },
         "item-2": {
           "title": "Work Visa",
-          "description": "The Indonesia Work Visa is required for foreign workers employed by a legally registered company based in Indonesia."
+          "description": "Designed for foreign professionals employed by registered Indonesian companies. We handle the complete procedure including RPTKA, Notification, IMTA, and work visa issuance under the latest Ministry of Manpower and Immigration regulations."
         },
         "item-3": {
           "title": "Student Visa",
-          "description": "The Indonesia Student Visa is designed for international students officially accepted by an accredited educational institution in Indonesia."
+          "description": "Available to international students officially accepted by Indonesian educational institutions. Covers visa extension (up to 180 days), ITAS for students, and mandatory reporting assistance."
         },
         "item-4": {
           "title": "Visa on Arrival (VOA)",
-          "description": "The Indonesia Visa on Arrival can be obtained directly at international airports or immigration checkpoints without prior application at an embassy."
+          "description": "Eligible for citizens from 97 countries. The Indonesia VOA is valid for 30 days and extendable once for a total of 60 days, ideal for short-term business or leisure visits."
         },
         "item-5": {
-          "title": "Single Entry Business Visa",
-          "description": "The Indonesia Single Entry Business Visa allows a one-time entry for business purposes. A new application is required once you exit the country."
+          "title": "Single-Entry Business Visa (C17)",
+          "description": "The C17 Business Visa allows single-entry business trips to Indonesia. We support the entire documentation and approval process to ensure compliance with immigration laws."
         },
         "item-6": {
-          "title": "Multiple Entry Business Visa",
-          "description": "The Indonesia Multiple Entry Business Visa allows frequent business visits during its validity period, ideal for entrepreneurs and investors."
+          "title": "Multiple-Entry Business Visa (D17)",
+          "description": "The D17 Visa suits investors and professionals who need to travel in and out frequently. Valid for up to 12 months for short-term professional activities without permanent employment."
+        },
+        "item-7": {
+          "title": "Investor & Second Home Visa",
+          "description": "Specialized service for foreign investors and long-term residents under Indonesia’s Second Home Visa program (valid up to 10 years). Processed under expert immigration supervision for legal certainty and flexibility."
+        }
+      },
+      "additional_content": {
+        "why_choose_us": {
+          "title": "Why Choose Parama Satya Pertiwi for Your Indonesia Visa Processing?",
+          "benefits": [
+            "Corporate and foreign employment permits handled legally and efficiently",
+            "10+ years of professional immigration experience",
+            "Transparent workflow with real-time progress updates",
+            "100% regulatory compliance with the Directorate General of Immigration",
+            "Free consultation for personalized visa strategy and eligibility assessment"
+          ]
+        },
+        "visa_duration": {
+          "title": "Visa Duration & Extension Information",
+          "content": "Visa validity in Indonesia varies by type: VOA up to 60 days (30+30), Business Visa up to 180 days, and Work Visa based on employment contracts. Extensions must be filed before expiration to avoid overstay penalties."
         }
       }
     },
     "stay-and-work-permit": {
       "meta": {
-        "title": "KITAS & ITAP Services — Legal Stay and Work in Indonesia | Parama Satya Pertiwi",
-        "description": "Parama Satya Pertiwi provides professional services for managing KITAS (Limited Stay Permit), ITAS, and ITAP for expatriates. Ensure a fast, legal, and regulation-compliant stay and work process in Indonesia.",
+        "title": "KITAS, ITAS & ITAP Services — Legal Stay and Work in Indonesia | Parama Satya Pertiwi",
+        "description": "Parama Satya Pertiwi provides professional KITAS, ITAS, and ITAP services for expatriates. Fast, legal, and compliant stay and work permit processing in Indonesia.",
         "keywords": "KITAS, ITAS, ITAP, limited stay permit, permanent stay permit, foreign workers, expatriates, Indonesia immigration services, work visa processing, Parama Satya Pertiwi"
       },
       "seo-title": "Legal Stay and Work Solutions in Indonesia for Foreign Workers",
@@ -235,7 +255,7 @@
       },
       "services": {
         "service-1": {
-          "title": "Procedure for Work and Stay Permits for Foreign Workers (Expatriates) in Indonesia",
+          "title": "Work and Residence Permit for New Foreign Workers (TKA) in Indonesia",
           "list": {
             "item-1": {
               "title": "Expatriate Manpower Utilization Plan (RPTKA)",
@@ -420,6 +440,7 @@
         "alt": "Illustration of Indonesian Immigration Law: official documents, passport, and government regulations"
       },
       "published": "2025-09-20T00:00:00Z",
+      "modified": "2025-09-20T00:00:00Z",
       "source": "https://www.imigrasi.go.id/"
     },
     "kitas-vs-kitap": {
@@ -436,6 +457,7 @@
         "alt": "Comparison between KITAS and KITAP: Limited Stay Permit vs Permanent Stay Permit in Indonesia"
       },
       "published": "2025-09-20T00:00:00Z",
+      "modified": "2025-09-20T00:00:00Z",
       "source": "https://www.imigrasi.go.id/"
     },
     "visa-c17-extension": {
@@ -452,94 +474,95 @@
         "alt": "Guide to extending a C17 Visa in Indonesia: passport, visa stamp, and immigration office"
       },
       "published": "2025-09-20T00:00:00Z",
+      "modified": "2025-09-20T00:00:00Z",
       "source": "https://www.imigrasi.go.id/"
     }
   },
   "visa": {
-    "title": "Types of Visas by Name/Index",
+    "title": "Types of Indonesian Visas by Code / Index",
     "list": {
       "A1": "Visa Exemption (Tourism)",
       "B1": "Visa on Arrival (Tourism)",
       "C1": "Tourist Visa",
-      "A36": "Visa Exemption (Transport Crew on Duty)",
-      "A37": "Visa Exemption (Transport Crew in Indonesian Waters)",
-      "A4": "Visa Exemption (Government Duty)",
-      "B4": "Visa on Arrival (Government Duty)",
+      "A36": "Visa Exemption (Crew on Active Duty)",
+      "A37": "Visa Exemption (Crew Operating in Indonesian Waters)",
+      "A4": "Visa Exemption (Official Government Duty)",
+      "B4": "Visa on Arrival (Official Government Mission)",
       "C10": "Business Meeting Visa",
-      "C10A": "Religious Leader Visa",
+      "C10A": "Religious Mission Visa",
       "C11": "Business Visa (Exhibition)",
       "E28A": "Investor Visa",
       "E28B": "Investor Visa (Company Establishment)",
-      "E28C": "Investor Visa (Without Establishing Company)",
-      "E28D": "Investor Visa (Branch/Subsidiary Establishment)",
-      "E28F": "Investor Visa (Capital City)",
+      "E28C": "Investor Visa (Without Company Establishment)",
+      "E28D": "Investor Visa (Subsidiary or Branch Office Establishment)",
+      "E28F": "Investor Visa (Capital City Region)",
       "E28G": "Investor Visa (Parent Company Representative)",
       "E29": "Research Visa",
       "E30A": "Student Visa",
       "E308": "Education Visa",
       "E31A": "Family Visa",
-      "E31B": "Family Visa (Spouse of ITAS/ITAP Holder)",
-      "E31C": "Family Visa (Child of Indonesian Citizen)",
+      "E31B": "Family Visa (Spouse of KITAS/KITAP Holder)",
+      "E31C": "Family Visa (Child of Indonesian Parent)",
       "E31D": "Family Visa (Child)",
       "E31E": "Family Visa (Child)",
       "E31F": "Family Visa (Child)",
       "E31G": "Family Visa (Parent)",
       "E31H": "Family Visa (Parent)",
       "E31J": "Family Visa (Sibling)",
-      "E32A": "Ex-Indonesian Citizen Visa",
-      "E32B": "Ex-Indonesian Citizen Visa (1st & 2nd Degree)",
-      "E32C": "Ex-Indonesian Citizen Visa (Max Stay 2 Years)",
-      "E32D": "Ex-Indonesian Citizen Visa (Max Stay 1 Year)",
+      "E32A": "Former Indonesian Citizen Visa",
+      "E32B": "Ex-Indonesian Visa (Degree 1 and 2 Relatives)",
+      "E32C": "Ex-Indonesian Visa (Maximum Stay 2 Years)",
+      "E32D": "Ex-Indonesian Visa (Maximum Stay 1 Year)",
       "E33": "Second Home Visa",
-      "E33A": "Special Skills Visa",
-      "E33B": "Special Skills Visa (Without Sponsor)",
-      "E33C": "World Figure Visa (Invited by Government)",
-      "E33E": "Elderly Visa",
-      "E33F": "Elderly Visa",
+      "E33A": "Special Expertise Visa",
+      "E33B": "Special Expertise Visa (Without Sponsor)",
+      "E33C": "World Figure Visa (By Government Invitation)",
+      "E33E": "Retirement Visa",
+      "E33F": "Retirement Visa",
       "E33G": "Remote Worker Visa",
-      "E33G2": "Medical Visa",
+      "E33G2": "Medical Treatment Visa",
       "E35": "Work and Holiday Visa",
-      "C11A": "Business Visa (Exhibition) for Citizens from Calling Visa Countries",
+      "C11A": "Business Visa (Exhibition) — For Calling Visa Countries",
       "C12": "Pre-Investment Visa",
       "C13": "Transport Crew Visa",
       "C14": "Film Production Visa",
       "C15": "Emergency Work Visa",
       "C16": "Training Visa (Participant & Instructor)",
       "C17": "Business Visa (Audit & Inspection)",
-      "C18": "Work Trial Visa",
+      "C18": "Trial Employment Visa",
       "C19": "Business Visa (After-Sales Service)",
       "C2": "Business Visa",
-      "C20": "Business Visa (Machine Installation & Repair)",
+      "C20": "Business Visa (Installation & Maintenance)",
       "C21": "Judicial Process Visa",
       "C22": "Internship Program Visa",
-      "C22A": "Internship Program Visa (Academic)",
-      "C22B": "Internship Program Visa (Industry & Company)",
-      "C3": "Medical Care Visa",
-      "C4": "Government Duty Visa",
+      "C22A": "Academic Internship Visa",
+      "C22B": "Industrial Internship Visa",
+      "C3": "Medical Visa",
+      "C4": "Official Government Mission Visa",
       "C5": "Media & Press Visa",
       "C6": "Social Activities Visa",
-      "C7": "Art & Culture Activities Visa",
+      "C7": "Arts & Cultural Activities Visa",
       "C7A": "Music Performance Visa",
-      "C7B": "Music Performance Crew Visa",
+      "C7B": "Music Crew Visa",
       "C7C": "Art Performance Visa",
       "C8A": "Sports Visa (Athlete)",
       "C8B": "Sports Visa (Official)",
-      "C9": "Study Tour, Course & Short Training Visa",
-      "C9A": "Short Course & Training Visa (Religious)",
-      "C9B": "Short Course & Training Visa (Indonesian Language)",
+      "C9": "Short Course, Training, or Study Visit Visa",
+      "C9A": "Short Religious Study Visa",
+      "C9B": "Short Language Study Visa (Indonesian Language Course)",
       "D1": "Tourist Visa",
       "D12": "Pre-Investment Visa",
       "D14": "Film Production Visa",
       "D17": "Business Visa (Audit & Inspection)",
       "D2": "Business Visa",
-      "D3": "Medical Care Visa",
-      "D7": "Art & Culture Activities Visa",
+      "D3": "Medical Visa",
+      "D7": "Arts & Cultural Activities Visa",
       "D7A": "Music Performance Visa",
-      "D7B": "Music Performance Crew Visa",
+      "D7B": "Music Crew Visa",
       "D8A": "Sports Visa (Athlete)",
       "D8B": "Sports Visa (Official)",
       "F1": "Visa on Arrival (Tourism)",
-      "F4": "Visa on Arrival (Government Duty)"
+      "F4": "Visa on Arrival (Government Mission)"
     }
   },
   "contact": {
@@ -586,6 +609,58 @@
           "title": "Company Legalization & Business Licensing"
         }
       }
+    }
+  },
+  "jsonLd": {
+    "home": {
+      "type": "WebPage",
+      "name": "Parama Satya Pertiwi | Professional, Fast, and Trusted Foreign Worker Permit Services in Indonesia",
+      "description": "Paramasp (PT. Parama Satya Pertiwi) provides fast, secure, and professional foreign worker work and stay permit services in Indonesia, fully compliant with regulations."
+    },
+    "about-us": {
+      "type": "AboutPage",
+      "name": "About Us | Parama Satya Pertiwi — Professional & Trusted Foreign Worker Permit Services",
+      "description": "Parama Satya Pertiwi is a trusted company providing foreign worker permit services. Fast, legal, and confidential services with a professional commitment to client satisfaction."
+    },
+    "indonesian-visa-processing": {
+      "type": "Service",
+      "subtype": "ImmigrationService",
+      "name": "Indonesia Visa Services — Fast, Legal & Reliable for Tourist, Business, Work, and Student Purposes | Parama Satya Pertiwi",
+      "description": "Professional visa services in Indonesia — including Work Visa, Business Visa (C17/D17), Tourist Visa, Student Visa, Visa on Arrival, and Investor Visa. Swift, reliable, and compliant with the latest regulations by the Directorate General of Immigration."
+    },
+    "stay-and-work-permit": {
+      "type": "Service",
+      "subtype": "ImmigrationService",
+      "name": "KITAS & ITAP Services — Legal Stay and Work in Indonesia | Parama Satya Pertiwi",
+      "description": "Parama Satya Pertiwi provides professional services for managing KITAS (Limited Stay Permit), ITAS, and ITAP for expatriates. Ensure a fast, legal, and regulation-compliant stay and work process in Indonesia."
+    },
+    "passport-processing": {
+      "type": "Service",
+      "subtype": "ProfessionalService",
+      "name": "Indonesian Passport Services — New, Renewal, Replacement & E-Passport Assistance | Parama Satya Pertiwi",
+      "description": "Parama Satya Pertiwi provides professional Indonesian passport services for citizens, including new passport applications, renewals, replacements for lost or damaged passports, and e-passport issuance. Fast, reliable, and fully compliant with Indonesian immigration regulations."
+    },
+    "foreign-visa-processing": {
+      "type": "Service",
+      "subtype": "ImmigrationService",
+      "name": "Foreign Visa Processing Services — Fast, Legal & Professional | Parama Satya Pertiwi",
+      "description": "Parama Satya Pertiwi offers professional foreign visa processing services for individuals and companies. We assist with document preparation, form submission, and application tracking to ensure a fast, easy, and efficient visa process."
+    },
+    "company-legalization": {
+      "type": "Service",
+      "subtype": "ProfessionalService",
+      "name": "Company Legalization Services — Fast, Professional & Trusted | Parama Satya Pertiwi",
+      "description": "Parama Satya Pertiwi offers comprehensive company legalization services, including company establishment, business permits, and special certifications. Fast, professional, and fully compliant with regulations, enabling your business to operate smoothly without administrative burdens."
+    },
+    "news": {
+      "type": "WebPage",
+      "name": "News & Updates | Parama Satya Pertiwi",
+      "description": "Stay updated with the latest news, insights, and announcements from Parama Satya Pertiwi. Explore all articles and updates in one place."
+    },
+    "contact": {
+      "type": "WebPage",
+      "name": "Contact Us — Parama Satya Pertiwi | Consultation & Service Information",
+      "description": "Get in touch with Parama Satya Pertiwi for consultation and more details about our services including company legalization, Indonesian visas, KITAS, ITAP, and other permits. Our team is ready to assist you quickly and professionally."
     }
   }
 }

@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import { ITEM_VARIANT_Y } from "@/constants/motions";
-import Accordion, { AccordionProps } from "../Accordion";
+import Accordion, { AccordionProps } from "@/components/Accordion";
 
 export type IndonesianVisaProcessingProps = {
   title: string;

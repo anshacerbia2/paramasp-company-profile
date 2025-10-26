@@ -3,24 +3,24 @@
 import { motion } from "framer-motion";
 import { ITEM_VARIANT_Y } from "@/constants/motions";
 
-export type PassportServiceCard = {
+export type ForeignVisaProcessingCard = {
   title: string;
   description: string;
-  image: {
-    src: string;
-    alt: string;
-  };
 };
 
-export type PassportServiceProps = {
+export type ForeignVisaProcessingProps = {
   title: string;
   paragraph: string;
-  cards: PassportServiceCard[];
+  cards: ForeignVisaProcessingCard[];
 };
 
-const PassportService = ({ title, paragraph, cards }: PassportServiceProps) => {
+const ForeignVisaProcessing = ({
+  title,
+  paragraph,
+  cards,
+}: ForeignVisaProcessingProps) => {
   return (
-    <section className="section__pasport-processing">
+    <section className="section__foreign-visa-processing">
       <div className="container">
         <motion.h2
           initial="hidden"
@@ -54,10 +54,7 @@ const PassportService = ({ title, paragraph, cards }: PassportServiceProps) => {
                   y: 50,
                 })}
               >
-                <div
-                  className="image"
-                  style={{ backgroundImage: `url('${card.image.src}')` }}
-                ></div>
+                <span className="bg-number">{index + 1}</span>
                 <div className="content">
                   <h3>{card.title}</h3>
                   <p>{card.description}</p>
@@ -71,4 +68,4 @@ const PassportService = ({ title, paragraph, cards }: PassportServiceProps) => {
   );
 };
 
-export default PassportService;
+export default ForeignVisaProcessing;

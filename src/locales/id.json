@@ -86,26 +86,26 @@
   },
   "home": {
     "meta": {
-      "title": "Parama Satya Pertiwi | Jasa Pengurusan TKA Legal Profesional, Tercepat, dan Terpercaya",
-      "description": "Paramasp (PT. Parama Satya Pertiwi) melayani pengurusan izin kerja & tinggal TKA di Indonesia dengan cepat, aman, profesional, dan sesuai regulasi.",
-      "keywords": "Paramasp, pengurusan tenaga kerja asing (TKA), izin kerja TKA Indonesia, pengurusan KITAS tenaga kerja asing (TKA), izin tinggal TKA, legalisasi tenaga kerja asing (TKA), jasa pengurusan TKA profesional, prosedur izin kerja tenaga asing, konsultan tenaga kerja asing (TKA) Indonesia, layanan legal tenaga kerja asing (TKA)"
+      "title": "Parama Satya Pertiwi | Jasa Pengurusan KITAS & Izin Kerja TKA Resmi, Cepat, dan Profesional",
+      "description": "Parama Satya Pertiwi melayani pengurusan KITAS, izin kerja, dan izin tinggal TKA di Indonesia. Layanan resmi, cepat, profesional, dan sesuai regulasi imigrasi terbaru.",
+      "keywords": "Paramasp, pengurusan KITAS, izin kerja TKA Indonesia, jasa pengurusan TKA, pengurusan izin tinggal ekspatriat, pengurusan visa kerja Indonesia, agent KITAS terpercaya, jasa legalisasi tenaga kerja asing, konsultan izin TKA Indonesia, layanan KITAS murah"
     },
     "title": "Layanan Profesional Pengurusan Tenaga Kerja Asing (TKA) di Indonesia",
     "hero": {
       "carousel": {
         "slide-1": {
           "title": "Solusi Praktis Perizinan TKA di Indonesia — Aman, Cepat, dan Profesional",
-          "content": "Kami membantu perusahaan Anda mengurus seluruh kebutuhan izin kerja dan tinggal Tenaga Kerja Asing dengan proses yang transparan dan hasil yang terjamin",
+          "content": "Kami membantu perusahaan Anda mengurus seluruh kebutuhan izin kerja KITAS resmi dan tinggal Tenaga Kerja Asing dengan proses yang transparan dan hasil yang terjamin.",
           "button": "Selengkapnya..."
         },
         "slide-2": {
-          "title": "Dari Dokumen Hingga Legalitas, Semua Perizinan TKA Beres Tanpa Ribet",
-          "content": "Tidak perlu repot mengurus detail administrasi, tim kami siap menangani setiap tahap perizinan agar Anda dapat fokus pada pengembangan bisnis",
+          "title": "Dari Dokumen Hingga Legalitas, Semua Urusan TKA Beres Tanpa Ribet",
+          "content": "Tidak perlu repot mengurus detail administrasi, tim kami siap menangani setiap tahap perizinan agar Anda dapat fokus pada pengembangan bisnis.",
           "button": "Selengkapnya..."
         },
         "slide-3": {
-          "title": "Percayakan Urusan Perizinan TKA Pada Ahlinya, Tingkatkan Efisiensi Bisnis Anda",
-          "content": "Dengan pengalaman dan keahlian kami, pengurusan perizinan TKA menjadi lebih cepat, akurat, dan sesuai regulasi terbaru",
+          "title": "Percayakan Urusan Perizinan TKA pada Ahlinya — Tingkatkan Efisiensi Bisnis Anda",
+          "content": "Dengan pengalaman dan keahlian kami, pengurusan perizinan TKA menjadi lebih cepat, akurat, dan sesuai regulasi terbaru.",
           "button": "Selengkapnya..."
         }
       }
@@ -113,14 +113,14 @@
   },
   "about-us": {
     "meta": {
-      "title": "Tentang Kami | Parama Satya Pertiwi — Jasa Pengurusan Izin TKA (RPTKA & IMTA) Profesional & Terpercaya",
-      "description": "Parama Satya Pertiwi adalah perusahaan terpercaya dalam jasa pengurusan perizinan tenaga kerja asing (RPTKA & IMTA). Layanan cepat, legal, rahasia terjamin, dengan komitmen profesional demi kepuasan klien.",
+      "title": "About Us | Parama Satya Pertiwi — Professional KITAS & Expatriate Work Permit (RPTKA & IMTA) Services in Indonesia",
+      "description": "Parama Satya Pertiwi provides professional KITAS, RPTKA, and IMTA services for expatriate work permits in Indonesia. Fast, legal, and confidential processing.",
       "keywords": "Tentang Parama Satya Pertiwi, jasa pengurusan TKA, pengurusan izin tenaga kerja asing, RPTKA, IMTA, pengurusan KITAS, jasa legalisasi tenaga kerja asing, konsultan izin TKA, layanan imigrasi perusahaan, izin kerja asing Indonesia"
     },
     "seo-title": "Mengenal Parama Satya Pertiwi — Ahli Pengurusan Izin Tinggal & Kerja TKA",
     "tag": "Tentang Kami",
     "title": "PT. Parama Satya Pertiwi",
-    "excerpt": "PT. Parama Satya Pertiwi adalah perusahaan yang bergerak dalam bidang pengurusan dokumen legal Tenaga Kerja Asing (TKA) yang terkait dengan Izin Tinggal (Stay Permit) dan Izin Kerja (Work Permit) maupun perizinan lainnya yang terkait dengan TKA.",
+    "excerpt": "Sebagai agent KITAS terpercaya, PT. Parama Satya Pertiwi berpengalaman dalam mengurus berbagai dokumen legal Tenaga Kerja Asing (TKA), mulai dari Izin Tinggal (Stay Permit), Izin Kerja (Work Permit), hingga perizinan pendukung lainnya dengan layanan KITAS murah dan harga yang kompetitif.",
     "vision-mission": {
       "tag": "Motivasi Kami",
       "title": "Visi dan Misi untuk Layanan Pengurusan Izin TKA yang Terpercaya dan Mudah",
@@ -154,67 +154,87 @@
       "list": {
         "item-1": {
           "title": "Layanan Pengurusan Visa Indonesia",
-          "excerpt": "Solusi lengkap untuk berbagai kebutuhan visa di Indonesia, mulai dari kunjungan singkat, studi, pekerjaan, hingga perjalanan bisnis."
+          "excerpt": "Solusi lengkap untuk berbagai jenis visa di Indonesia, mulai dari kunjungan singkat, studi, pekerjaan, hingga perjalanan bisnis dengan proses cepat dan aman."
         },
         "item-2": {
           "title": "Pengurusan KITAS & Izin Tenaga Kerja Asing (TKA)",
-          "excerpt": "Kami membantu ekspatriat dan perusahaan mengurus KITAS serta izin kerja TKA di Indonesia. Mulai dari RPTKA, IMTA, VITAS, ITAS hingga ITAP, semua diproses cepat, aman, dan sesuai regulasi."
+          "excerpt": "Kami membantu ekspatriat dan perusahaan mengurus KITAS serta izin kerja TKA di Indonesia. Mulai dari RPTKA, IMTA, VITAS, ITAS hingga ITAP — semua diproses dengan cepat, legal, dan sesuai regulasi."
         },
         "item-3": {
-          "title": "Layanan Pengurusan Paspor & E\u2011Paspor WNI",
-          "excerpt": "Kami melayani pembuatan paspor baru, perpanjangan, penggantian paspor hilang atau rusak, serta e\u2011paspor. Proses cepat, mudah, dan sesuai aturan imigrasi Indonesia."
+          "title": "Layanan Pengurusan Paspor & E-Paspor WNI",
+          "excerpt": "Melayani pembuatan paspor baru, perpanjangan, dan penggantian paspor hilang atau rusak, termasuk e-paspor. Proses cepat dan sesuai aturan imigrasi Indonesia."
         },
         "item-4": {
-          "title": "Jasa Pengurusan Visa Luar Negeri untuk Cepat & Mudah",
-          "excerpt": "Kami bantu urus visa bisnis, kunjungan, single entry hingga multiple entry untuk berbagai negara. Dokumen lengkap, proses lebih efisien, tanpa ribet."
+          "title": "Jasa Pengurusan Visa Luar Negeri — Cepat & Mudah",
+          "excerpt": "Kami membantu pengurusan visa bisnis, kunjungan, single entry, maupun multiple entry ke berbagai negara. Dokumen lengkap, proses efisien, dan bebas repot."
         },
         "item-5": {
-          "title": "Jasa Pengurusan Legalitas & Izin Usaha Perusahaan",
-          "excerpt": "Dapatkan legalitas bisnis Anda dengan mudah. Kami membantu pendirian PT, akta perubahan, NIB, NPWP, SBU, hingga izin usaha lainnya agar perusahaan berjalan resmi dan aman."
+          "title": "Layanan Legalitas & Izin Usaha Perusahaan",
+          "excerpt": "Dapatkan legalitas bisnis Anda dengan mudah. Kami membantu pendirian PT, perubahan akta, NIB, NPWP, SBU, hingga perizinan usaha lainnya agar bisnis Anda berjalan resmi dan aman."
         }
       }
     },
     "indonesian-visa-processing": {
       "meta": {
-        "title": "Layanan Visa Indonesia — Cepat & Legal untuk Wisata, Kerja, Pelajar & Bisnis | Parama Satya Pertiwi",
-        "description": "Jelajahi layanan visa Indonesia termasuk Visa Wisata, Visa Kerja, Visa Pelajar, Visa Bisnis (Single & Multiple Entry), dan Visa Saat Kedatangan. Panduan profesional untuk aplikasi cepat, legal, dan tanpa ribet.",
-        "keywords": "layanan visa Indonesia, visa wisata Indonesia, visa kerja Indonesia, visa pelajar Indonesia, visa bisnis Indonesia, visa multiple entry Indonesia, visa saat kedatangan Indonesia, imigrasi korporat Indonesia, bantuan visa untuk warga asing"
+        "title": "Jasa Pengurusan Visa Indonesia — Cepat, Legal & Terpercaya | Parama Satya Pertiwi",
+        "description": "Parama Satya Pertiwi menyediakan layanan pengurusan Visa Indonesia: Bisnis, Kerja, Wisata, VOA, Student, dan Investor. Cepat, legal, dan sesuai regulasi resmi. ",
+        "keywords": "jasa visa Indonesia, pengurusan visa kerja, visa bisnis C17 D17, visa wisata, visa multiple entry, visa on arrival, student visa, visa investor, agen visa Indonesia profesional, Parama Satya Pertiwi"
       },
-      "seo-title": "Panduan Lengkap Layanan Visa Indonesia untuk Wisata, Kerja, Pelajar, dan Bisnis",
+      "seo-title": "Jasa Pengurusan Visa Indonesia — Wisata, Bisnis, Kerja, Pelajar & Investor Terpercaya",
       "title": "Layanan Pengurusan Visa Indonesia",
-      "excerpt": "Layanan visa Indonesia cepat & legal: wisata, kerja, pelajar, bisnis, hingga visa on arrival dengan panduan profesional.",
+      "excerpt": "Solusi lengkap pengurusan visa Indonesia: wisata, bisnis (C17/D17), kerja, pelajar, VOA, dan investor. Didukung konsultan imigrasi profesional untuk proses cepat, aman, dan sesuai regulasi terbaru.",
       "list": {
         "item-1": {
           "title": "Visa Kunjungan (Visit Visa)",
-          "description": "Visa Kunjungan Indonesia untuk perjalanan singkat, termasuk keperluan bisnis, wisata, kunjungan keluarga, atau urusan resmi lainnya."
+          "description": "Visa kunjungan untuk keperluan wisata, urusan keluarga, konferensi bisnis, atau acara resmi. Ideal untuk WNA dengan rencana tinggal maksimal 60 hari di Indonesia."
         },
         "item-2": {
           "title": "Visa Kerja (Work Visa)",
-          "description": "Visa Kerja Indonesia diperuntukkan bagi tenaga kerja asing dengan sponsor perusahaan lokal yang sah dan terdaftar di Indonesia."
+          "description": "Pengurusan visa kerja bagi tenaga kerja asing dengan sponsor perusahaan sah. Kami bantu proses RPTKA, Notifikasi, IMTA hingga penerbitan visa kerja sesuai regulasi Kemnaker dan Direktorat Jenderal Imigrasi."
         },
         "item-3": {
           "title": "Visa Pelajar (Student Visa)",
-          "description": "Visa Pelajar Indonesia untuk siswa atau mahasiswa asing yang diterima secara resmi di institusi pendidikan di Indonesia."
+          "description": "Visa pelajar untuk siswa dan mahasiswa asing yang diterima di institusi pendidikan Indonesia. Meliputi perpanjangan maksimal 180 hari dan pelaporan ITAS pelajar."
         },
         "item-4": {
           "title": "Visa on Arrival (VOA)",
-          "description": "Visa on Arrival Indonesia dapat diperoleh langsung di bandara internasional atau pos imigrasi tanpa pengajuan awal di kedutaan."
+          "description": "Layanan pengurusan VOA bagi WNA dari 97 negara eligible. Berlaku 30 hari, dapat diperpanjang sekali (total maksimal 60 hari). Ideal untuk perjalanan singkat bisnis dan wisata."
         },
         "item-5": {
-          "title": "Visa Bisnis Single Entry",
-          "description": "Visa Bisnis Single Entry Indonesia memungkinkan masuk satu kali untuk keperluan bisnis. Setelah keluar, diperlukan pengajuan visa baru."
+          "title": "Visa Bisnis Single Entry (C17)",
+          "description": "Visa C17 untuk kunjungan bisnis satu kali masuk ke Indonesia. Kami bantu seluruh proses dokumen agar klien dapat bekerja sesuai ketentuan imigrasi terbaru."
         },
         "item-6": {
-          "title": "Visa Bisnis Multiple Entry",
-          "description": "Visa Bisnis Multiple Entry Indonesia memungkinkan perjalanan bisnis berulang kali selama masa berlaku, ideal untuk pengusaha atau investor."
+          "title": "Visa Bisnis Multiple Entry (D17)",
+          "description": "Visa D17 cocok untuk pelaku bisnis dan investor yang memerlukan perjalanan berulang. Berlaku hingga 12 bulan untuk aktivitas profesional non-permanen."
+        },
+        "item-7": {
+          "title": "Visa Investor & Visa Rumah Kedua",
+          "description": "Layanan khusus untuk investor asing dan pemegang Second Home Visa dengan izin tinggal jangka panjang. Proses diawasi konsultan imigrasi bersertifikat untuk kepastian legal."
+        }
+      },
+      "additional_content": {
+        "why_choose_us": {
+          "title": "Mengapa Pilih Parama Satya Pertiwi untuk Pengurusan Visa Indonesia?",
+          "benefits": [
+            "Perizinan TKA beres dengan prosedur resmi sesuai regulasi",
+            "Tim konsultan imigrasi berpengalaman 10+ tahun",
+            "Proses transparan dengan update berkala",
+            "Legal compliance 100% dengan Direktorat Jenderal Imigrasi",
+            "Layanan konsultasi gratis untuk analisis kebutuhan visa"
+          ]
+        },
+        "visa_duration": {
+          "title": "Durasi dan Perpanjangan Visa Indonesia",
+          "content": "Visa Indonesia memiliki durasi berbeda: VOA maksimal 60 hari (30+30), Visa Bisnis hingga 180 hari, Visa Kerja sesuai kontrak. Semua perpanjangan harus dilakukan sebelum masa berlaku habis untuk menghindari overstay penalty."
         }
       }
     },
     "stay-and-work-permit": {
       "meta": {
-        "title": "Pengurusan KITAS & ITAP Profesional — Tinggal & Bekerja Legal di Indonesia | Parama Satya Pertiwi",
-        "description": "Parama Satya Pertiwi menyediakan layanan profesional pengurusan KITAS (Izin Tinggal Terbatas), ITAS, dan ITAP untuk ekspatriat. Proses tinggal dan bekerja di Indonesia cepat, legal, dan sesuai regulasi.",
-        "keywords": "KITAS, ITAS, ITAP, izin tinggal terbatas, izin tinggal tetap, tenaga kerja asing, ekspatriat, layanan imigrasi Indonesia, pengurusan visa kerja, Parama Satya Pertiwi"
+        "title": "Layanan ITAS, KITAS & ITAP Profesional — Tinggal dan Bekerja Legal di Indonesia | Parama Satya Pertiwi",
+        "description": "Parama Satya Pertiwi melayani pengurusan ITAS, KITAS, dan ITAP untuk tenaga kerja asing serta investor. Layanan legal imigrasi cepat, profesional, dan terpercaya.",
+        "keywords": "pembuatan ITAS, perpanjang ITAS, ITAS orang asing, KITAS terpercaya, ITAS anak, ITAS suami, ITAS ibu, alih status ITK menjadi ITAS, ITAS menjadi ITAP, pelaporan ITAS, perpanjangan ITK, perizinan TKA, rencana penggunaan TKA, pengajuan notifikasi, visa bisnis, visa kerja, visa investor, visa rumah kedua, visa on arrival, legalitas perusahaan, perubahan akta perusahaan, akta pendirian"
       },
       "seo-title": "Solusi Legal Tinggal dan Bekerja di Indonesia untuk Tenaga Kerja Asing",
       "title": "Layanan KITAS & ITAP untuk Tinggal dan Bekerja Secara Legal di Indonesia",
@@ -235,11 +255,11 @@
       },
       "services": {
         "service-1": {
-          "title": "Prosedur Izin Tinggal dan Kerja Tenaga Kerja Asing (TKA) di Indonesia",
+          "title": "Pengurusan Izin Tinggal dan Kerja untuk TKA Baru di Indonesia",
           "list": {
             "item-1": {
               "title": "Rencana Penggunaan Tenaga Kerja Asing (RPTKA)",
-              "description": "Perusahaan sponsor mengajukan RPTKA ke Kementerian Ketenagakerjaan (Kemnaker) sebagai dokumen perencanaan tenaga kerja asing. RPTKA mencakup jabatan, durasi kontrak, jumlah TKA, dan lokasi kerja. Setelah disetujui, akan diterbitkan Pengesahan RPTKA sebagai dasar awal perizinan."
+              "description": "Perusahaan sponsor (pemberi kerja) mengajukan RPTKA ke Kementerian Ketenagakerjaan (Kemnaker) sebagai dokumen perencanaan tenaga kerja asing. RPTKA mencakup jabatan, durasi kontrak, jumlah TKA, dan lokasi kerja. Setelah disetujui, akan diterbitkan pengesahan RPTKA sebagai dasar awal perizinan."
             },
             "item-2": {
               "title": "Pengajuan Notifikasi atau Izin Mempekerjakan TKA (IMTA)",
@@ -377,7 +397,7 @@
   },
   "client-trust-priority": {
     "title": "\"Kepercayaan Klien Adalah Prioritas Kami\"",
-    "excerpt": "Kami memahami bahwa keberhasilan perusahaan tidak lepas dari kepuasan dan kepercayaan klien. Oleh karena itu, kami selalu berkomitmen memberikan pelayanan terbaik, profesional, dan sesuai dengan kebutuhan Anda.",
+    "excerpt": "Kami memahami bahwa kesuksesan perusahaan klien tidak lepas dari kepercayaan dan kepuasan klien. Karena itu, kami berkomitmen memberikan pelayanan terbaik, profesional, dan sesuai kebutuhan Anda.",
     "list": {
       "item-1": {
         "count": "100",
@@ -385,15 +405,15 @@
       },
       "item-2": {
         "count": "11900",
-        "text": "Ekspatriat senang dengan solusi kami"
+        "text": "Ekspatriat terbantu oleh solusi kami"
       },
       "item-3": {
         "count": "15100",
-        "text": "Dokumen berhasil diproses"
+        "text": "Dokumen berhasil diproses dengan sukses"
       },
       "item-4": {
         "count": "10",
-        "text": "Tahun pengalaman terbukti"
+        "text": "Tahun pengalaman di bidang legalisasi TKA"
       }
     }
   },
@@ -420,6 +440,7 @@
         "alt": "Ilustrasi Undang-Undang Keimigrasian Indonesia: dokumen resmi, paspor, dan regulasi pemerintah"
       },
       "published": "2025-09-20T00:00:00Z",
+      "modified": "2025-09-20T00:00:00Z",
       "source": "https://www.imigrasi.go.id/"
     },
     "kitas-vs-kitap": {
@@ -436,6 +457,7 @@
         "alt": "Perbandingan KITAS dan KITAP: Izin Tinggal Terbatas vs Izin Tinggal Tetap di Indonesia"
       },
       "published": "2025-09-20T00:00:00Z",
+      "modified": "2025-09-20T00:00:00Z",
       "source": "https://www.imigrasi.go.id/"
     },
     "visa-c17-extension": {
@@ -452,6 +474,7 @@
         "alt": "Panduan perpanjangan Visa C17 di Indonesia: paspor, stempel visa, dan kantor imigrasi"
       },
       "published": "2025-09-20T00:00:00Z",
+      "modified": "2025-09-20T00:00:00Z",
       "source": "https://www.imigrasi.go.id/"
     }
   },
@@ -586,6 +609,58 @@
           "title": "Layanan Pengurusan Legalitas Perusahaan"
         }
       }
+    }
+  },
+  "jsonLd": {
+    "home": {
+      "type": "WebPage",
+      "name": "Parama Satya Pertiwi | Jasa Pengurusan KITAS & Izin Kerja TKA Resmi, Cepat, dan Profesional",
+      "description": "Parama Satya Pertiwi melayani pengurusan KITAS, izin kerja, dan izin tinggal TKA di Indonesia. Layanan resmi, cepat, profesional, dan sesuai regulasi imigrasi terbaru."
+    },
+    "about-us": {
+      "type": "WebPage",
+      "name": "About Us | Parama Satya Pertiwi — Professional KITAS & Expatriate Work Permit (RPTKA & IMTA) Services in Indonesia",
+      "description": "Parama Satya Pertiwi provides professional KITAS, RPTKA, and IMTA services for expatriate work permits in Indonesia. Fast, legal, and confidential processing."
+    },
+    "indonesian-visa-processing": {
+      "type": "Service",
+      "subtype": "ImmigrationService",
+      "name": "Jasa Pengurusan Visa Indonesia — Cepat, Legal & Terpercaya | Parama Satya Pertiwi",
+      "description": "Layanan pengurusan visa Indonesia profesional: Visa Bisnis C17/D17, Visa Kerja, Visa Wisata, VOA, Student Visa & Visa Investor. Proses cepat, legal, sesuai regulasi terbaru Direktorat Jenderal Imigrasi."
+    },
+    "stay-and-work-permit": {
+      "type": "Service",
+      "subtype": "ImmigrationService",
+      "name": "Pengurusan KITAS & ITAP Profesional — Tinggal & Bekerja Legal di Indonesia | Parama Satya Pertiwi",
+      "description": "Parama Satya Pertiwi menyediakan layanan profesional pengurusan KITAS (Izin Tinggal Terbatas), ITAS, dan ITAP untuk ekspatriat. Proses tinggal dan bekerja di Indonesia cepat, legal, dan sesuai regulasi."
+    },
+    "passport-processing": {
+      "type": "Service",
+      "subtype": "ProfessionalService",
+      "name": "Layanan Paspor Indonesia — Pengurusan Baru, Perpanjangan, Penggantian & E-Paspor | Parama Satya Pertiwi",
+      "description": "Parama Satya Pertiwi menyediakan layanan profesional pengurusan paspor bagi Warga Negara Indonesia, termasuk pengajuan paspor baru, perpanjangan, penggantian paspor hilang atau rusak, serta penerbitan e-Paspor. Cepat, terpercaya, dan sepenuhnya sesuai regulasi imigrasi Indonesia."
+    },
+    "foreign-visa-processing": {
+      "type": "Service",
+      "subtype": "ImmigrationService",
+      "name": "Layanan Pengurusan Visa Luar Negeri — Cepat, Legal & Profesional | Parama Satya Pertiwi",
+      "description": "Parama Satya Pertiwi menyediakan layanan profesional pengurusan visa luar negeri untuk individu maupun perusahaan. Kami membantu menyiapkan dokumen, mengisi formulir, dan memantau status aplikasi agar proses visa lebih cepat, mudah, dan efisien."
+    },
+    "company-legalization": {
+      "type": "Service",
+      "subtype": "ProfessionalService",
+      "name": "Layanan Pengurusan Legalitas Perusahaan — Cepat, Profesional & Terpercaya | Parama Satya Pertiwi",
+      "description": "Parama Satya Pertiwi menyediakan layanan pengurusan legalitas perusahaan secara lengkap, mulai dari pendirian badan usaha, izin usaha, hingga sertifikasi khusus. Layanan cepat, profesional, dan sesuai regulasi, membantu bisnis Anda berjalan lancar tanpa repot urusan administrasi."
+    },
+    "news": {
+      "type": "WebPage",
+      "name": "Berita & Update | Parama Satya Pertiwi",
+      "description": "Dapatkan informasi terbaru, wawasan, dan pengumuman dari Parama Satya Pertiwi. Jelajahi semua artikel dan update di satu tempat."
+    },
+    "contact": {
+      "type": "WebPage",
+      "name": "Hubungi Kami — Parama Satya Pertiwi | Konsultasi & Informasi Layanan",
+      "description": "Hubungi Parama Satya Pertiwi untuk konsultasi dan informasi lebih lanjut mengenai layanan legalitas perusahaan, visa Indonesia, KITAS, ITAP, dan perizinan lainnya. Tim kami siap membantu Anda dengan cepat dan profesional."
     }
   }
 }

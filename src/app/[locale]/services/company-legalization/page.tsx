@@ -1,36 +1,73 @@
 import { Metadata } from "next";
-import { useTranslations } from "next-intl";
-import type { PageProps } from "@/types";
-import { generatePageMetadata } from "@/lib/seo";
+import { getTranslations } from "next-intl/server";
+import type { MetaProps, PageProps } from "@/types";
+import type { OfferCatalog } from "@/types/json-ld";
+import { SERVICES_NAVIGATION_KEYS } from "@/constants/navigation";
+import { generatePageMetadata, generateWebpageSchemaLD } from "@/lib/seo";
 import Banner from "@/components/Banner";
 import CompanyLegalization, {
   CompanyLegalizationProps,
-} from "@/components/company-legalization/CompanyLegalization";
+} from "@/components/services/company-legalization/CompanyLegalization";
 import ClientTrust, { ClientTrustProps } from "@/components/ClientTrust";
+
+const PATH = SERVICES_NAVIGATION_KEYS[4];
 
 export async function generateMetadata({
   params,
-}: PageProps): Promise<Metadata> {
+}: MetaProps): Promise<Metadata> {
   const { locale } = await params;
-  return generatePageMetadata(
-    locale,
-    "services/company-legalization",
-    "services.company-legalization"
-  );
+  return generatePageMetadata(locale, `/services/${PATH}`, `services.${PATH}`);
 }
 
-export default function Page() {
-  const nav = useTranslations("header.navigation");
-  const content = useTranslations("services.company-legalization");
-  const ctp = useTranslations("client-trust-priority");
+export default async function Page({ params }: PageProps) {
+  const { locale } = await params;
 
+  const nav = await getTranslations("header.navigation");
+  const content = await getTranslations(`services.${PATH}`);
+  const ctp = await getTranslations("client-trust-priority");
+  const jsonLd = await getTranslations(`jsonLd`);
+
+  const breadcrumbLD = [
+    {
+      label: jsonLd("home.name"),
+      path: `/${locale}`,
+    },
+    {
+      label: nav("services.label"),
+    },
+    {
+      label: jsonLd(`${PATH}.name`),
+      path: `/${locale}/services/${PATH}`,
+    },
+  ];
+
+  const offerCatalog: OfferCatalog = {
+    "@type": "OfferCatalog",
+    name: content("title"),
+    description: content("excerpt"),
+    itemListElement: [1, 2, 3, 4, 5, 6].map((i) => ({
+      "@type": "Offer",
+      itemOffered: {
+        "@type": "Service",
+        name: content(`list.item-${i}`),
+      },
+    })),
+  };
+
+  const webpageSchema = await generateWebpageSchemaLD(
+    locale,
+    PATH,
+    breadcrumbLD,
+    "service",
+    offerCatalog
+  );
   const breadcrumb = [
     {
       label: nav("services.label"),
       href: null,
     },
     {
-      label: nav("services.list.company-legalization"),
+      label: nav(`services.list.${PATH}`),
       href: null,
     },
   ];
@@ -53,15 +90,22 @@ export default function Page() {
   };
 
   return (
-    <main id="company-legalization">
-      <h1 className="sr-only">{content("seo-title")}</h1>
-      <Banner
-        bannerImgPath="/images/banner-services.jpg"
-        title={nav("services.list.company-legalization")}
-        breadcrumb={breadcrumb}
+    <>
+      <script
+        id="webpage-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(webpageSchema) }}
       />
-      <CompanyLegalization {...companyLegalizationProps} />
-      <ClientTrust {...clientTrustProps} />
-    </main>
+      <main id={`${PATH}`}>
+        <h1 className="sr-only">{content("seo-title")}</h1>
+        <Banner
+          bannerImgPath="/images/banner-services.jpg"
+          title={nav(`services.list.${PATH}`)}
+          breadcrumb={breadcrumb}
+        />
+        <CompanyLegalization {...companyLegalizationProps} />
+        <ClientTrust {...clientTrustProps} />
+      </main>
+    </>
   );
 }
