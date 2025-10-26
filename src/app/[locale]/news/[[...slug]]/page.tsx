@@ -16,7 +16,7 @@ export async function generateMetadata({
   const slugKey = slug?.[0] || "";
   return generatePageMetadata(
     locale,
-    `/news/${slugKey}`,
+    `/news${slugKey ? "/" + slugKey : ""}`,
     `news${slugKey ? "." + slugKey : ""}`
   );
 }
